@@ -1,0 +1,7 @@
+[build]
+  command = "npm run deploy:build"
+  publish = "dist"
+
+[build.environment]
+  NODE_VERSION = "24"
+  SITE_URL = "https://tone-viz-zh.netlify.app"

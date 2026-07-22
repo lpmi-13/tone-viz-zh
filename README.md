@@ -25,6 +25,33 @@ npm run build
 
 The build is written to `dist/`. The deployed browser only serves static content and performs learner pitch extraction and non-pitch alignment locally.
 
+## Deploy to Netlify
+
+This repository is configured for `https://tone-viz-zh.netlify.app`:
+
+- `netlify.toml` validates the production corpus, builds the site, publishes `dist/`, and selects Node 24.
+- `public/_headers` supplies the microphone permission, a same-origin content-security policy, clickjacking and MIME protections, and revalidation for stable asset filenames. The build copies this file into `dist/`, so the policy also applies to manual uploads.
+- `SITE_URL` is fixed to the production origin so canonical and Open Graph URLs are emitted correctly.
+
+For Git-based continuous deployment:
+
+```bash
+git add .
+git status --short
+git commit -m "Prepare Mandarin tone visualizer for Netlify"
+git push -u origin main
+```
+
+Review `git status` before committing. The generated `public/audio`, `public/references`, `public/content`, and active speaker-selection manifest must be included; the model downloads, virtual environments, screening WAVs, alignment workspace, and `dist/` are ignored. In Netlify, import the pushed repository and confirm the project name is `tone-viz-zh`. Netlify will read the build command and publish directory from `netlify.toml`; no runtime environment variables, functions, or plugins are required.
+
+For a manual production deployment instead:
+
+```bash
+SITE_URL=https://tone-viz-zh.netlify.app npm run deploy:build
+```
+
+Then upload the complete `dist/` directory in the project's **Deploys** page. After either deployment, verify phrase playback, slowed playback, a second speaker, lazy contour loading, and microphone permission at the production URL.
+
 ## Offline production pipeline
 
 Install Python dependencies into an isolated environment, then download checksum-pinned CPU models:

@@ -3,10 +3,14 @@
   "version": "0.1.0",
   "private": true,
   "type": "module",
+  "engines": {
+    "node": "24.x"
+  },
   "scripts": {
     "dev": "node scripts/dev.mjs",
     "build:ts": "node scripts/clean-build.mjs && tsc -p tsconfig.json",
     "build": "npm run build:ts && node scripts/build.mjs",
+    "deploy:build": "npm run content:validate:release && npm run build",
     "test": "npm run test:unit && npm run test:content && npm run test:browser",
     "test:unit": "npm run build:ts && node --test tests/unit/*.test.mjs",
     "test:content": "node --test tests/content/*.test.mjs",

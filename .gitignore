@@ -6,6 +6,7 @@ dist/
 .mfa/
 .mfa-data/
 .tools/
+.netlify/
 __pycache__/
 *.pyc
 models/*
