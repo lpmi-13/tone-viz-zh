@@ -1,0 +1,120 @@
+{
+  "alternateAvailability": {
+    "female": {
+      "available": 0,
+      "requested": 2,
+      "shortfall": 2
+    },
+    "male": {
+      "available": 0,
+      "requested": 2,
+      "shortfall": 2
+    }
+  },
+  "alternates": {
+    "female": [],
+    "male": []
+  },
+  "featureNormalization": {
+    "spectral": {
+      "mean": [
+        1113.8935683107586,
+        -1.1581744227250494,
+        11.136962842431535,
+        2.215281124527244,
+        4.138926360592347,
+        -0.522376191581476,
+        4.000924127431754,
+        0.35401484766640473,
+        4.431477051874942,
+        4.385506785748457,
+        2.296654844900279,
+        2.2106782073608326,
+        1.646424050070334,
+        1.9885080935563728,
+        5.435613302378806,
+        0.13665034604976692,
+        0.06145320867968233
+      ],
+      "scale": [
+        165.27631223322015,
+        0.13634851717972662,
+        1.7529280406315588,
+        1.0788625383785095,
+        2.1220084823309837,
+        1.418367945955996,
+        0.7602992679251446,
+        0.7894298657093419,
+        0.6246601845990153,
+        0.474966396746946,
+        0.35606174344036695,
+        0.16800514765155927,
+        0.15211275353052692,
+        0.28750877536898606,
+        2.8573116895253627,
+        0.021889077872017042,
+        0.03862729781505064
+      ]
+    }
+  },
+  "featureVersion": "speaker-features-v1",
+  "fixture": false,
+  "humanReviewed": false,
+  "inputHashes": {
+    "featuresSha256": "f9ad907121e47f0a0594d737d1d77987c653dfbc2641eb6425f4993eb0c6b4c3"
+  },
+  "modelRevision": "8c61023a009f8775e2e23c274ff110dff8335480",
+  "selected": [
+    {
+      "acousticDescription": "middle measured register, measured measured pace; automatic acoustic profile",
+      "displayName": "Speaker F1",
+      "genderGroup": "female",
+      "id": "speaker-f1",
+      "kokoroName": "zf_002",
+      "kokoroSid": 4
+    },
+    {
+      "acousticDescription": "higher measured register, slower measured pace; automatic acoustic profile",
+      "displayName": "Speaker F2",
+      "genderGroup": "female",
+      "id": "speaker-f2",
+      "kokoroName": "zf_003",
+      "kokoroSid": 5
+    },
+    {
+      "acousticDescription": "lower measured register, quicker measured pace; automatic acoustic profile",
+      "displayName": "Speaker F3",
+      "genderGroup": "female",
+      "id": "speaker-f3",
+      "kokoroName": "zf_008",
+      "kokoroSid": 10
+    },
+    {
+      "acousticDescription": "lower measured register, quicker measured pace; automatic acoustic profile",
+      "displayName": "Speaker M1",
+      "genderGroup": "male",
+      "id": "speaker-m1",
+      "kokoroName": "zm_030",
+      "kokoroSid": 69
+    },
+    {
+      "acousticDescription": "higher measured register, measured measured pace; automatic acoustic profile",
+      "displayName": "Speaker M2",
+      "genderGroup": "male",
+      "id": "speaker-m2",
+      "kokoroName": "zm_089",
+      "kokoroSid": 96
+    },
+    {
+      "acousticDescription": "middle measured register, slower measured pace; automatic acoustic profile",
+      "displayName": "Speaker M3",
+      "genderGroup": "male",
+      "id": "speaker-m3",
+      "kokoroName": "zm_100",
+      "kokoroSid": 102
+    }
+  ],
+  "selectionMode": "fully-automated-poc-v1",
+  "thresholdVersion": "tone-gates-v3",
+  "version": "selection-v2"
+}

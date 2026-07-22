@@ -1,0 +1,3171 @@
+{
+  "humanReviewed": false,
+  "speakers": [
+    {
+      "characterErrorRate": 0.018018018018018018,
+      "genderGroup": "female",
+      "identityConsistency": 0.8838522750317668,
+      "passed": false,
+      "reasons": [
+        "third-tone-sandhi-rise-missing",
+        "tone-2-rise-too-small",
+        "tone-4-fall-too-small",
+        "tone-classification"
+      ],
+      "sid": 3,
+      "speaker": "zf_001",
+      "toneClassifier": {
+        "algorithm": "rbf-svc-v1",
+        "balancedAccuracy": 0.5710118425635666,
+        "c": 10.0,
+        "classified": 91,
+        "contrastClassified": 40,
+        "featureVersion": "aligned-pitch-v2",
+        "gamma": 0.03,
+        "tone2Tone3Accuracy": 0.9545454545454546
+      },
+      "toneMovement": {
+        "neutral": 0.10807446747831762,
+        "sandhi-rising": 0.021643282087769222,
+        "tone-1-level": 1.110026037836878,
+        "tone-2-rising": -0.46752604016276855,
+        "tone-3-final": 2.9539453976475833,
+        "tone-3-low": -5.172399093702195,
+        "tone-4-falling": -1.1803268472196748
+      }
+    },
+    {
+      "characterErrorRate": 0.009009009009009009,
+      "genderGroup": "female",
+      "identityConsistency": 0.8896926371633345,
+      "passed": true,
+      "reasons": [],
+      "sid": 4,
+      "speaker": "zf_002",
+      "toneClassifier": {
+        "algorithm": "rbf-svc-v1",
+        "balancedAccuracy": 0.769418321142459,
+        "c": 10.0,
+        "classified": 91,
+        "contrastClassified": 40,
+        "featureVersion": "aligned-pitch-v2",
+        "gamma": 0.03,
+        "tone2Tone3Accuracy": 0.8762626262626263
+      },
+      "toneMovement": {
+        "neutral": -0.06258711497582325,
+        "sandhi-rising": 1.4218906622181322,
+        "tone-1-level": 0.6688192652092084,
+        "tone-2-rising": 0.9841999495396649,
+        "tone-3-final": -3.1749669154346307,
+        "tone-3-low": -5.608658703467775,
+        "tone-4-falling": -1.834751153848785
+      }
+    },
+    {
+      "characterErrorRate": 0.009009009009009009,
+      "genderGroup": "female",
+      "identityConsistency": 0.8832046000740527,
+      "passed": true,
+      "reasons": [],
+      "sid": 5,
+      "speaker": "zf_003",
+      "toneClassifier": {
+        "algorithm": "rbf-svc-v1",
+        "balancedAccuracy": 0.7243991640543364,
+        "c": 10.0,
+        "classified": 91,
+        "contrastClassified": 40,
+        "featureVersion": "aligned-pitch-v2",
+        "gamma": 0.03,
+        "tone2Tone3Accuracy": 0.9772727272727273
+      },
+      "toneMovement": {
+        "neutral": -1.1163843695943214,
+        "sandhi-rising": 1.3301821899505413,
+        "tone-1-level": -0.513481524589098,
+        "tone-2-rising": 0.9597956613672771,
+        "tone-3-final": -4.201751457265006,
+        "tone-3-low": -8.789539137151458,
+        "tone-4-falling": -3.3988980329070557
+      }
+    },
+    {
+      "characterErrorRate": 0.009009009009009009,
+      "genderGroup": "female",
+      "identityConsistency": 0.8963349164444716,
+      "passed": false,
+      "reasons": [
+        "tone-2-rise-too-small",
+        "tone-classification"
+      ],
+      "sid": 6,
+      "speaker": "zf_004",
+      "toneClassifier": {
+        "algorithm": "rbf-svc-v1",
+        "balancedAccuracy": 0.6760275165447579,
+        "c": 10.0,
+        "classified": 91,
+        "contrastClassified": 40,
+        "featureVersion": "aligned-pitch-v2",
+        "gamma": 0.03,
+        "tone2Tone3Accuracy": 0.9494949494949495
+      },
+      "toneMovement": {
+        "neutral": -1.1592326223568818,
+        "sandhi-rising": 1.2020559351157445,
+        "tone-1-level": -0.22181317528173317,
+        "tone-2-rising": 0.5920292731215966,
+        "tone-3-final": -6.931475783158998,
+        "tone-3-low": -6.7587406933984475,
+        "tone-4-falling": -2.737449049504697
+      }
+    },
+    {
+      "characterErrorRate": 0.02702702702702703,
+      "genderGroup": "female",
+      "identityConsistency": 0.8864816805648488,
+      "passed": false,
+      "reasons": [
+        "asr-diagnostic-target",
+        "tone-2-rise-too-small",
+        "tone-classification"
+      ],
+      "sid": 7,
+      "speaker": "zf_005",
+      "toneClassifier": {
+        "algorithm": "rbf-svc-v1",
+        "balancedAccuracy": 0.5436694531522118,
+        "c": 10.0,
+        "classified": 91,
+        "contrastClassified": 40,
+        "featureVersion": "aligned-pitch-v2",
+        "gamma": 0.03,
+        "tone2Tone3Accuracy": 0.8813131313131313
+      },
+      "toneMovement": {
+        "neutral": -0.8215921579295369,
+        "sandhi-rising": 1.477694937271739,
+        "tone-1-level": -0.059887139823539215,
+        "tone-2-rising": 0.08147143368004706,
+        "tone-3-final": 0.3408541908119904,
+        "tone-3-low": -6.835833484748381,
+        "tone-4-falling": -3.1899143941301844
+      }
+    },
+    {
+      "characterErrorRate": 0.05405405405405406,
+      "genderGroup": "female",
+      "identityConsistency": 0.8635089441075969,
+      "passed": false,
+      "reasons": [
+        "neutral-duration-too-long",
+        "tone-2-rise-too-small",
+        "tone-classification"
+      ],
+      "sid": 8,
+      "speaker": "zf_006",
+      "toneClassifier": {
+        "algorithm": "rbf-svc-v1",
+        "balancedAccuracy": 0.6871734587251828,
+        "c": 10.0,
+        "classified": 91,
+        "contrastClassified": 40,
+        "featureVersion": "aligned-pitch-v2",
+        "gamma": 0.03,
+        "tone2Tone3Accuracy": 0.904040404040404
+      },
+      "toneMovement": {
+        "neutral": -0.46820795274194893,
+        "sandhi-rising": 1.9185691618805194,
+        "tone-1-level": 1.0649066413613202,
+        "tone-2-rising": 0.7430105047969047,
+        "tone-3-final": -3.385447417756154,
+        "tone-3-low": -5.716714994809092,
+        "tone-4-falling": -3.59691047603863
+      }
+    },
+    {
+      "characterErrorRate": 0.018018018018018018,
+      "genderGroup": "female",
+      "identityConsistency": 0.9154444485224478,
+      "passed": false,
+      "reasons": [
+        "asr-diagnostic-target",
+        "tone-2-rise-too-small",
+        "tone-classification"
+      ],
+      "sid": 9,
+      "speaker": "zf_007",
+      "toneClassifier": {
+        "algorithm": "rbf-svc-v1",
+        "balancedAccuracy": 0.6553901079763149,
+        "c": 10.0,
+        "classified": 91,
+        "contrastClassified": 40,
+        "featureVersion": "aligned-pitch-v2",
+        "gamma": 0.03,
+        "tone2Tone3Accuracy": 0.9494949494949495
+      },
+      "toneMovement": {
+        "neutral": -2.0987102620688205,
+        "sandhi-rising": 0.8287688883767927,
+        "tone-1-level": -1.3437144290675622,
+        "tone-2-rising": 0.6153012929039434,
+        "tone-3-final": -5.2576829005059,
+        "tone-3-low": -7.102813303815182,
+        "tone-4-falling": -3.941072345677842
+      }
+    },
+    {
+      "characterErrorRate": 0.018018018018018018,
+      "genderGroup": "female",
+      "identityConsistency": 0.888335701770139,
+      "passed": true,
+      "reasons": [],
+      "sid": 10,
+      "speaker": "zf_008",
+      "toneClassifier": {
+        "algorithm": "rbf-svc-v1",
+        "balancedAccuracy": 0.769853709508882,
+        "c": 10.0,
+        "classified": 91,
+        "contrastClassified": 40,
+        "featureVersion": "aligned-pitch-v2",
+        "gamma": 0.03,
+        "tone2Tone3Accuracy": 0.9772727272727273
+      },
+      "toneMovement": {
+        "neutral": -2.933195698076357,
+        "sandhi-rising": 1.5735379175809712,
+        "tone-1-level": -1.6259181670289493,
+        "tone-2-rising": 1.2297384475764588,
+        "tone-3-final": -5.544897782466855,
+        "tone-3-low": -7.411395292609269,
+        "tone-4-falling": -3.3085457948493655
+      }
+    },
+    {
+      "characterErrorRate": 0.02702702702702703,
+      "genderGroup": "female",
+      "identityConsistency": 0.9007833651964017,
+      "passed": false,
+      "reasons": [
+        "tone-2-rise-too-small",
+        "tone-classification"
+      ],
+      "sid": 11,
+      "speaker": "zf_017",
+      "toneClassifier": {
+        "algorithm": "rbf-svc-v1",
+        "balancedAccuracy": 0.5889063044235457,
+        "c": 10.0,
+        "classified": 91,
+        "contrastClassified": 40,
+        "featureVersion": "aligned-pitch-v2",
+        "gamma": 0.03,
+        "tone2Tone3Accuracy": 0.9494949494949495
+      },
+      "toneMovement": {
+        "neutral": -0.6608515268519852,
+        "sandhi-rising": 0.855226285781356,
+        "tone-1-level": 0.44588755356986276,
+        "tone-2-rising": -0.7325735045745851,
+        "tone-3-final": -1.3382942931158635,
+        "tone-3-low": -6.21388456298601,
+        "tone-4-falling": -3.4425730781530035
+      }
+    },
+    {
+      "characterErrorRate": 0.036036036036036036,
+      "genderGroup": "female",
+      "identityConsistency": 0.900719973784504,
+      "passed": false,
+      "reasons": [
+        "asr-diagnostic-target",
+        "tone-2-rise-too-small",
+        "tone-classification"
+      ],
+      "sid": 12,
+      "speaker": "zf_018",
+      "toneClassifier": {
+        "algorithm": "rbf-svc-v1",
+        "balancedAccuracy": 0.6819052594914664,
+        "c": 10.0,
+        "classified": 91,
+        "contrastClassified": 40,
+        "featureVersion": "aligned-pitch-v2",
+        "gamma": 0.03,
+        "tone2Tone3Accuracy": 0.9494949494949495
+      },
+      "toneMovement": {
+        "neutral": -1.0217527064942438,
+        "sandhi-rising": 1.0505970408312777,
+        "tone-1-level": 0.41845277650303814,
+        "tone-2-rising": -0.023256537164790814,
+        "tone-3-final": -0.3677486621155275,
+        "tone-3-low": -5.6613977934598,
+        "tone-4-falling": -1.2805794113410265
+      }
+    },
+    {
+      "characterErrorRate": 0.036036036036036036,
+      "genderGroup": "female",
+      "identityConsistency": 0.9088872952277991,
+      "passed": false,
+      "reasons": [
+        "asr-diagnostic-target"
+      ],
+      "sid": 13,
+      "speaker": "zf_019",
+      "toneClassifier": {
+        "algorithm": "rbf-svc-v1",
+        "balancedAccuracy": 0.7069400905607801,
+        "c": 10.0,
+        "classified": 91,
+        "contrastClassified": 40,
+        "featureVersion": "aligned-pitch-v2",
+        "gamma": 0.03,
+        "tone2Tone3Accuracy": 0.8257575757575758
+      },
+      "toneMovement": {
+        "neutral": -1.391791852055988,
+        "sandhi-rising": 1.3937808354417456,
+        "tone-1-level": -0.7696357168220587,
+        "tone-2-rising": 2.008955182457454,
+        "tone-3-final": -3.8624436667572013,
+        "tone-3-low": -7.783715367398273,
+        "tone-4-falling": -4.235601847124411
+      }
+    },
+    {
+      "characterErrorRate": 0.018018018018018018,
+      "genderGroup": "female",
+      "identityConsistency": 0.896100731600944,
+      "passed": false,
+      "reasons": [
+        "asr-diagnostic-target",
+        "tone-1-not-level",
+        "tone-4-fall-too-small"
+      ],
+      "sid": 14,
+      "speaker": "zf_021",
+      "toneClassifier": {
+        "algorithm": "rbf-svc-v1",
+        "balancedAccuracy": 0.7210466736328806,
+        "c": 10.0,
+        "classified": 91,
+        "contrastClassified": 40,
+        "featureVersion": "aligned-pitch-v2",
+        "gamma": 0.03,
+        "tone2Tone3Accuracy": 0.8712121212121212
+      },
+      "toneMovement": {
+        "neutral": -0.09885699968988604,
+        "sandhi-rising": 2.1126480554712437,
+        "tone-1-level": 1.8659626394268152,
+        "tone-2-rising": 0.8814429553452019,
+        "tone-3-final": -6.763288588843768,
+        "tone-3-low": -5.85763522224253,
+        "tone-4-falling": -0.5098092887252221
+      }
+    },
+    {
+      "characterErrorRate": 0.036036036036036036,
+      "genderGroup": "female",
+      "identityConsistency": 0.9141541555340162,
+      "passed": false,
+      "reasons": [
+        "neutral-duration-too-long",
+        "third-tone-sandhi-rise-missing",
+        "tone-2-rise-too-small",
+        "tone-classification"
+      ],
+      "sid": 15,
+      "speaker": "zf_022",
+      "toneClassifier": {
+        "algorithm": "rbf-svc-v1",
+        "balancedAccuracy": 0.6372779519331242,
+        "c": 10.0,
+        "classified": 91,
+        "contrastClassified": 40,
+        "featureVersion": "aligned-pitch-v2",
+        "gamma": 0.03,
+        "tone2Tone3Accuracy": 0.8762626262626263
+      },
+      "toneMovement": {
+        "neutral": -1.3188525566934999,
+        "sandhi-rising": 0.049570915034784946,
+        "tone-1-level": -0.6637061766145376,
+        "tone-2-rising": -1.0735072275390145,
+        "tone-3-final": -4.344382926712097,
+        "tone-3-low": -8.585718821718384,
+        "tone-4-falling": -2.3543564296167254
+      }
+    },
+    {
+      "characterErrorRate": 0.018018018018018018,
+      "genderGroup": "female",
+      "identityConsistency": 0.8805716079084771,
+      "passed": false,
+      "reasons": [
+        "asr-diagnostic-target",
+        "neutral-duration-too-long",
+        "tone-1-not-level",
+        "tone-2-rise-too-small",
+        "tone-classification"
+      ],
+      "sid": 16,
+      "speaker": "zf_023",
+      "toneClassifier": {
+        "algorithm": "rbf-svc-v1",
+        "balancedAccuracy": 0.6246516893068617,
+        "c": 10.0,
+        "classified": 91,
+        "contrastClassified": 40,
+        "featureVersion": "aligned-pitch-v2",
+        "gamma": 0.03,
+        "tone2Tone3Accuracy": 0.8762626262626263
+      },
+      "toneMovement": {
+        "neutral": -2.4416306554662484,
+        "sandhi-rising": 2.7843190013271233,
+        "tone-1-level": 1.8450631281140826,
+        "tone-2-rising": -1.125633295047578,
+        "tone-3-final": -2.6736212706211475,
+        "tone-3-low": -7.369604567226311,
+        "tone-4-falling": -3.12418512356977
+      }
+    },
+    {
+      "characterErrorRate": 0.05405405405405406,
+      "genderGroup": "female",
+      "identityConsistency": 0.8971151880713826,
+      "passed": false,
+      "reasons": [
+        "neutral-duration-too-long",
+        "tone-1-not-level",
+        "tone-2-rise-too-small",
+        "tone-classification"
+      ],
+      "sid": 17,
+      "speaker": "zf_024",
+      "toneClassifier": {
+        "algorithm": "rbf-svc-v1",
+        "balancedAccuracy": 0.6200365726227796,
+        "c": 10.0,
+        "classified": 91,
+        "contrastClassified": 40,
+        "featureVersion": "aligned-pitch-v2",
+        "gamma": 0.03,
+        "tone2Tone3Accuracy": 0.8863636363636364
+      },
+      "toneMovement": {
+        "neutral": 0.06968042824702536,
+        "sandhi-rising": 1.7189527801226845,
+        "tone-1-level": 1.93773964658544,
+        "tone-2-rising": -0.5836946271612984,
+        "tone-3-final": 2.4046146500227508,
+        "tone-3-low": -8.328555035045662,
+        "tone-4-falling": -2.61327110003036
+      }
+    },
+    {
+      "characterErrorRate": 0.02702702702702703,
+      "genderGroup": "female",
+      "identityConsistency": 0.9087820941179927,
+      "passed": false,
+      "reasons": [
+        "neutral-duration-too-long",
+        "tone-2-rise-too-small",
+        "tone-classification"
+      ],
+      "sid": 18,
+      "speaker": "zf_026",
+      "toneClassifier": {
+        "algorithm": "rbf-svc-v1",
+        "balancedAccuracy": 0.6566527342389412,
+        "c": 10.0,
+        "classified": 91,
+        "contrastClassified": 40,
+        "featureVersion": "aligned-pitch-v2",
+        "gamma": 0.03,
+        "tone2Tone3Accuracy": 0.8257575757575758
+      },
+      "toneMovement": {
+        "neutral": -1.8370578866490739,
+        "sandhi-rising": 2.213285210817496,
+        "tone-1-level": 0.5695069298568782,
+        "tone-2-rising": -0.9693391352747831,
+        "tone-3-final": -6.862453985804372,
+        "tone-3-low": -9.909525969417462,
+        "tone-4-falling": -3.839438160241613
+      }
+    },
+    {
+      "characterErrorRate": 0.018018018018018018,
+      "genderGroup": "female",
+      "identityConsistency": 0.8817142316152892,
+      "passed": false,
+      "reasons": [
+        "duration-outlier",
+        "tone-2-rise-too-small",
+        "tone-4-fall-too-small",
+        "tone-classification"
+      ],
+      "sid": 19,
+      "speaker": "zf_027",
+      "toneClassifier": {
+        "algorithm": "rbf-svc-v1",
+        "balancedAccuracy": 0.5947840473702543,
+        "c": 10.0,
+        "classified": 91,
+        "contrastClassified": 40,
+        "featureVersion": "aligned-pitch-v2",
+        "gamma": 0.03,
+        "tone2Tone3Accuracy": 0.8535353535353536
+      },
+      "toneMovement": {
+        "neutral": 0.888875390620818,
+        "sandhi-rising": 1.438021779994088,
+        "tone-1-level": 0.1919716443250561,
+        "tone-2-rising": -0.37266851787271804,
+        "tone-3-final": -7.780788499465306,
+        "tone-3-low": -6.362964358332132,
+        "tone-4-falling": -1.0030329689920165
+      }
+    },
+    {
+      "characterErrorRate": 0.018018018018018018,
+      "genderGroup": "female",
+      "identityConsistency": 0.8717072066612193,
+      "passed": false,
+      "reasons": [
+        "tone-1-not-level"
+      ],
+      "sid": 20,
+      "speaker": "zf_028",
+      "toneClassifier": {
+        "algorithm": "rbf-svc-v1",
+        "balancedAccuracy": 0.7443834900731453,
+        "c": 10.0,
+        "classified": 91,
+        "contrastClassified": 40,
+        "featureVersion": "aligned-pitch-v2",
+        "gamma": 0.03,
+        "tone2Tone3Accuracy": 0.9267676767676767
+      },
+      "toneMovement": {
+        "neutral": -0.49820152992587907,
+        "sandhi-rising": 3.104045080201079,
+        "tone-1-level": 3.0127411776756094,
+        "tone-2-rising": 1.5573585173240545,
+        "tone-3-final": -6.085541478273498,
+        "tone-3-low": -11.68999839257155,
+        "tone-4-falling": -2.0430706274197448
+      }
+    },
+    {
+      "characterErrorRate": 0.04504504504504504,
+      "genderGroup": "female",
+      "identityConsistency": 0.8759319426438048,
+      "passed": false,
+      "reasons": [
+        "asr-diagnostic-target",
+        "neutral-duration-too-long",
+        "tone-2-rise-too-small",
+        "tone-classification"
+      ],
+      "sid": 21,
+      "speaker": "zf_032",
+      "toneClassifier": {
+        "algorithm": "rbf-svc-v1",
+        "balancedAccuracy": 0.6730668756530825,
+        "c": 10.0,
+        "classified": 91,
+        "contrastClassified": 40,
+        "featureVersion": "aligned-pitch-v2",
+        "gamma": 0.03,
+        "tone2Tone3Accuracy": 0.8535353535353536
+      },
+      "toneMovement": {
+        "neutral": -2.1076757576622285,
+        "sandhi-rising": 1.3510606164401864,
+        "tone-1-level": -0.31415702802386747,
+        "tone-2-rising": 0.48262063720532744,
+        "tone-3-final": -7.551834695724077,
+        "tone-3-low": -6.301216656057189,
+        "tone-4-falling": -2.7451806994164016
+      }
+    },
+    {
+      "characterErrorRate": 0.018018018018018018,
+      "genderGroup": "female",
+      "identityConsistency": 0.8762279476496317,
+      "passed": false,
+      "reasons": [
+        "tone-2-rise-too-small",
+        "tone-classification"
+      ],
+      "sid": 22,
+      "speaker": "zf_036",
+      "toneClassifier": {
+        "algorithm": "rbf-svc-v1",
+        "balancedAccuracy": 0.6707593173110413,
+        "c": 10.0,
+        "classified": 91,
+        "contrastClassified": 40,
+        "featureVersion": "aligned-pitch-v2",
+        "gamma": 0.03,
+        "tone2Tone3Accuracy": 0.9267676767676767
+      },
+      "toneMovement": {
+        "neutral": -0.7329576537425879,
+        "sandhi-rising": 1.2874802565362344,
+        "tone-1-level": -0.12753543123098154,
+        "tone-2-rising": -0.222959450790011,
+        "tone-3-final": -7.279276565793408,
+        "tone-3-low": -5.761760293367335,
+        "tone-4-falling": -2.485707864193465
+      }
+    },
+    {
+      "characterErrorRate": 0.02702702702702703,
+      "genderGroup": "female",
+      "identityConsistency": 0.8777920601562637,
+      "passed": false,
+      "reasons": [
+        "tone-classification"
+      ],
+      "sid": 23,
+      "speaker": "zf_038",
+      "toneClassifier": {
+        "algorithm": "rbf-svc-v1",
+        "balancedAccuracy": 0.568312434691745,
+        "c": 10.0,
+        "classified": 91,
+        "contrastClassified": 40,
+        "featureVersion": "aligned-pitch-v2",
+        "gamma": 0.03,
+        "tone2Tone3Accuracy": 0.8813131313131313
+      },
+      "toneMovement": {
+        "neutral": 0.21041874278867922,
+        "sandhi-rising": 2.883960863483953,
+        "tone-1-level": 0.5052711988525118,
+        "tone-2-rising": 1.3664501217673894,
+        "tone-3-final": -8.201898914869844,
+        "tone-3-low": -7.184340559957995,
+        "tone-4-falling": -4.1421266986083225
+      }
+    },
+    {
+      "characterErrorRate": 0.04504504504504504,
+      "genderGroup": "female",
+      "identityConsistency": 0.8964719240634629,
+      "passed": false,
+      "reasons": [
+        "asr-diagnostic-target",
+        "tone-2-rise-too-small"
+      ],
+      "sid": 24,
+      "speaker": "zf_039",
+      "toneClassifier": {
+        "algorithm": "rbf-svc-v1",
+        "balancedAccuracy": 0.7357628004179728,
+        "c": 10.0,
+        "classified": 91,
+        "contrastClassified": 40,
+        "featureVersion": "aligned-pitch-v2",
+        "gamma": 0.03,
+        "tone2Tone3Accuracy": 0.9545454545454546
+      },
+      "toneMovement": {
+        "neutral": -2.081384302296975,
+        "sandhi-rising": 0.8096962888735817,
+        "tone-1-level": 0.4843363409299002,
+        "tone-2-rising": -0.16491467089073453,
+        "tone-3-final": -2.9506836358796775,
+        "tone-3-low": -8.020570385395125,
+        "tone-4-falling": -2.047686492539736
+      }
+    },
+    {
+      "characterErrorRate": 0.018018018018018018,
+      "genderGroup": "female",
+      "identityConsistency": 0.888812582111662,
+      "passed": false,
+      "reasons": [
+        "tone-1-not-level"
+      ],
+      "sid": 25,
+      "speaker": "zf_040",
+      "toneClassifier": {
+        "algorithm": "rbf-svc-v1",
+        "balancedAccuracy": 0.7809996516893069,
+        "c": 10.0,
+        "classified": 91,
+        "contrastClassified": 40,
+        "featureVersion": "aligned-pitch-v2",
+        "gamma": 0.03,
+        "tone2Tone3Accuracy": 0.904040404040404
+      },
+      "toneMovement": {
+        "neutral": -3.6869109108222595,
+        "sandhi-rising": 4.29507595455598,
+        "tone-1-level": 2.0897745676980026,
+        "tone-2-rising": 3.91927512125606,
+        "tone-3-final": -15.84691328367982,
+        "tone-3-low": -10.012934324291233,
+        "tone-4-falling": -2.9721198710145593
+      }
+    },
+    {
+      "characterErrorRate": 0.018018018018018018,
+      "genderGroup": "female",
+      "identityConsistency": 0.8973719134918754,
+      "passed": false,
+      "reasons": [
+        "neutral-duration-too-long",
+        "tone-2-rise-too-small",
+        "tone-classification"
+      ],
+      "sid": 26,
+      "speaker": "zf_042",
+      "toneClassifier": {
+        "algorithm": "rbf-svc-v1",
+        "balancedAccuracy": 0.6999738766980146,
+        "c": 10.0,
+        "classified": 91,
+        "contrastClassified": 40,
+        "featureVersion": "aligned-pitch-v2",
+        "gamma": 0.03,
+        "tone2Tone3Accuracy": 0.904040404040404
+      },
+      "toneMovement": {
+        "neutral": -0.31638430157079966,
+        "sandhi-rising": 0.6832256282596632,
+        "tone-1-level": 0.23945095132923555,
+        "tone-2-rising": 0.1875622988066432,
+        "tone-3-final": -3.0729965789760776,
+        "tone-3-low": -6.4612383518883725,
+        "tone-4-falling": -2.1646235171406687
+      }
+    },
+    {
+      "characterErrorRate": 0.02702702702702703,
+      "genderGroup": "female",
+      "identityConsistency": 0.9166156400334473,
+      "passed": false,
+      "reasons": [
+        "tone-2-rise-too-small",
+        "tone-4-fall-too-small",
+        "tone-classification"
+      ],
+      "sid": 27,
+      "speaker": "zf_043",
+      "toneClassifier": {
+        "algorithm": "rbf-svc-v1",
+        "balancedAccuracy": 0.6238244514106582,
+        "c": 10.0,
+        "classified": 91,
+        "contrastClassified": 40,
+        "featureVersion": "aligned-pitch-v2",
+        "gamma": 0.03,
+        "tone2Tone3Accuracy": 0.9090909090909092
+      },
+      "toneMovement": {
+        "neutral": -0.06963539110420669,
+        "sandhi-rising": 1.026486619388713,
+        "tone-1-level": 0.633656225067222,
+        "tone-2-rising": -0.33659347864252,
+        "tone-3-final": -3.7111852031101105,
+        "tone-3-low": -8.179056076874817,
+        "tone-4-falling": -1.1498413831561436
+      }
+    },
+    {
+      "characterErrorRate": 0.06306306306306306,
+      "genderGroup": "female",
+      "identityConsistency": 0.8948948168874036,
+      "passed": false,
+      "reasons": [
+        "asr-diagnostic-target",
+        "tone-2-rise-too-small",
+        "tone-classification"
+      ],
+      "sid": 28,
+      "speaker": "zf_044",
+      "toneClassifier": {
+        "algorithm": "rbf-svc-v1",
+        "balancedAccuracy": 0.6513845350052246,
+        "c": 10.0,
+        "classified": 91,
+        "contrastClassified": 40,
+        "featureVersion": "aligned-pitch-v2",
+        "gamma": 0.03,
+        "tone2Tone3Accuracy": 0.7525252525252526
+      },
+      "toneMovement": {
+        "neutral": -0.3660411919494848,
+        "sandhi-rising": 1.4369452278002868,
+        "tone-1-level": 1.0602261652492153,
+        "tone-2-rising": 0.07936615436489092,
+        "tone-3-final": -1.266158155757866,
+        "tone-3-low": -6.783538610583044,
+        "tone-4-falling": -1.694215211073427
+      }
+    },
+    {
+      "characterErrorRate": 0.04504504504504504,
+      "genderGroup": "female",
+      "identityConsistency": 0.9091352542599367,
+      "passed": false,
+      "reasons": [
+        "asr-diagnostic-target",
+        "tone-2-rise-too-small",
+        "tone-classification"
+      ],
+      "sid": 29,
+      "speaker": "zf_046",
+      "toneClassifier": {
+        "algorithm": "rbf-svc-v1",
+        "balancedAccuracy": 0.6652734238941136,
+        "c": 10.0,
+        "classified": 91,
+        "contrastClassified": 40,
+        "featureVersion": "aligned-pitch-v2",
+        "gamma": 0.03,
+        "tone2Tone3Accuracy": 0.9090909090909092
+      },
+      "toneMovement": {
+        "neutral": -2.714859886026332,
+        "sandhi-rising": 1.302336958021236,
+        "tone-1-level": 0.9275916840174308,
+        "tone-2-rising": -1.2893538303424066,
+        "tone-3-final": -5.272079040780916,
+        "tone-3-low": -9.670785789502947,
+        "tone-4-falling": -2.981497391867336
+      }
+    },
+    {
+      "characterErrorRate": 0.02702702702702703,
+      "genderGroup": "female",
+      "identityConsistency": 0.8783099436858433,
+      "passed": false,
+      "reasons": [
+        "asr-diagnostic-target",
+        "neutral-duration-too-long",
+        "tone-2-rise-too-small",
+        "tone-classification"
+      ],
+      "sid": 30,
+      "speaker": "zf_047",
+      "toneClassifier": {
+        "algorithm": "rbf-svc-v1",
+        "balancedAccuracy": 0.6394113549285962,
+        "c": 10.0,
+        "classified": 91,
+        "contrastClassified": 40,
+        "featureVersion": "aligned-pitch-v2",
+        "gamma": 0.03,
+        "tone2Tone3Accuracy": 0.7929292929292929
+      },
+      "toneMovement": {
+        "neutral": -1.2921426837480006,
+        "sandhi-rising": 1.521816933300201,
+        "tone-1-level": 0.3901047610258175,
+        "tone-2-rising": 0.12580123501069096,
+        "tone-3-final": -2.817610611370256,
+        "tone-3-low": -6.703896046753918,
+        "tone-4-falling": -1.79493589997249
+      }
+    },
+    {
+      "characterErrorRate": 0.05405405405405406,
+      "genderGroup": "female",
+      "identityConsistency": 0.8896882801081791,
+      "passed": false,
+      "reasons": [
+        "asr-diagnostic-target",
+        "duration-outlier",
+        "neutral-duration-too-long",
+        "third-tone-sandhi-rise-missing",
+        "tone-2-rise-too-small"
+      ],
+      "sid": 31,
+      "speaker": "zf_048",
+      "toneClassifier": {
+        "algorithm": "rbf-svc-v1",
+        "balancedAccuracy": 0.7041971438523162,
+        "c": 10.0,
+        "classified": 91,
+        "contrastClassified": 40,
+        "featureVersion": "aligned-pitch-v2",
+        "gamma": 0.03,
+        "tone2Tone3Accuracy": 0.8813131313131313
+      },
+      "toneMovement": {
+        "neutral": -0.11466734694250036,
+        "sandhi-rising": -0.5323285509461329,
+        "tone-1-level": 1.6677783302660725,
+        "tone-2-rising": 0.01683128657825428,
+        "tone-3-final": -1.1791334146380557,
+        "tone-3-low": -6.84828215314845,
+        "tone-4-falling": -2.1724040754633407
+      }
+    },
+    {
+      "characterErrorRate": 0.036036036036036036,
+      "genderGroup": "female",
+      "identityConsistency": 0.9080951997704683,
+      "passed": false,
+      "reasons": [
+        "neutral-duration-too-long",
+        "third-tone-sandhi-rise-missing",
+        "tone-1-not-level",
+        "tone-2-rise-too-small"
+      ],
+      "sid": 32,
+      "speaker": "zf_049",
+      "toneClassifier": {
+        "algorithm": "rbf-svc-v1",
+        "balancedAccuracy": 0.7330198537095088,
+        "c": 10.0,
+        "classified": 91,
+        "contrastClassified": 40,
+        "featureVersion": "aligned-pitch-v2",
+        "gamma": 0.03,
+        "tone2Tone3Accuracy": 0.904040404040404
+      },
+      "toneMovement": {
+        "neutral": -0.45525862398225314,
+        "sandhi-rising": 0.010980089594927023,
+        "tone-1-level": 2.340521840104234,
+        "tone-2-rising": 0.43950059570187605,
+        "tone-3-final": -3.5664673163343537,
+        "tone-3-low": -11.310588998559057,
+        "tone-4-falling": -1.9509849061050275
+      }
+    },
+    {
+      "characterErrorRate": 0.02702702702702703,
+      "genderGroup": "female",
+      "identityConsistency": 0.8934472805764917,
+      "passed": false,
+      "reasons": [
+        "asr-diagnostic-target"
+      ],
+      "sid": 33,
+      "speaker": "zf_051",
+      "toneClassifier": {
+        "algorithm": "rbf-svc-v1",
+        "balancedAccuracy": 0.733019853709509,
+        "c": 10.0,
+        "classified": 91,
+        "contrastClassified": 40,
+        "featureVersion": "aligned-pitch-v2",
+        "gamma": 0.03,
+        "tone2Tone3Accuracy": 0.8863636363636364
+      },
+      "toneMovement": {
+        "neutral": -1.1103030255653081,
+        "sandhi-rising": 1.2997270605854112,
+        "tone-1-level": 0.0742494934867377,
+        "tone-2-rising": 1.718678237950062,
+        "tone-3-final": -3.449696661563957,
+        "tone-3-low": -10.862390503476043,
+        "tone-4-falling": -5.035673832364633
+      }
+    },
+    {
+      "characterErrorRate": 0.02702702702702703,
+      "genderGroup": "female",
+      "identityConsistency": 0.9135556795517332,
+      "passed": false,
+      "reasons": [
+        "neutral-duration-too-long",
+        "tone-classification"
+      ],
+      "sid": 34,
+      "speaker": "zf_059",
+      "toneClassifier": {
+        "algorithm": "rbf-svc-v1",
+        "balancedAccuracy": 0.6246952281435039,
+        "c": 10.0,
+        "classified": 91,
+        "contrastClassified": 40,
+        "featureVersion": "aligned-pitch-v2",
+        "gamma": 0.03,
+        "tone2Tone3Accuracy": 0.904040404040404
+      },
+      "toneMovement": {
+        "neutral": -0.24323508191019272,
+        "sandhi-rising": 2.788368187385366,
+        "tone-1-level": 0.6661248563481514,
+        "tone-2-rising": 1.2789013078394191,
+        "tone-3-final": -1.841009136823267,
+        "tone-3-low": -8.54750676557217,
+        "tone-4-falling": -1.7419403053985114
+      }
+    },
+    {
+      "characterErrorRate": 0.02702702702702703,
+      "genderGroup": "female",
+      "identityConsistency": 0.9135895831421588,
+      "passed": false,
+      "reasons": [
+        "neutral-duration-too-long",
+        "tone-2-rise-too-small",
+        "tone-classification"
+      ],
+      "sid": 35,
+      "speaker": "zf_060",
+      "toneClassifier": {
+        "algorithm": "rbf-svc-v1",
+        "balancedAccuracy": 0.6650557297109021,
+        "c": 10.0,
+        "classified": 91,
+        "contrastClassified": 40,
+        "featureVersion": "aligned-pitch-v2",
+        "gamma": 0.03,
+        "tone2Tone3Accuracy": 0.8257575757575758
+      },
+      "toneMovement": {
+        "neutral": -0.7633816888904583,
+        "sandhi-rising": 1.8941621456802622,
+        "tone-1-level": 1.2697919582289714,
+        "tone-2-rising": 0.5454213697232007,
+        "tone-3-final": -3.2498386312397365,
+        "tone-3-low": -10.005080523365601,
+        "tone-4-falling": -3.7818775292278275
+      }
+    },
+    {
+      "characterErrorRate": 0.018018018018018018,
+      "genderGroup": "female",
+      "identityConsistency": 0.8839981506975668,
+      "passed": false,
+      "reasons": [
+        "neutral-duration-too-long",
+        "tone-2-rise-too-small",
+        "tone-classification"
+      ],
+      "sid": 36,
+      "speaker": "zf_067",
+      "toneClassifier": {
+        "algorithm": "rbf-svc-v1",
+        "balancedAccuracy": 0.6960118425635666,
+        "c": 10.0,
+        "classified": 91,
+        "contrastClassified": 40,
+        "featureVersion": "aligned-pitch-v2",
+        "gamma": 0.03,
+        "tone2Tone3Accuracy": 0.9267676767676767
+      },
+      "toneMovement": {
+        "neutral": 1.513912693165942,
+        "sandhi-rising": 3.0222990430216754,
+        "tone-1-level": 0.8037932309868623,
+        "tone-2-rising": 0.5635013927693766,
+        "tone-3-final": -3.9403439065450723,
+        "tone-3-low": -10.731286181817602,
+        "tone-4-falling": -4.371338225505593
+      }
+    },
+    {
+      "characterErrorRate": 0.036036036036036036,
+      "genderGroup": "female",
+      "identityConsistency": 0.895663081615801,
+      "passed": false,
+      "reasons": [
+        "neutral-duration-too-long",
+        "tone-2-rise-too-small",
+        "tone-classification"
+      ],
+      "sid": 37,
+      "speaker": "zf_070",
+      "toneClassifier": {
+        "algorithm": "rbf-svc-v1",
+        "balancedAccuracy": 0.6452890978753048,
+        "c": 10.0,
+        "classified": 91,
+        "contrastClassified": 40,
+        "featureVersion": "aligned-pitch-v2",
+        "gamma": 0.03,
+        "tone2Tone3Accuracy": 0.9722222222222222
+      },
+      "toneMovement": {
+        "neutral": -0.8280176385132378,
+        "sandhi-rising": 2.321232000083363,
+        "tone-1-level": -0.06038025466274455,
+        "tone-2-rising": -0.9864903673970389,
+        "tone-3-final": -3.4481266551539935,
+        "tone-3-low": -9.750378395880091,
+        "tone-4-falling": -3.3278655692639028
+      }
+    },
+    {
+      "characterErrorRate": 0.02702702702702703,
+      "genderGroup": "female",
+      "identityConsistency": 0.8947569575005963,
+      "passed": false,
+      "reasons": [
+        "asr-diagnostic-target",
+        "neutral-duration-too-long",
+        "tone-2-rise-too-small",
+        "tone-classification"
+      ],
+      "sid": 38,
+      "speaker": "zf_071",
+      "toneClassifier": {
+        "algorithm": "rbf-svc-v1",
+        "balancedAccuracy": 0.5975269940787182,
+        "c": 10.0,
+        "classified": 91,
+        "contrastClassified": 40,
+        "featureVersion": "aligned-pitch-v2",
+        "gamma": 0.03,
+        "tone2Tone3Accuracy": 0.8762626262626263
+      },
+      "toneMovement": {
+        "neutral": -3.545974523899183,
+        "sandhi-rising": 2.6454514524286026,
+        "tone-1-level": -0.3227464353960201,
+        "tone-2-rising": -3.402926291486983,
+        "tone-3-final": -4.284715029073245,
+        "tone-3-low": -12.022011193857514,
+        "tone-4-falling": -4.05605600737405
+      }
+    },
+    {
+      "characterErrorRate": 0.009009009009009009,
+      "genderGroup": "female",
+      "identityConsistency": 0.907172860610111,
+      "passed": false,
+      "reasons": [
+        "neutral-duration-too-long",
+        "tone-2-rise-too-small",
+        "tone-classification"
+      ],
+      "sid": 39,
+      "speaker": "zf_072",
+      "toneClassifier": {
+        "algorithm": "rbf-svc-v1",
+        "balancedAccuracy": 0.6652734238941136,
+        "c": 10.0,
+        "classified": 91,
+        "contrastClassified": 40,
+        "featureVersion": "aligned-pitch-v2",
+        "gamma": 0.03,
+        "tone2Tone3Accuracy": 0.904040404040404
+      },
+      "toneMovement": {
+        "neutral": 0.6968152001489614,
+        "sandhi-rising": 2.302453453197611,
+        "tone-1-level": 1.7707798828331942,
+        "tone-2-rising": -0.34524436904782263,
+        "tone-3-final": -2.239332384210737,
+        "tone-3-low": -8.180904352316958,
+        "tone-4-falling": -3.4324415082301805
+      }
+    },
+    {
+      "characterErrorRate": 0.05405405405405406,
+      "genderGroup": "female",
+      "identityConsistency": 0.8827087797704418,
+      "passed": false,
+      "reasons": [
+        "asr-diagnostic-target",
+        "deterministic-rerun-mismatch",
+        "neutral-duration-too-long",
+        "tone-2-rise-too-small",
+        "tone-classification"
+      ],
+      "sid": 40,
+      "speaker": "zf_073",
+      "toneClassifier": {
+        "algorithm": "rbf-svc-v1",
+        "balancedAccuracy": 0.57183908045977,
+        "c": 10.0,
+        "classified": 91,
+        "contrastClassified": 40,
+        "featureVersion": "aligned-pitch-v2",
+        "gamma": 0.03,
+        "tone2Tone3Accuracy": 0.8484848484848485
+      },
+      "toneMovement": {
+        "neutral": -2.222862157193738,
+        "sandhi-rising": 3.037055348932327,
+        "tone-1-level": -0.167777374240611,
+        "tone-2-rising": -1.2640664963076649,
+        "tone-3-final": -5.465236707497233,
+        "tone-3-low": -9.881594653157592,
+        "tone-4-falling": -2.871708688798112
+      }
+    },
+    {
+      "characterErrorRate": 0.02702702702702703,
+      "genderGroup": "female",
+      "identityConsistency": 0.8829665363536059,
+      "passed": false,
+      "reasons": [
+        "deterministic-rerun-mismatch",
+        "neutral-duration-too-long",
+        "tone-2-rise-too-small",
+        "tone-classification"
+      ],
+      "sid": 41,
+      "speaker": "zf_074",
+      "toneClassifier": {
+        "algorithm": "rbf-svc-v1",
+        "balancedAccuracy": 0.6400208986415883,
+        "c": 10.0,
+        "classified": 91,
+        "contrastClassified": 40,
+        "featureVersion": "aligned-pitch-v2",
+        "gamma": 0.03,
+        "tone2Tone3Accuracy": 0.8257575757575758
+      },
+      "toneMovement": {
+        "neutral": -1.330962276868238,
+        "sandhi-rising": 2.6812346625475882,
+        "tone-1-level": -0.6976144501631047,
+        "tone-2-rising": -1.6074882200776095,
+        "tone-3-final": -10.279262971494521,
+        "tone-3-low": -10.880659384961312,
+        "tone-4-falling": -2.920324590525613
+      }
+    },
+    {
+      "characterErrorRate": 0.009009009009009009,
+      "genderGroup": "female",
+      "identityConsistency": 0.8678451612064289,
+      "passed": false,
+      "reasons": [
+        "neutral-duration-too-long",
+        "tone-2-rise-too-small",
+        "tone-classification"
+      ],
+      "sid": 42,
+      "speaker": "zf_075",
+      "toneClassifier": {
+        "algorithm": "rbf-svc-v1",
+        "balancedAccuracy": 0.6545628700801115,
+        "c": 10.0,
+        "classified": 91,
+        "contrastClassified": 40,
+        "featureVersion": "aligned-pitch-v2",
+        "gamma": 0.03,
+        "tone2Tone3Accuracy": 0.904040404040404
+      },
+      "toneMovement": {
+        "neutral": -1.8569903148237152,
+        "sandhi-rising": 1.3109967721535227,
+        "tone-1-level": 0.35566219816918654,
+        "tone-2-rising": 0.05742828927194488,
+        "tone-3-final": -3.1694412080655816,
+        "tone-3-low": -7.790082166057017,
+        "tone-4-falling": -2.812555079979685
+      }
+    },
+    {
+      "characterErrorRate": 0.009009009009009009,
+      "genderGroup": "female",
+      "identityConsistency": 0.8890902946793624,
+      "passed": false,
+      "reasons": [
+        "neutral-duration-too-long",
+        "tone-classification"
+      ],
+      "sid": 43,
+      "speaker": "zf_076",
+      "toneClassifier": {
+        "algorithm": "rbf-svc-v1",
+        "balancedAccuracy": 0.6760275165447579,
+        "c": 10.0,
+        "classified": 91,
+        "contrastClassified": 40,
+        "featureVersion": "aligned-pitch-v2",
+        "gamma": 0.03,
+        "tone2Tone3Accuracy": 0.904040404040404
+      },
+      "toneMovement": {
+        "neutral": -1.445702659322663,
+        "sandhi-rising": 2.531496429187321,
+        "tone-1-level": 1.5632540939339918,
+        "tone-2-rising": 1.091226711832892,
+        "tone-3-final": -6.747385955650335,
+        "tone-3-low": -8.409604333718418,
+        "tone-4-falling": -1.6554866394821772
+      }
+    },
+    {
+      "characterErrorRate": 0.018018018018018018,
+      "genderGroup": "female",
+      "identityConsistency": 0.9072000988187697,
+      "passed": false,
+      "reasons": [
+        "neutral-duration-too-long",
+        "tone-2-rise-too-small",
+        "tone-classification"
+      ],
+      "sid": 44,
+      "speaker": "zf_077",
+      "toneClassifier": {
+        "algorithm": "rbf-svc-v1",
+        "balancedAccuracy": 0.5869905956112853,
+        "c": 10.0,
+        "classified": 91,
+        "contrastClassified": 40,
+        "featureVersion": "aligned-pitch-v2",
+        "gamma": 0.03,
+        "tone2Tone3Accuracy": 0.8535353535353536
+      },
+      "toneMovement": {
+        "neutral": -0.7227394139720538,
+        "sandhi-rising": 2.083531761825853,
+        "tone-1-level": -0.27705344008925614,
+        "tone-2-rising": -1.1531634844940015,
+        "tone-3-final": -6.343851252963576,
+        "tone-3-low": -10.323703454069964,
+        "tone-4-falling": -3.088681816004261
+      }
+    },
+    {
+      "characterErrorRate": 0.009009009009009009,
+      "genderGroup": "female",
+      "identityConsistency": 0.8919455341377015,
+      "passed": false,
+      "reasons": [
+        "neutral-duration-too-long",
+        "tone-2-rise-too-small",
+        "tone-classification"
+      ],
+      "sid": 45,
+      "speaker": "zf_078",
+      "toneClassifier": {
+        "algorithm": "rbf-svc-v1",
+        "balancedAccuracy": 0.5849007314524556,
+        "c": 10.0,
+        "classified": 91,
+        "contrastClassified": 40,
+        "featureVersion": "aligned-pitch-v2",
+        "gamma": 0.03,
+        "tone2Tone3Accuracy": 0.8762626262626263
+      },
+      "toneMovement": {
+        "neutral": 2.150058031954039,
+        "sandhi-rising": 1.1702353232978382,
+        "tone-1-level": -0.4715074336426053,
+        "tone-2-rising": -2.218939190655501,
+        "tone-3-final": -1.5261423801203602,
+        "tone-3-low": -8.7001959889582,
+        "tone-4-falling": -2.871071081079826
+      }
+    },
+    {
+      "characterErrorRate": 0.018018018018018018,
+      "genderGroup": "female",
+      "identityConsistency": 0.9096002784803645,
+      "passed": false,
+      "reasons": [
+        "asr-diagnostic-target",
+        "neutral-duration-too-long",
+        "third-tone-sandhi-rise-missing",
+        "tone-2-rise-too-small",
+        "tone-classification"
+      ],
+      "sid": 46,
+      "speaker": "zf_079",
+      "toneClassifier": {
+        "algorithm": "rbf-svc-v1",
+        "balancedAccuracy": 0.4670846394984326,
+        "c": 10.0,
+        "classified": 91,
+        "contrastClassified": 40,
+        "featureVersion": "aligned-pitch-v2",
+        "gamma": 0.03,
+        "tone2Tone3Accuracy": 0.8434343434343434
+      },
+      "toneMovement": {
+        "neutral": -0.7369705694716373,
+        "sandhi-rising": 0.016127363891577318,
+        "tone-1-level": -0.36345839237834454,
+        "tone-2-rising": -1.4808970302877764,
+        "tone-3-final": -2.675392324141818,
+        "tone-3-low": -6.206874457828373,
+        "tone-4-falling": -2.3163697947900985
+      }
+    },
+    {
+      "characterErrorRate": 0.009009009009009009,
+      "genderGroup": "female",
+      "identityConsistency": 0.8795243158254006,
+      "passed": false,
+      "reasons": [
+        "tone-2-rise-too-small",
+        "tone-4-fall-too-small",
+        "tone-classification"
+      ],
+      "sid": 47,
+      "speaker": "zf_083",
+      "toneClassifier": {
+        "algorithm": "rbf-svc-v1",
+        "balancedAccuracy": 0.6856931382793452,
+        "c": 10.0,
+        "classified": 91,
+        "contrastClassified": 40,
+        "featureVersion": "aligned-pitch-v2",
+        "gamma": 0.03,
+        "tone2Tone3Accuracy": 0.9318181818181819
+      },
+      "toneMovement": {
+        "neutral": -0.4417500527282172,
+        "sandhi-rising": 2.417747093197331,
+        "tone-1-level": 1.2649813393403981,
+        "tone-2-rising": -0.21894514304802826,
+        "tone-3-final": -3.545345964665195,
+        "tone-3-low": -9.07869836579423,
+        "tone-4-falling": -1.1704504501290813
+      }
+    },
+    {
+      "characterErrorRate": 0.036036036036036036,
+      "genderGroup": "female",
+      "identityConsistency": 0.8890659834334868,
+      "passed": false,
+      "reasons": [
+        "asr-diagnostic-target",
+        "neutral-duration-too-long",
+        "tone-1-not-level",
+        "tone-2-rise-too-small",
+        "tone-classification"
+      ],
+      "sid": 48,
+      "speaker": "zf_084",
+      "toneClassifier": {
+        "algorithm": "rbf-svc-v1",
+        "balancedAccuracy": 0.5964820619993033,
+        "c": 10.0,
+        "classified": 91,
+        "contrastClassified": 40,
+        "featureVersion": "aligned-pitch-v2",
+        "gamma": 0.03,
+        "tone2Tone3Accuracy": 0.8813131313131313
+      },
+      "toneMovement": {
+        "neutral": -0.6872547957341375,
+        "sandhi-rising": 2.9611582364202107,
+        "tone-1-level": 2.2280085590851204,
+        "tone-2-rising": -1.4357925034284218,
+        "tone-3-final": -3.5447530739061612,
+        "tone-3-low": -11.348262628076371,
+        "tone-4-falling": -2.0279997384647857
+      }
+    },
+    {
+      "characterErrorRate": 0.02702702702702703,
+      "genderGroup": "female",
+      "identityConsistency": 0.8765705170398588,
+      "passed": false,
+      "reasons": [
+        "neutral-duration-too-long",
+        "tone-2-rise-too-small",
+        "tone-classification"
+      ],
+      "sid": 49,
+      "speaker": "zf_085",
+      "toneClassifier": {
+        "algorithm": "rbf-svc-v1",
+        "balancedAccuracy": 0.6004876349703936,
+        "c": 10.0,
+        "classified": 91,
+        "contrastClassified": 40,
+        "featureVersion": "aligned-pitch-v2",
+        "gamma": 0.03,
+        "tone2Tone3Accuracy": 0.904040404040404
+      },
+      "toneMovement": {
+        "neutral": 1.886682569035024,
+        "sandhi-rising": 2.3237777224503873,
+        "tone-1-level": -0.025294134006795588,
+        "tone-2-rising": -0.4164638667746452,
+        "tone-3-final": -5.291075800616111,
+        "tone-3-low": -10.324166470622842,
+        "tone-4-falling": -3.350127364991515
+      }
+    },
+    {
+      "characterErrorRate": 0.018018018018018018,
+      "genderGroup": "female",
+      "identityConsistency": 0.8764100998103949,
+      "passed": false,
+      "reasons": [
+        "tone-2-rise-too-small",
+        "tone-classification"
+      ],
+      "sid": 50,
+      "speaker": "zf_086",
+      "toneClassifier": {
+        "algorithm": "rbf-svc-v1",
+        "balancedAccuracy": 0.6179467084639498,
+        "c": 10.0,
+        "classified": 91,
+        "contrastClassified": 40,
+        "featureVersion": "aligned-pitch-v2",
+        "gamma": 0.03,
+        "tone2Tone3Accuracy": 0.898989898989899
+      },
+      "toneMovement": {
+        "neutral": -0.3688642226480283,
+        "sandhi-rising": 1.972069262533477,
+        "tone-1-level": 0.5529957768606977,
+        "tone-2-rising": -0.012179360969522435,
+        "tone-3-final": -8.80646192754133,
+        "tone-3-low": -7.392088341780841,
+        "tone-4-falling": -1.2594891512029136
+      }
+    },
+    {
+      "characterErrorRate": 0.018018018018018018,
+      "genderGroup": "female",
+      "identityConsistency": 0.8927699318397906,
+      "passed": false,
+      "reasons": [
+        "tone-2-rise-too-small",
+        "tone-classification"
+      ],
+      "sid": 51,
+      "speaker": "zf_087",
+      "toneClassifier": {
+        "algorithm": "rbf-svc-v1",
+        "balancedAccuracy": 0.6793800069662139,
+        "c": 10.0,
+        "classified": 91,
+        "contrastClassified": 40,
+        "featureVersion": "aligned-pitch-v2",
+        "gamma": 0.03,
+        "tone2Tone3Accuracy": 0.904040404040404
+      },
+      "toneMovement": {
+        "neutral": -0.6309726814796015,
+        "sandhi-rising": 1.623208034947723,
+        "tone-1-level": 0.515180436695287,
+        "tone-2-rising": -0.23708847300397018,
+        "tone-3-final": -3.9260630023488776,
+        "tone-3-low": -12.367932914303738,
+        "tone-4-falling": -2.641383372700144
+      }
+    },
+    {
+      "characterErrorRate": 0.009009009009009009,
+      "genderGroup": "female",
+      "identityConsistency": 0.8874008975802528,
+      "passed": false,
+      "reasons": [
+        "duration-outlier",
+        "neutral-duration-too-long",
+        "tone-2-rise-too-small",
+        "tone-classification"
+      ],
+      "sid": 52,
+      "speaker": "zf_088",
+      "toneClassifier": {
+        "algorithm": "rbf-svc-v1",
+        "balancedAccuracy": 0.5505921281783351,
+        "c": 10.0,
+        "classified": 91,
+        "contrastClassified": 40,
+        "featureVersion": "aligned-pitch-v2",
+        "gamma": 0.03,
+        "tone2Tone3Accuracy": 0.7752525252525253
+      },
+      "toneMovement": {
+        "neutral": 1.0383937997078334,
+        "sandhi-rising": 1.5344917516261845,
+        "tone-1-level": -0.5100572134023231,
+        "tone-2-rising": -1.5049189306529414,
+        "tone-3-final": 1.2666044775992003,
+        "tone-3-low": -8.455884434655786,
+        "tone-4-falling": -2.420767091514069
+      }
+    },
+    {
+      "characterErrorRate": 0.02702702702702703,
+      "genderGroup": "female",
+      "identityConsistency": 0.8940279351921769,
+      "passed": false,
+      "reasons": [
+        "asr-diagnostic-target",
+        "neutral-duration-too-long",
+        "third-tone-sandhi-rise-missing",
+        "tone-2-rise-too-small",
+        "tone-2-tone-3-separation",
+        "tone-classification"
+      ],
+      "sid": 53,
+      "speaker": "zf_090",
+      "toneClassifier": {
+        "algorithm": "rbf-svc-v1",
+        "balancedAccuracy": 0.5771072796934866,
+        "c": 10.0,
+        "classified": 91,
+        "contrastClassified": 40,
+        "featureVersion": "aligned-pitch-v2",
+        "gamma": 0.03,
+        "tone2Tone3Accuracy": 0.7297979797979798
+      },
+      "toneMovement": {
+        "neutral": -2.8364408494502555,
+        "sandhi-rising": -0.6028364635436567,
+        "tone-1-level": 0.4611661514414269,
+        "tone-2-rising": 0.6203196465985066,
+        "tone-3-final": -13.532053086164506,
+        "tone-3-low": -9.132576501782559,
+        "tone-4-falling": -4.027519752488807
+      }
+    },
+    {
+      "characterErrorRate": 0.036036036036036036,
+      "genderGroup": "female",
+      "identityConsistency": 0.8786548233998214,
+      "passed": false,
+      "reasons": [
+        "asr-diagnostic-target",
+        "tone-2-rise-too-small",
+        "tone-classification"
+      ],
+      "sid": 54,
+      "speaker": "zf_092",
+      "toneClassifier": {
+        "algorithm": "rbf-svc-v1",
+        "balancedAccuracy": 0.5975269940787182,
+        "c": 10.0,
+        "classified": 91,
+        "contrastClassified": 40,
+        "featureVersion": "aligned-pitch-v2",
+        "gamma": 0.03,
+        "tone2Tone3Accuracy": 0.8712121212121212
+      },
+      "toneMovement": {
+        "neutral": 0.5820917501875797,
+        "sandhi-rising": 2.1492457124161675,
+        "tone-1-level": 0.9307574521082707,
+        "tone-2-rising": -1.1004033794688546,
+        "tone-3-final": -1.5592743432149767,
+        "tone-3-low": -8.339138610109561,
+        "tone-4-falling": -1.4815066736664875
+      }
+    },
+    {
+      "characterErrorRate": 0.036036036036036036,
+      "genderGroup": "female",
+      "identityConsistency": 0.900817828120403,
+      "passed": false,
+      "reasons": [
+        "asr-diagnostic-target",
+        "tone-2-rise-too-small",
+        "tone-classification"
+      ],
+      "sid": 55,
+      "speaker": "zf_093",
+      "toneClassifier": {
+        "algorithm": "rbf-svc-v1",
+        "balancedAccuracy": 0.6316179031696273,
+        "c": 10.0,
+        "classified": 91,
+        "contrastClassified": 40,
+        "featureVersion": "aligned-pitch-v2",
+        "gamma": 0.03,
+        "tone2Tone3Accuracy": 0.8535353535353536
+      },
+      "toneMovement": {
+        "neutral": -0.6453667423418139,
+        "sandhi-rising": 2.0221478593829936,
+        "tone-1-level": 0.8603091229825832,
+        "tone-2-rising": 0.5732265584586358,
+        "tone-3-final": -4.704396210275263,
+        "tone-3-low": -7.006457871222636,
+        "tone-4-falling": -2.896644771490635
+      }
+    },
+    {
+      "characterErrorRate": 0.018018018018018018,
+      "genderGroup": "female",
+      "identityConsistency": 0.9169773163800747,
+      "passed": false,
+      "reasons": [
+        "tone-2-rise-too-small",
+        "tone-4-fall-too-small",
+        "tone-classification"
+      ],
+      "sid": 56,
+      "speaker": "zf_094",
+      "toneClassifier": {
+        "algorithm": "rbf-svc-v1",
+        "balancedAccuracy": 0.6366684082201324,
+        "c": 10.0,
+        "classified": 91,
+        "contrastClassified": 40,
+        "featureVersion": "aligned-pitch-v2",
+        "gamma": 0.03,
+        "tone2Tone3Accuracy": 0.8257575757575758
+      },
+      "toneMovement": {
+        "neutral": 0.16148865065519402,
+        "sandhi-rising": 1.7942806817705907,
+        "tone-1-level": 1.123339249410801,
+        "tone-2-rising": 0.21997104178678484,
+        "tone-3-final": -0.08283226620961948,
+        "tone-3-low": -8.941442312832278,
+        "tone-4-falling": -1.1317365525979
+      }
+    },
+    {
+      "characterErrorRate": 0.0,
+      "genderGroup": "female",
+      "identityConsistency": 0.8847385538990242,
+      "passed": false,
+      "reasons": [
+        "tone-classification"
+      ],
+      "sid": 57,
+      "speaker": "zf_099",
+      "toneClassifier": {
+        "algorithm": "rbf-svc-v1",
+        "balancedAccuracy": 0.6341431556948798,
+        "c": 10.0,
+        "classified": 91,
+        "contrastClassified": 40,
+        "featureVersion": "aligned-pitch-v2",
+        "gamma": 0.03,
+        "tone2Tone3Accuracy": 0.8484848484848485
+      },
+      "toneMovement": {
+        "neutral": -1.4064998603875658,
+        "sandhi-rising": 2.3668736231258833,
+        "tone-1-level": -0.2528606071520514,
+        "tone-2-rising": 1.2996602316929646,
+        "tone-3-final": 0.5469611066307394,
+        "tone-3-low": -8.609041377705891,
+        "tone-4-falling": -3.2197085183534
+      }
+    },
+    {
+      "characterErrorRate": 0.02702702702702703,
+      "genderGroup": "male",
+      "identityConsistency": 0.8968078981982643,
+      "passed": false,
+      "reasons": [
+        "asr-diagnostic-target",
+        "tone-classification"
+      ],
+      "sid": 58,
+      "speaker": "zm_009",
+      "toneClassifier": {
+        "algorithm": "rbf-svc-v1",
+        "balancedAccuracy": 0.5891239986067572,
+        "c": 3.0,
+        "classified": 91,
+        "contrastClassified": 40,
+        "featureVersion": "aligned-pitch-v2",
+        "gamma": 0.03,
+        "tone2Tone3Accuracy": 0.8712121212121212
+      },
+      "toneMovement": {
+        "neutral": -0.34159069681626875,
+        "sandhi-rising": 3.1082886523013897,
+        "tone-1-level": 0.045132304798343625,
+        "tone-2-rising": 1.6914708868591006,
+        "tone-3-final": -4.101642156117212,
+        "tone-3-low": -7.1457509780033845,
+        "tone-4-falling": -3.440416926299207
+      }
+    },
+    {
+      "characterErrorRate": 0.0,
+      "genderGroup": "male",
+      "identityConsistency": 0.879123808911906,
+      "passed": false,
+      "reasons": [
+        "tone-1-not-level",
+        "tone-2-rise-too-small",
+        "tone-classification"
+      ],
+      "sid": 59,
+      "speaker": "zm_010",
+      "toneClassifier": {
+        "algorithm": "rbf-svc-v1",
+        "balancedAccuracy": 0.4079588993382097,
+        "c": 3.0,
+        "classified": 91,
+        "contrastClassified": 40,
+        "featureVersion": "aligned-pitch-v2",
+        "gamma": 0.03,
+        "tone2Tone3Accuracy": 0.8131313131313131
+      },
+      "toneMovement": {
+        "neutral": 0.547217912336663,
+        "sandhi-rising": 4.920512664794622,
+        "tone-1-level": -1.9572469675007902,
+        "tone-2-rising": -2.68684152108273,
+        "tone-3-final": -3.559762984930021,
+        "tone-3-low": -11.310001696069751,
+        "tone-4-falling": -5.801498068575281
+      }
+    },
+    {
+      "characterErrorRate": 0.0,
+      "genderGroup": "male",
+      "identityConsistency": 0.8888611167123547,
+      "passed": false,
+      "reasons": [
+        "duration-outlier",
+        "tone-classification"
+      ],
+      "sid": 60,
+      "speaker": "zm_011",
+      "toneClassifier": {
+        "algorithm": "rbf-svc-v1",
+        "balancedAccuracy": 0.6484674329501916,
+        "c": 3.0,
+        "classified": 91,
+        "contrastClassified": 40,
+        "featureVersion": "aligned-pitch-v2",
+        "gamma": 0.03,
+        "tone2Tone3Accuracy": 0.8257575757575758
+      },
+      "toneMovement": {
+        "neutral": 1.501828653141338,
+        "sandhi-rising": 2.6696535189084827,
+        "tone-1-level": 1.5255204193250513,
+        "tone-2-rising": 1.0748582048275708,
+        "tone-3-final": -4.4941703656995085,
+        "tone-3-low": -6.820828836804406,
+        "tone-4-falling": -1.5112910938282127
+      }
+    },
+    {
+      "characterErrorRate": 0.018018018018018018,
+      "genderGroup": "male",
+      "identityConsistency": 0.8665207739614667,
+      "passed": false,
+      "reasons": [
+        "neutral-duration-too-long",
+        "tone-classification"
+      ],
+      "sid": 61,
+      "speaker": "zm_012",
+      "toneClassifier": {
+        "algorithm": "rbf-svc-v1",
+        "balancedAccuracy": 0.5331330546847788,
+        "c": 3.0,
+        "classified": 91,
+        "contrastClassified": 40,
+        "featureVersion": "aligned-pitch-v2",
+        "gamma": 0.03,
+        "tone2Tone3Accuracy": 0.8535353535353536
+      },
+      "toneMovement": {
+        "neutral": -0.7601867318804167,
+        "sandhi-rising": 3.875129721064919,
+        "tone-1-level": 1.5356933988120556,
+        "tone-2-rising": 2.9101167856011205,
+        "tone-3-final": -2.6810979331910527,
+        "tone-3-low": -7.680926852787309,
+        "tone-4-falling": -1.304886386266162
+      }
+    },
+    {
+      "characterErrorRate": 0.0,
+      "genderGroup": "male",
+      "identityConsistency": 0.8841901618702606,
+      "passed": false,
+      "reasons": [
+        "duration-outlier",
+        "tone-classification"
+      ],
+      "sid": 62,
+      "speaker": "zm_013",
+      "toneClassifier": {
+        "algorithm": "rbf-svc-v1",
+        "balancedAccuracy": 0.56173807035876,
+        "c": 3.0,
+        "classified": 91,
+        "contrastClassified": 40,
+        "featureVersion": "aligned-pitch-v2",
+        "gamma": 0.03,
+        "tone2Tone3Accuracy": 0.8762626262626263
+      },
+      "toneMovement": {
+        "neutral": -0.25424204129572914,
+        "sandhi-rising": 5.3941480689913135,
+        "tone-1-level": 0.012510593578307194,
+        "tone-2-rising": 2.1938589574909706,
+        "tone-3-final": -5.312179786269379,
+        "tone-3-low": -9.775897352981463,
+        "tone-4-falling": -3.852292925814723
+      }
+    },
+    {
+      "characterErrorRate": 0.06306306306306306,
+      "genderGroup": "male",
+      "identityConsistency": 0.8923287438236545,
+      "passed": false,
+      "reasons": [
+        "asr-diagnostic-target",
+        "tone-classification"
+      ],
+      "sid": 63,
+      "speaker": "zm_014",
+      "toneClassifier": {
+        "algorithm": "rbf-svc-v1",
+        "balancedAccuracy": 0.572884012539185,
+        "c": 3.0,
+        "classified": 91,
+        "contrastClassified": 40,
+        "featureVersion": "aligned-pitch-v2",
+        "gamma": 0.03,
+        "tone2Tone3Accuracy": 0.9772727272727273
+      },
+      "toneMovement": {
+        "neutral": 0.1715265327557347,
+        "sandhi-rising": 5.3647916382292955,
+        "tone-1-level": -0.23973164528437252,
+        "tone-2-rising": 1.2453060186771925,
+        "tone-3-final": -3.1789162013338466,
+        "tone-3-low": -9.172353392234434,
+        "tone-4-falling": -5.685822248623992
+      }
+    },
+    {
+      "characterErrorRate": 0.036036036036036036,
+      "genderGroup": "male",
+      "identityConsistency": 0.8954890280608435,
+      "passed": false,
+      "reasons": [
+        "asr-diagnostic-target",
+        "tone-classification"
+      ],
+      "sid": 64,
+      "speaker": "zm_015",
+      "toneClassifier": {
+        "algorithm": "rbf-svc-v1",
+        "balancedAccuracy": 0.5556426332288401,
+        "c": 3.0,
+        "classified": 91,
+        "contrastClassified": 40,
+        "featureVersion": "aligned-pitch-v2",
+        "gamma": 0.03,
+        "tone2Tone3Accuracy": 0.8535353535353536
+      },
+      "toneMovement": {
+        "neutral": -2.6547999704962493,
+        "sandhi-rising": 5.677904987293125,
+        "tone-1-level": 0.18764452561637768,
+        "tone-2-rising": 0.9475323607037964,
+        "tone-3-final": -9.180900028029932,
+        "tone-3-low": -9.281255968460885,
+        "tone-4-falling": -6.212557490007178
+      }
+    },
+    {
+      "characterErrorRate": 0.05405405405405406,
+      "genderGroup": "male",
+      "identityConsistency": 0.8786598929027694,
+      "passed": false,
+      "reasons": [
+        "asr-diagnostic-target",
+        "tone-classification"
+      ],
+      "sid": 65,
+      "speaker": "zm_016",
+      "toneClassifier": {
+        "algorithm": "rbf-svc-v1",
+        "balancedAccuracy": 0.6120254266805991,
+        "c": 3.0,
+        "classified": 91,
+        "contrastClassified": 40,
+        "featureVersion": "aligned-pitch-v2",
+        "gamma": 0.03,
+        "tone2Tone3Accuracy": 0.8535353535353536
+      },
+      "toneMovement": {
+        "neutral": -0.3018190419243467,
+        "sandhi-rising": 6.872225373342133,
+        "tone-1-level": 0.940048007027837,
+        "tone-2-rising": 5.721235524984788,
+        "tone-3-final": -5.827446711499512,
+        "tone-3-low": -11.423867807164362,
+        "tone-4-falling": -6.048748817103885
+      }
+    },
+    {
+      "characterErrorRate": 0.02702702702702703,
+      "genderGroup": "male",
+      "identityConsistency": 0.9053023020521329,
+      "passed": false,
+      "reasons": [
+        "asr-diagnostic-target",
+        "duration-outlier",
+        "neutral-duration-too-long",
+        "tone-1-not-level"
+      ],
+      "sid": 66,
+      "speaker": "zm_020",
+      "toneClassifier": {
+        "algorithm": "rbf-svc-v1",
+        "balancedAccuracy": 0.7782567049808429,
+        "c": 3.0,
+        "classified": 91,
+        "contrastClassified": 40,
+        "featureVersion": "aligned-pitch-v2",
+        "gamma": 0.03,
+        "tone2Tone3Accuracy": 0.9318181818181819
+      },
+      "toneMovement": {
+        "neutral": -4.412956913890433,
+        "sandhi-rising": 5.322916964656166,
+        "tone-1-level": 3.437902270308321,
+        "tone-2-rising": 7.361815564866159,
+        "tone-3-final": -6.394261259164356,
+        "tone-3-low": -9.511959764494172,
+        "tone-4-falling": -5.533642704234751
+      }
+    },
+    {
+      "characterErrorRate": 0.036036036036036036,
+      "genderGroup": "male",
+      "identityConsistency": 0.9110886983910638,
+      "passed": false,
+      "reasons": [
+        "neutral-duration-too-long",
+        "tone-classification"
+      ],
+      "sid": 67,
+      "speaker": "zm_025",
+      "toneClassifier": {
+        "algorithm": "rbf-svc-v1",
+        "balancedAccuracy": 0.5893416927899686,
+        "c": 3.0,
+        "classified": 91,
+        "contrastClassified": 40,
+        "featureVersion": "aligned-pitch-v2",
+        "gamma": 0.03,
+        "tone2Tone3Accuracy": 0.9090909090909092
+      },
+      "toneMovement": {
+        "neutral": -1.5908488893584973,
+        "sandhi-rising": 2.117193039511669,
+        "tone-1-level": -0.274847603012887,
+        "tone-2-rising": 1.8577450771204838,
+        "tone-3-final": -7.49751415304843,
+        "tone-3-low": -8.259410023472661,
+        "tone-4-falling": -3.7941197256343138
+      }
+    },
+    {
+      "characterErrorRate": 0.009009009009009009,
+      "genderGroup": "male",
+      "identityConsistency": 0.8845410148986055,
+      "passed": false,
+      "reasons": [
+        "neutral-duration-too-long",
+        "tone-2-rise-too-small",
+        "tone-2-tone-3-separation",
+        "tone-classification"
+      ],
+      "sid": 68,
+      "speaker": "zm_029",
+      "toneClassifier": {
+        "algorithm": "rbf-svc-v1",
+        "balancedAccuracy": 0.560518982932776,
+        "c": 3.0,
+        "classified": 91,
+        "contrastClassified": 40,
+        "featureVersion": "aligned-pitch-v2",
+        "gamma": 0.03,
+        "tone2Tone3Accuracy": 0.7297979797979798
+      },
+      "toneMovement": {
+        "neutral": -0.23418249600225138,
+        "sandhi-rising": 1.2770575136405355,
+        "tone-1-level": -1.2447117672756693,
+        "tone-2-rising": -0.08190394108291699,
+        "tone-3-final": -0.9362810359656812,
+        "tone-3-low": -4.5030307236557885,
+        "tone-4-falling": -2.4499776612056756
+      }
+    },
+    {
+      "characterErrorRate": 0.018018018018018018,
+      "genderGroup": "male",
+      "identityConsistency": 0.8851805474792547,
+      "passed": true,
+      "reasons": [],
+      "sid": 69,
+      "speaker": "zm_030",
+      "toneClassifier": {
+        "algorithm": "rbf-svc-v1",
+        "balancedAccuracy": 0.7052420759317312,
+        "c": 3.0,
+        "classified": 91,
+        "contrastClassified": 40,
+        "featureVersion": "aligned-pitch-v2",
+        "gamma": 0.03,
+        "tone2Tone3Accuracy": 0.8813131313131313
+      },
+      "toneMovement": {
+        "neutral": -0.8585268142307285,
+        "sandhi-rising": 4.8604799929439935,
+        "tone-1-level": 0.9882634154891683,
+        "tone-2-rising": 4.271354870003851,
+        "tone-3-final": -3.3752404270380687,
+        "tone-3-low": -9.356706380951849,
+        "tone-4-falling": -4.7760640101618925
+      }
+    },
+    {
+      "characterErrorRate": 0.05405405405405406,
+      "genderGroup": "male",
+      "identityConsistency": 0.9027933506174064,
+      "passed": false,
+      "reasons": [
+        "asr-diagnostic-target",
+        "neutral-duration-too-long",
+        "tone-2-rise-too-small",
+        "tone-classification"
+      ],
+      "sid": 70,
+      "speaker": "zm_031",
+      "toneClassifier": {
+        "algorithm": "rbf-svc-v1",
+        "balancedAccuracy": 0.5640456287008011,
+        "c": 3.0,
+        "classified": 91,
+        "contrastClassified": 40,
+        "featureVersion": "aligned-pitch-v2",
+        "gamma": 0.03,
+        "tone2Tone3Accuracy": 0.9090909090909092
+      },
+      "toneMovement": {
+        "neutral": -2.019608213606368,
+        "sandhi-rising": 4.192054304422328,
+        "tone-1-level": -0.9227481371323876,
+        "tone-2-rising": 0.18053904566266432,
+        "tone-3-final": -7.989541611506382,
+        "tone-3-low": -10.112823271348894,
+        "tone-4-falling": -7.727355581184536
+      }
+    },
+    {
+      "characterErrorRate": 0.036036036036036036,
+      "genderGroup": "male",
+      "identityConsistency": 0.902908910392032,
+      "passed": false,
+      "reasons": [
+        "asr-diagnostic-target",
+        "neutral-duration-too-long",
+        "tone-2-rise-too-small",
+        "tone-4-fall-too-small",
+        "tone-classification"
+      ],
+      "sid": 71,
+      "speaker": "zm_033",
+      "toneClassifier": {
+        "algorithm": "rbf-svc-v1",
+        "balancedAccuracy": 0.6284395680947406,
+        "c": 3.0,
+        "classified": 91,
+        "contrastClassified": 40,
+        "featureVersion": "aligned-pitch-v2",
+        "gamma": 0.03,
+        "tone2Tone3Accuracy": 0.8409090909090908
+      },
+      "toneMovement": {
+        "neutral": 0.6305482009529371,
+        "sandhi-rising": 2.2087990278029537,
+        "tone-1-level": 1.6830770684062557,
+        "tone-2-rising": 0.6237177111794416,
+        "tone-3-final": -1.5026362358591303,
+        "tone-3-low": -4.415562270559127,
+        "tone-4-falling": -0.832180396921224
+      }
+    },
+    {
+      "characterErrorRate": 0.04504504504504504,
+      "genderGroup": "male",
+      "identityConsistency": 0.8846776799018388,
+      "passed": false,
+      "reasons": [
+        "asr-diagnostic-target",
+        "neutral-duration-too-long",
+        "tone-classification"
+      ],
+      "sid": 72,
+      "speaker": "zm_034",
+      "toneClassifier": {
+        "algorithm": "rbf-svc-v1",
+        "balancedAccuracy": 0.5977446882619296,
+        "c": 3.0,
+        "classified": 91,
+        "contrastClassified": 40,
+        "featureVersion": "aligned-pitch-v2",
+        "gamma": 0.03,
+        "tone2Tone3Accuracy": 0.8636363636363636
+      },
+      "toneMovement": {
+        "neutral": -1.3790225485525838,
+        "sandhi-rising": 2.202659421769056,
+        "tone-1-level": 0.6960019042646461,
+        "tone-2-rising": 1.0765111264614244,
+        "tone-3-final": -5.056596841760811,
+        "tone-3-low": -4.0090997421668835,
+        "tone-4-falling": -4.129062094525619
+      }
+    },
+    {
+      "characterErrorRate": 0.05405405405405406,
+      "genderGroup": "male",
+      "identityConsistency": 0.8821117119765229,
+      "passed": false,
+      "reasons": [
+        "asr-diagnostic-target",
+        "tone-classification"
+      ],
+      "sid": 73,
+      "speaker": "zm_035",
+      "toneClassifier": {
+        "algorithm": "rbf-svc-v1",
+        "balancedAccuracy": 0.5148467432950192,
+        "c": 3.0,
+        "classified": 91,
+        "contrastClassified": 40,
+        "featureVersion": "aligned-pitch-v2",
+        "gamma": 0.03,
+        "tone2Tone3Accuracy": 0.8636363636363636
+      },
+      "toneMovement": {
+        "neutral": 0.05411966756569342,
+        "sandhi-rising": 5.813084997812538,
+        "tone-1-level": 0.11721818676466889,
+        "tone-2-rising": 4.574523541728775,
+        "tone-3-final": -6.125048969749063,
+        "tone-3-low": -8.596257394142683,
+        "tone-4-falling": -7.209165083483281
+      }
+    },
+    {
+      "characterErrorRate": 0.036036036036036036,
+      "genderGroup": "male",
+      "identityConsistency": 0.9009216982254724,
+      "passed": false,
+      "reasons": [
+        "asr-diagnostic-target",
+        "neutral-duration-too-long",
+        "tone-1-not-level",
+        "tone-classification"
+      ],
+      "sid": 74,
+      "speaker": "zm_037",
+      "toneClassifier": {
+        "algorithm": "rbf-svc-v1",
+        "balancedAccuracy": 0.5303901079763148,
+        "c": 3.0,
+        "classified": 91,
+        "contrastClassified": 40,
+        "featureVersion": "aligned-pitch-v2",
+        "gamma": 0.03,
+        "tone2Tone3Accuracy": 0.8813131313131313
+      },
+      "toneMovement": {
+        "neutral": 5.536024033938514,
+        "sandhi-rising": 6.524776376449452,
+        "tone-1-level": -2.4342233725190248,
+        "tone-2-rising": 1.3179770114750866,
+        "tone-3-final": 11.084176136894943,
+        "tone-3-low": -12.630196840866928,
+        "tone-4-falling": -9.327658213545192
+      }
+    },
+    {
+      "characterErrorRate": 0.018018018018018018,
+      "genderGroup": "male",
+      "identityConsistency": 0.8987118456794441,
+      "passed": false,
+      "reasons": [
+        "tone-1-not-level"
+      ],
+      "sid": 75,
+      "speaker": "zm_041",
+      "toneClassifier": {
+        "algorithm": "rbf-svc-v1",
+        "balancedAccuracy": 0.7271421107628004,
+        "c": 3.0,
+        "classified": 91,
+        "contrastClassified": 40,
+        "featureVersion": "aligned-pitch-v2",
+        "gamma": 0.03,
+        "tone2Tone3Accuracy": 0.898989898989899
+      },
+      "toneMovement": {
+        "neutral": -3.8820735312433143,
+        "sandhi-rising": 4.48120921021755,
+        "tone-1-level": 2.6511844090330285,
+        "tone-2-rising": 4.43668116908262,
+        "tone-3-final": -11.625648219436611,
+        "tone-3-low": -7.056163633384076,
+        "tone-4-falling": -2.571253306725829
+      }
+    },
+    {
+      "characterErrorRate": 0.018018018018018018,
+      "genderGroup": "male",
+      "identityConsistency": 0.8799849812351576,
+      "passed": false,
+      "reasons": [
+        "neutral-duration-too-long",
+        "tone-classification"
+      ],
+      "sid": 76,
+      "speaker": "zm_045",
+      "toneClassifier": {
+        "algorithm": "rbf-svc-v1",
+        "balancedAccuracy": 0.6030128874956461,
+        "c": 3.0,
+        "classified": 91,
+        "contrastClassified": 40,
+        "featureVersion": "aligned-pitch-v2",
+        "gamma": 0.03,
+        "tone2Tone3Accuracy": 0.8257575757575758
+      },
+      "toneMovement": {
+        "neutral": 0.3426954389214103,
+        "sandhi-rising": 3.436718436498797,
+        "tone-1-level": 1.5837517818466296,
+        "tone-2-rising": 1.861870216277886,
+        "tone-3-final": -9.870892823727608,
+        "tone-3-low": -9.464900126169335,
+        "tone-4-falling": -3.5109142379329263
+      }
+    },
+    {
+      "characterErrorRate": 0.018018018018018018,
+      "genderGroup": "male",
+      "identityConsistency": 0.9000909968077828,
+      "passed": false,
+      "reasons": [
+        "neutral-duration-too-long",
+        "tone-2-rise-too-small",
+        "tone-classification"
+      ],
+      "sid": 77,
+      "speaker": "zm_050",
+      "toneClassifier": {
+        "algorithm": "rbf-svc-v1",
+        "balancedAccuracy": 0.5969174503657262,
+        "c": 3.0,
+        "classified": 91,
+        "contrastClassified": 40,
+        "featureVersion": "aligned-pitch-v2",
+        "gamma": 0.03,
+        "tone2Tone3Accuracy": 0.8813131313131313
+      },
+      "toneMovement": {
+        "neutral": -1.3495382614992124,
+        "sandhi-rising": 3.7859501019370647,
+        "tone-1-level": 1.2299378116565638,
+        "tone-2-rising": 0.780707539217687,
+        "tone-3-final": -4.235962021134343,
+        "tone-3-low": -11.91100184917971,
+        "tone-4-falling": -2.3963146178877324
+      }
+    },
+    {
+      "characterErrorRate": 0.036036036036036036,
+      "genderGroup": "male",
+      "identityConsistency": 0.8958087674506985,
+      "passed": false,
+      "reasons": [
+        "neutral-duration-too-long"
+      ],
+      "sid": 78,
+      "speaker": "zm_052",
+      "toneClassifier": {
+        "algorithm": "rbf-svc-v1",
+        "balancedAccuracy": 0.7105102751654475,
+        "c": 3.0,
+        "classified": 91,
+        "contrastClassified": 40,
+        "featureVersion": "aligned-pitch-v2",
+        "gamma": 0.03,
+        "tone2Tone3Accuracy": 0.9545454545454546
+      },
+      "toneMovement": {
+        "neutral": -2.7184344494291004,
+        "sandhi-rising": 2.4897609346686878,
+        "tone-1-level": 0.5576777236132671,
+        "tone-2-rising": 4.391483670924707,
+        "tone-3-final": -4.628279833385879,
+        "tone-3-low": -7.636605171089371,
+        "tone-4-falling": -5.055598487338944
+      }
+    },
+    {
+      "characterErrorRate": 0.02702702702702703,
+      "genderGroup": "male",
+      "identityConsistency": 0.903762229211349,
+      "passed": false,
+      "reasons": [
+        "neutral-duration-too-long",
+        "tone-classification"
+      ],
+      "sid": 79,
+      "speaker": "zm_053",
+      "toneClassifier": {
+        "algorithm": "rbf-svc-v1",
+        "balancedAccuracy": 0.6513845350052246,
+        "c": 3.0,
+        "classified": 91,
+        "contrastClassified": 40,
+        "featureVersion": "aligned-pitch-v2",
+        "gamma": 0.03,
+        "tone2Tone3Accuracy": 0.904040404040404
+      },
+      "toneMovement": {
+        "neutral": -1.4098820795964642,
+        "sandhi-rising": 4.877086778089534,
+        "tone-1-level": 1.4282222903362012,
+        "tone-2-rising": 4.006391235375851,
+        "tone-3-final": -4.488268167968691,
+        "tone-3-low": -9.085000316673932,
+        "tone-4-falling": -2.9722445284587415
+      }
+    },
+    {
+      "characterErrorRate": 0.02702702702702703,
+      "genderGroup": "male",
+      "identityConsistency": 0.907367682833983,
+      "passed": false,
+      "reasons": [
+        "neutral-duration-too-long",
+        "tone-classification"
+      ],
+      "sid": 80,
+      "speaker": "zm_054",
+      "toneClassifier": {
+        "algorithm": "rbf-svc-v1",
+        "balancedAccuracy": 0.5234674329501916,
+        "c": 3.0,
+        "classified": 91,
+        "contrastClassified": 40,
+        "featureVersion": "aligned-pitch-v2",
+        "gamma": 0.03,
+        "tone2Tone3Accuracy": 0.8813131313131313
+      },
+      "toneMovement": {
+        "neutral": -0.8089519343933169,
+        "sandhi-rising": 2.7655785874605954,
+        "tone-1-level": 1.7475671371775832,
+        "tone-2-rising": 1.8202799602807822,
+        "tone-3-final": -3.5589195580971875,
+        "tone-3-low": -8.582311010931932,
+        "tone-4-falling": -3.529644989362268
+      }
+    },
+    {
+      "characterErrorRate": 0.05405405405405406,
+      "genderGroup": "male",
+      "identityConsistency": 0.8656332444475239,
+      "passed": false,
+      "reasons": [
+        "asr-diagnostic-target",
+        "neutral-duration-too-long",
+        "tone-classification"
+      ],
+      "sid": 81,
+      "speaker": "zm_055",
+      "toneClassifier": {
+        "algorithm": "rbf-svc-v1",
+        "balancedAccuracy": 0.6051027516544758,
+        "c": 3.0,
+        "classified": 91,
+        "contrastClassified": 40,
+        "featureVersion": "aligned-pitch-v2",
+        "gamma": 0.03,
+        "tone2Tone3Accuracy": 0.8585858585858586
+      },
+      "toneMovement": {
+        "neutral": 0.9791038509773315,
+        "sandhi-rising": 2.6818893266016133,
+        "tone-1-level": 1.4985787385221823,
+        "tone-2-rising": 2.1919499767024355,
+        "tone-3-final": -1.8845781588051107,
+        "tone-3-low": -9.356520591917825,
+        "tone-4-falling": -4.2964778255797995
+      }
+    },
+    {
+      "characterErrorRate": 0.036036036036036036,
+      "genderGroup": "male",
+      "identityConsistency": 0.8922083159017721,
+      "passed": false,
+      "reasons": [
+        "asr-diagnostic-target",
+        "neutral-duration-too-long",
+        "tone-1-not-level",
+        "tone-classification"
+      ],
+      "sid": 82,
+      "speaker": "zm_056",
+      "toneClassifier": {
+        "algorithm": "rbf-svc-v1",
+        "balancedAccuracy": 0.6370602577499129,
+        "c": 3.0,
+        "classified": 91,
+        "contrastClassified": 40,
+        "featureVersion": "aligned-pitch-v2",
+        "gamma": 0.03,
+        "tone2Tone3Accuracy": 0.9090909090909092
+      },
+      "toneMovement": {
+        "neutral": 2.3174118821382805,
+        "sandhi-rising": 6.633201810685016,
+        "tone-1-level": 3.077205544079236,
+        "tone-2-rising": 3.8513322055238675,
+        "tone-3-final": -3.418051174693135,
+        "tone-3-low": -11.67288628669001,
+        "tone-4-falling": -4.343047695477885
+      }
+    },
+    {
+      "characterErrorRate": 0.02702702702702703,
+      "genderGroup": "male",
+      "identityConsistency": 0.8916355847609363,
+      "passed": false,
+      "reasons": [
+        "tone-classification"
+      ],
+      "sid": 83,
+      "speaker": "zm_057",
+      "toneClassifier": {
+        "algorithm": "rbf-svc-v1",
+        "balancedAccuracy": 0.5503744339951236,
+        "c": 3.0,
+        "classified": 91,
+        "contrastClassified": 40,
+        "featureVersion": "aligned-pitch-v2",
+        "gamma": 0.03,
+        "tone2Tone3Accuracy": 0.9545454545454546
+      },
+      "toneMovement": {
+        "neutral": -1.5357809058966723,
+        "sandhi-rising": 2.610901992617414,
+        "tone-1-level": 1.4174236995213647,
+        "tone-2-rising": 2.070183650498933,
+        "tone-3-final": -5.438145430782955,
+        "tone-3-low": -10.523782249472779,
+        "tone-4-falling": -3.9982259239412343
+      }
+    },
+    {
+      "characterErrorRate": 0.02702702702702703,
+      "genderGroup": "male",
+      "identityConsistency": 0.8838431063644104,
+      "passed": false,
+      "reasons": [
+        "asr-diagnostic-target",
+        "neutral-duration-too-long",
+        "tone-classification"
+      ],
+      "sid": 84,
+      "speaker": "zm_058",
+      "toneClassifier": {
+        "algorithm": "rbf-svc-v1",
+        "balancedAccuracy": 0.6000522466039707,
+        "c": 3.0,
+        "classified": 91,
+        "contrastClassified": 40,
+        "featureVersion": "aligned-pitch-v2",
+        "gamma": 0.03,
+        "tone2Tone3Accuracy": 0.8585858585858586
+      },
+      "toneMovement": {
+        "neutral": -3.1860178354183546,
+        "sandhi-rising": 4.396798515799567,
+        "tone-1-level": 0.5582555165676535,
+        "tone-2-rising": 2.678319828071432,
+        "tone-3-final": -4.964804422031163,
+        "tone-3-low": -11.54823938379376,
+        "tone-4-falling": -5.954985555583086
+      }
+    },
+    {
+      "characterErrorRate": 0.036036036036036036,
+      "genderGroup": "male",
+      "identityConsistency": 0.8886741936034221,
+      "passed": false,
+      "reasons": [
+        "asr-diagnostic-target",
+        "neutral-duration-too-long",
+        "tone-1-not-level",
+        "tone-2-rise-too-small",
+        "tone-classification"
+      ],
+      "sid": 85,
+      "speaker": "zm_061",
+      "toneClassifier": {
+        "algorithm": "rbf-svc-v1",
+        "balancedAccuracy": 0.6389759665621735,
+        "c": 3.0,
+        "classified": 91,
+        "contrastClassified": 40,
+        "featureVersion": "aligned-pitch-v2",
+        "gamma": 0.03,
+        "tone2Tone3Accuracy": 0.8358585858585859
+      },
+      "toneMovement": {
+        "neutral": -2.635072112738051,
+        "sandhi-rising": 3.4258572103330778,
+        "tone-1-level": 2.661093785515778,
+        "tone-2-rising": 0.6932585481067246,
+        "tone-3-final": -12.053858961091706,
+        "tone-3-low": -12.346235776411573,
+        "tone-4-falling": -5.1722591098562845
+      }
+    },
+    {
+      "characterErrorRate": 0.04504504504504504,
+      "genderGroup": "male",
+      "identityConsistency": 0.8925289492514284,
+      "passed": false,
+      "reasons": [
+        "asr-diagnostic-target",
+        "neutral-duration-too-long",
+        "tone-1-not-level",
+        "tone-classification"
+      ],
+      "sid": 86,
+      "speaker": "zm_062",
+      "toneClassifier": {
+        "algorithm": "rbf-svc-v1",
+        "balancedAccuracy": 0.5663967258794845,
+        "c": 3.0,
+        "classified": 91,
+        "contrastClassified": 40,
+        "featureVersion": "aligned-pitch-v2",
+        "gamma": 0.03,
+        "tone2Tone3Accuracy": 0.9090909090909092
+      },
+      "toneMovement": {
+        "neutral": -2.298500841160383,
+        "sandhi-rising": 4.525338763643134,
+        "tone-1-level": 1.8000496180725918,
+        "tone-2-rising": 3.1170744901388296,
+        "tone-3-final": -6.061142969167282,
+        "tone-3-low": -9.708571459429969,
+        "tone-4-falling": -4.611450672621494
+      }
+    },
+    {
+      "characterErrorRate": 0.018018018018018018,
+      "genderGroup": "male",
+      "identityConsistency": 0.8769996992826206,
+      "passed": false,
+      "reasons": [
+        "neutral-duration-too-long",
+        "tone-classification"
+      ],
+      "sid": 87,
+      "speaker": "zm_063",
+      "toneClassifier": {
+        "algorithm": "rbf-svc-v1",
+        "balancedAccuracy": 0.577324973876698,
+        "c": 3.0,
+        "classified": 91,
+        "contrastClassified": 40,
+        "featureVersion": "aligned-pitch-v2",
+        "gamma": 0.03,
+        "tone2Tone3Accuracy": 0.898989898989899
+      },
+      "toneMovement": {
+        "neutral": -2.4543616887589508,
+        "sandhi-rising": 1.395642540888165,
+        "tone-1-level": 1.2567052098869524,
+        "tone-2-rising": 1.6649751825353647,
+        "tone-3-final": -6.536400086238599,
+        "tone-3-low": -8.581369843977189,
+        "tone-4-falling": -3.175994375905301
+      }
+    },
+    {
+      "characterErrorRate": 0.036036036036036036,
+      "genderGroup": "male",
+      "identityConsistency": 0.8911822345525777,
+      "passed": false,
+      "reasons": [
+        "asr-diagnostic-target",
+        "neutral-duration-too-long",
+        "tone-classification"
+      ],
+      "sid": 88,
+      "speaker": "zm_064",
+      "toneClassifier": {
+        "algorithm": "rbf-svc-v1",
+        "balancedAccuracy": 0.4624259839777081,
+        "c": 3.0,
+        "classified": 91,
+        "contrastClassified": 40,
+        "featureVersion": "aligned-pitch-v2",
+        "gamma": 0.03,
+        "tone2Tone3Accuracy": 0.904040404040404
+      },
+      "toneMovement": {
+        "neutral": -1.6425195091902047,
+        "sandhi-rising": 4.714620898161812,
+        "tone-1-level": 0.81373589562698,
+        "tone-2-rising": 0.8671923497785752,
+        "tone-3-final": -4.29735004491252,
+        "tone-3-low": -13.733882417003489,
+        "tone-4-falling": -5.181977589742289
+      }
+    },
+    {
+      "characterErrorRate": 0.036036036036036036,
+      "genderGroup": "male",
+      "identityConsistency": 0.8729061433358754,
+      "passed": false,
+      "reasons": [
+        "asr-diagnostic-target",
+        "neutral-duration-too-long",
+        "tone-1-not-level",
+        "tone-classification"
+      ],
+      "sid": 89,
+      "speaker": "zm_065",
+      "toneClassifier": {
+        "algorithm": "rbf-svc-v1",
+        "balancedAccuracy": 0.5897335423197492,
+        "c": 3.0,
+        "classified": 91,
+        "contrastClassified": 40,
+        "featureVersion": "aligned-pitch-v2",
+        "gamma": 0.03,
+        "tone2Tone3Accuracy": 0.9772727272727273
+      },
+      "toneMovement": {
+        "neutral": -2.246794323127652,
+        "sandhi-rising": 3.0774096612915756,
+        "tone-1-level": 1.8330924934464754,
+        "tone-2-rising": 1.3961583117679055,
+        "tone-3-final": -4.604201531039758,
+        "tone-3-low": -7.33247902863631,
+        "tone-4-falling": -3.812337067256962
+      }
+    },
+    {
+      "characterErrorRate": 0.036036036036036036,
+      "genderGroup": "male",
+      "identityConsistency": 0.8768830798733034,
+      "passed": false,
+      "reasons": [
+        "asr-diagnostic-target",
+        "neutral-duration-too-long",
+        "tone-classification"
+      ],
+      "sid": 90,
+      "speaker": "zm_066",
+      "toneClassifier": {
+        "algorithm": "rbf-svc-v1",
+        "balancedAccuracy": 0.6960118425635666,
+        "c": 3.0,
+        "classified": 91,
+        "contrastClassified": 40,
+        "featureVersion": "aligned-pitch-v2",
+        "gamma": 0.03,
+        "tone2Tone3Accuracy": 0.9494949494949495
+      },
+      "toneMovement": {
+        "neutral": -1.2710914386936238,
+        "sandhi-rising": 4.117387637898055,
+        "tone-1-level": 1.532734546093769,
+        "tone-2-rising": 2.8454880864778005,
+        "tone-3-final": -5.568525352069406,
+        "tone-3-low": -7.379844158813187,
+        "tone-4-falling": -5.36940347764731
+      }
+    },
+    {
+      "characterErrorRate": 0.018018018018018018,
+      "genderGroup": "male",
+      "identityConsistency": 0.8864155817726528,
+      "passed": false,
+      "reasons": [
+        "neutral-duration-too-long",
+        "tone-1-not-level",
+        "tone-classification"
+      ],
+      "sid": 91,
+      "speaker": "zm_068",
+      "toneClassifier": {
+        "algorithm": "rbf-svc-v1",
+        "balancedAccuracy": 0.6480320445837686,
+        "c": 3.0,
+        "classified": 91,
+        "contrastClassified": 40,
+        "featureVersion": "aligned-pitch-v2",
+        "gamma": 0.03,
+        "tone2Tone3Accuracy": 0.904040404040404
+      },
+      "toneMovement": {
+        "neutral": -1.8257214760844036,
+        "sandhi-rising": 3.404761029700307,
+        "tone-1-level": 1.9489334858082508,
+        "tone-2-rising": 2.707907681612088,
+        "tone-3-final": -6.561891359833938,
+        "tone-3-low": -8.65476706384948,
+        "tone-4-falling": -3.641637249792659
+      }
+    },
+    {
+      "characterErrorRate": 0.018018018018018018,
+      "genderGroup": "male",
+      "identityConsistency": 0.891108415660421,
+      "passed": false,
+      "reasons": [
+        "neutral-duration-too-long",
+        "tone-classification"
+      ],
+      "sid": 92,
+      "speaker": "zm_069",
+      "toneClassifier": {
+        "algorithm": "rbf-svc-v1",
+        "balancedAccuracy": 0.657697666318356,
+        "c": 3.0,
+        "classified": 91,
+        "contrastClassified": 40,
+        "featureVersion": "aligned-pitch-v2",
+        "gamma": 0.03,
+        "tone2Tone3Accuracy": 0.9318181818181819
+      },
+      "toneMovement": {
+        "neutral": -1.4688015406685722,
+        "sandhi-rising": 3.831768992821882,
+        "tone-1-level": 1.5309163329086655,
+        "tone-2-rising": 2.0538536714093816,
+        "tone-3-final": -3.7904308270457943,
+        "tone-3-low": -8.361894694942418,
+        "tone-4-falling": -2.6545995811248915
+      }
+    },
+    {
+      "characterErrorRate": 0.02702702702702703,
+      "genderGroup": "male",
+      "identityConsistency": 0.8955118271759215,
+      "passed": false,
+      "reasons": [
+        "duration-outlier",
+        "tone-classification"
+      ],
+      "sid": 93,
+      "speaker": "zm_080",
+      "toneClassifier": {
+        "algorithm": "rbf-svc-v1",
+        "balancedAccuracy": 0.6017067223963776,
+        "c": 3.0,
+        "classified": 91,
+        "contrastClassified": 40,
+        "featureVersion": "aligned-pitch-v2",
+        "gamma": 0.03,
+        "tone2Tone3Accuracy": 0.8762626262626263
+      },
+      "toneMovement": {
+        "neutral": -1.8022949985405816,
+        "sandhi-rising": 4.090495249309271,
+        "tone-1-level": -0.06562068909547847,
+        "tone-2-rising": 3.462586654662701,
+        "tone-3-final": 0.9234736868135247,
+        "tone-3-low": -6.687757552386495,
+        "tone-4-falling": -4.877668327344974
+      }
+    },
+    {
+      "characterErrorRate": 0.018018018018018018,
+      "genderGroup": "male",
+      "identityConsistency": 0.9121282794397992,
+      "passed": false,
+      "reasons": [
+        "tone-classification"
+      ],
+      "sid": 94,
+      "speaker": "zm_081",
+      "toneClassifier": {
+        "algorithm": "rbf-svc-v1",
+        "balancedAccuracy": 0.6374956461163357,
+        "c": 3.0,
+        "classified": 91,
+        "contrastClassified": 40,
+        "featureVersion": "aligned-pitch-v2",
+        "gamma": 0.03,
+        "tone2Tone3Accuracy": 0.8813131313131313
+      },
+      "toneMovement": {
+        "neutral": -1.3403129788840324,
+        "sandhi-rising": 4.094733133446894,
+        "tone-1-level": 1.42762354983752,
+        "tone-2-rising": 2.7852401636695028,
+        "tone-3-final": -5.462394400749357,
+        "tone-3-low": -9.407781586300468,
+        "tone-4-falling": -2.1967145409965347
+      }
+    },
+    {
+      "characterErrorRate": 0.02702702702702703,
+      "genderGroup": "male",
+      "identityConsistency": 0.8920044756636685,
+      "passed": false,
+      "reasons": [
+        "asr-diagnostic-target",
+        "neutral-duration-too-long",
+        "tone-2-rise-too-small",
+        "tone-2-tone-3-separation",
+        "tone-classification"
+      ],
+      "sid": 95,
+      "speaker": "zm_082",
+      "toneClassifier": {
+        "algorithm": "rbf-svc-v1",
+        "balancedAccuracy": 0.5407088122605364,
+        "c": 3.0,
+        "classified": 91,
+        "contrastClassified": 40,
+        "featureVersion": "aligned-pitch-v2",
+        "gamma": 0.03,
+        "tone2Tone3Accuracy": 0.7297979797979798
+      },
+      "toneMovement": {
+        "neutral": -1.3127800946672679,
+        "sandhi-rising": 3.2062692843355407,
+        "tone-1-level": 0.23441543793826192,
+        "tone-2-rising": -0.6342176466988789,
+        "tone-3-final": -4.620165410306441,
+        "tone-3-low": -10.19368557966325,
+        "tone-4-falling": -2.757792107652154
+      }
+    },
+    {
+      "characterErrorRate": 0.018018018018018018,
+      "genderGroup": "male",
+      "identityConsistency": 0.8995816458315644,
+      "passed": true,
+      "reasons": [],
+      "sid": 96,
+      "speaker": "zm_089",
+      "toneClassifier": {
+        "algorithm": "rbf-svc-v1",
+        "balancedAccuracy": 0.710727969348659,
+        "c": 3.0,
+        "classified": 91,
+        "contrastClassified": 40,
+        "featureVersion": "aligned-pitch-v2",
+        "gamma": 0.03,
+        "tone2Tone3Accuracy": 0.904040404040404
+      },
+      "toneMovement": {
+        "neutral": -1.5087483156057573,
+        "sandhi-rising": 2.830756110083737,
+        "tone-1-level": 1.2268381710876248,
+        "tone-2-rising": 3.04685833011931,
+        "tone-3-final": -5.703409125229779,
+        "tone-3-low": -11.036994357988796,
+        "tone-4-falling": -2.4802102469074114
+      }
+    },
+    {
+      "characterErrorRate": 0.018018018018018018,
+      "genderGroup": "male",
+      "identityConsistency": 0.8867912621485348,
+      "passed": false,
+      "reasons": [
+        "neutral-duration-too-long",
+        "tone-classification"
+      ],
+      "sid": 97,
+      "speaker": "zm_091",
+      "toneClassifier": {
+        "algorithm": "rbf-svc-v1",
+        "balancedAccuracy": 0.6366684082201324,
+        "c": 3.0,
+        "classified": 91,
+        "contrastClassified": 40,
+        "featureVersion": "aligned-pitch-v2",
+        "gamma": 0.03,
+        "tone2Tone3Accuracy": 0.8535353535353536
+      },
+      "toneMovement": {
+        "neutral": -1.4003989709734554,
+        "sandhi-rising": 3.935250044195385,
+        "tone-1-level": 1.4213443749510315,
+        "tone-2-rising": 1.2009439837068836,
+        "tone-3-final": -6.219240084524053,
+        "tone-3-low": -8.679900714492117,
+        "tone-4-falling": -3.0250922962962647
+      }
+    },
+    {
+      "characterErrorRate": 0.02702702702702703,
+      "genderGroup": "male",
+      "identityConsistency": 0.9040277147992253,
+      "passed": false,
+      "reasons": [
+        "neutral-duration-too-long",
+        "tone-4-fall-too-small",
+        "tone-classification"
+      ],
+      "sid": 98,
+      "speaker": "zm_095",
+      "toneClassifier": {
+        "algorithm": "rbf-svc-v1",
+        "balancedAccuracy": 0.6255224660397074,
+        "c": 3.0,
+        "classified": 91,
+        "contrastClassified": 40,
+        "featureVersion": "aligned-pitch-v2",
+        "gamma": 0.03,
+        "tone2Tone3Accuracy": 0.904040404040404
+      },
+      "toneMovement": {
+        "neutral": 0.8738919037197022,
+        "sandhi-rising": 2.254436500257693,
+        "tone-1-level": 0.33678673180150653,
+        "tone-2-rising": 1.0129407485611654,
+        "tone-3-final": -4.162517728082767,
+        "tone-3-low": -7.289412412504829,
+        "tone-4-falling": -0.9143513528080867
+      }
+    },
+    {
+      "characterErrorRate": 0.018018018018018018,
+      "genderGroup": "male",
+      "identityConsistency": 0.8941446200944374,
+      "passed": false,
+      "reasons": [
+        "asr-diagnostic-target",
+        "tone-2-rise-too-small",
+        "tone-classification"
+      ],
+      "sid": 99,
+      "speaker": "zm_096",
+      "toneClassifier": {
+        "algorithm": "rbf-svc-v1",
+        "balancedAccuracy": 0.5150644374782306,
+        "c": 3.0,
+        "classified": 91,
+        "contrastClassified": 40,
+        "featureVersion": "aligned-pitch-v2",
+        "gamma": 0.03,
+        "tone2Tone3Accuracy": 0.9494949494949495
+      },
+      "toneMovement": {
+        "neutral": -1.1401152695943892,
+        "sandhi-rising": 5.047746454120883,
+        "tone-1-level": 0.8583825215143417,
+        "tone-2-rising": 0.7463425612540462,
+        "tone-3-final": -9.797488459201888,
+        "tone-3-low": -9.589196851356633,
+        "tone-4-falling": -3.644251712533112
+      }
+    },
+    {
+      "characterErrorRate": 0.0,
+      "genderGroup": "male",
+      "identityConsistency": 0.9083391586971986,
+      "passed": false,
+      "reasons": [
+        "tone-classification"
+      ],
+      "sid": 100,
+      "speaker": "zm_097",
+      "toneClassifier": {
+        "algorithm": "rbf-svc-v1",
+        "balancedAccuracy": 0.5840734935562522,
+        "c": 3.0,
+        "classified": 91,
+        "contrastClassified": 40,
+        "featureVersion": "aligned-pitch-v2",
+        "gamma": 0.03,
+        "tone2Tone3Accuracy": 0.7929292929292929
+      },
+      "toneMovement": {
+        "neutral": -1.4877843337904721,
+        "sandhi-rising": 5.293943075241536,
+        "tone-1-level": 0.7313534472740493,
+        "tone-2-rising": 2.9720919627753357,
+        "tone-3-final": -4.122528825310319,
+        "tone-3-low": -8.450463355891856,
+        "tone-4-falling": -2.605132350182515
+      }
+    },
+    {
+      "characterErrorRate": 0.018018018018018018,
+      "genderGroup": "male",
+      "identityConsistency": 0.9090689586094985,
+      "passed": false,
+      "reasons": [
+        "tone-classification"
+      ],
+      "sid": 101,
+      "speaker": "zm_098",
+      "toneClassifier": {
+        "algorithm": "rbf-svc-v1",
+        "balancedAccuracy": 0.6095001741553465,
+        "c": 3.0,
+        "classified": 91,
+        "contrastClassified": 40,
+        "featureVersion": "aligned-pitch-v2",
+        "gamma": 0.03,
+        "tone2Tone3Accuracy": 0.9267676767676767
+      },
+      "toneMovement": {
+        "neutral": -1.1793580074176546,
+        "sandhi-rising": 3.1574715163038576,
+        "tone-1-level": 0.9035446072809297,
+        "tone-2-rising": 1.6314802922896288,
+        "tone-3-final": -3.607141279048369,
+        "tone-3-low": -7.404786847587779,
+        "tone-4-falling": -2.7639894605345887
+      }
+    },
+    {
+      "characterErrorRate": 0.009009009009009009,
+      "genderGroup": "male",
+      "identityConsistency": 0.8878605394813868,
+      "passed": true,
+      "reasons": [],
+      "sid": 102,
+      "speaker": "zm_100",
+      "toneClassifier": {
+        "algorithm": "rbf-svc-v1",
+        "balancedAccuracy": 0.7096830372692442,
+        "c": 3.0,
+        "classified": 91,
+        "contrastClassified": 40,
+        "featureVersion": "aligned-pitch-v2",
+        "gamma": 0.03,
+        "tone2Tone3Accuracy": 0.8813131313131313
+      },
+      "toneMovement": {
+        "neutral": -1.5058193486295437,
+        "sandhi-rising": 4.6316662668923385,
+        "tone-1-level": 0.3222442255607252,
+        "tone-2-rising": 5.4008361693839255,
+        "tone-3-final": -6.407468308932193,
+        "tone-3-low": -7.19881836827321,
+        "tone-4-falling": -5.382445848995459
+      }
+    }
+  ],
+  "thresholdVersion": "tone-gates-v3",
+  "version": "quality-gates-v2"
+}

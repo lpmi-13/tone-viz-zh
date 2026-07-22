@@ -1,0 +1,2317 @@
+{
+  "version": 1,
+  "generatedAt": "2026-07-22T00:00:00Z",
+  "fixture": false,
+  "annotationStatus": "automatic-unreviewed",
+  "g2pVersions": {
+    "misaki": "0.8.2",
+    "pypinyin": "0.53.0"
+  },
+  "sandhiRuleVersion": "mandarin-surface-v1",
+  "phrases": [
+    {
+      "id": "hello",
+      "hanzi": "你好",
+      "translation": "Hello.",
+      "topic": "greetings",
+      "words": [
+        {
+          "hanzi": "你好",
+          "pinyin": "ni3 hao3"
+        }
+      ],
+      "g2p": {
+        "misaki": [
+          "ni3",
+          "hao3"
+        ],
+        "pypinyin": [
+          "ni3",
+          "hao3"
+        ],
+        "misakiPhonemeEvidence": "ni↓xau↓",
+        "mode": "live"
+      }
+    },
+    {
+      "id": "how-are-you",
+      "hanzi": "你好吗",
+      "translation": "How are you?",
+      "topic": "greetings",
+      "words": [
+        {
+          "hanzi": "你好",
+          "pinyin": "ni3 hao3"
+        },
+        {
+          "hanzi": "吗",
+          "pinyin": "ma5"
+        }
+      ],
+      "g2p": {
+        "misaki": [
+          "ni3",
+          "hao3",
+          "ma5"
+        ],
+        "pypinyin": [
+          "ni3",
+          "hao3",
+          "ma5"
+        ],
+        "misakiPhonemeEvidence": "ni↓xau↓ ma",
+        "mode": "live"
+      }
+    },
+    {
+      "id": "i-am-well",
+      "hanzi": "感觉非常好",
+      "translation": "I feel very well.",
+      "topic": "greetings",
+      "words": [
+        {
+          "hanzi": "感觉",
+          "pinyin": "gan3 jue2"
+        },
+        {
+          "hanzi": "非常",
+          "pinyin": "fei1 chang2"
+        },
+        {
+          "hanzi": "好",
+          "pinyin": "hao3"
+        }
+      ],
+      "g2p": {
+        "misaki": [
+          "gan3",
+          "jue2",
+          "fei1",
+          "chang2",
+          "hao3"
+        ],
+        "pypinyin": [
+          "gan3",
+          "jue2",
+          "fei1",
+          "chang2",
+          "hao3"
+        ],
+        "misakiPhonemeEvidence": "ka↓nʨɥe↗ fei→ꭧʰa↗ŋ xau↓",
+        "mode": "live"
+      }
+    },
+    {
+      "id": "good-morning",
+      "hanzi": "早上好",
+      "translation": "Good morning.",
+      "topic": "greetings",
+      "words": [
+        {
+          "hanzi": "早上",
+          "pinyin": "zao3 shang4"
+        },
+        {
+          "hanzi": "好",
+          "pinyin": "hao3"
+        }
+      ],
+      "g2p": {
+        "misaki": [
+          "zao3",
+          "shang4",
+          "hao3"
+        ],
+        "pypinyin": [
+          "zao3",
+          "shang4",
+          "hao3"
+        ],
+        "misakiPhonemeEvidence": "ʦau↓ʂa↘ŋxau↓",
+        "mode": "live"
+      }
+    },
+    {
+      "id": "see-you-tonight",
+      "hanzi": "晚上见",
+      "translation": "See you tonight.",
+      "topic": "greetings",
+      "words": [
+        {
+          "hanzi": "晚上",
+          "pinyin": "wan3 shang4"
+        },
+        {
+          "hanzi": "见",
+          "pinyin": "jian4"
+        }
+      ],
+      "g2p": {
+        "misaki": [
+          "wan3",
+          "shang4",
+          "jian4"
+        ],
+        "pypinyin": [
+          "wan3",
+          "shang4",
+          "jian4"
+        ],
+        "misakiPhonemeEvidence": "wa↓nʂa↘ŋ ʨjɛ↘n",
+        "mode": "live"
+      }
+    },
+    {
+      "id": "pleased-to-meet",
+      "hanzi": "很高兴见到你",
+      "translation": "I am pleased to meet you.",
+      "topic": "greetings",
+      "words": [
+        {
+          "hanzi": "很",
+          "pinyin": "hen3"
+        },
+        {
+          "hanzi": "高兴",
+          "pinyin": "gao1 xing4"
+        },
+        {
+          "hanzi": "见到",
+          "pinyin": "jian4 dao4"
+        },
+        {
+          "hanzi": "你",
+          "pinyin": "ni3"
+        }
+      ],
+      "g2p": {
+        "misaki": [
+          "hen3",
+          "gao1",
+          "xing4",
+          "jian4",
+          "dao4",
+          "ni3"
+        ],
+        "pypinyin": [
+          "hen3",
+          "gao1",
+          "xing4",
+          "jian4",
+          "dao4",
+          "ni3"
+        ],
+        "misakiPhonemeEvidence": "xə↓n kau→ɕi↘ŋ ʨjɛ↘ntau↘ ni↓",
+        "mode": "live"
+      }
+    },
+    {
+      "id": "what-name",
+      "hanzi": "请问你叫什么",
+      "translation": "May I ask your name?",
+      "topic": "greetings",
+      "words": [
+        {
+          "hanzi": "请问",
+          "pinyin": "qing3 wen4"
+        },
+        {
+          "hanzi": "你",
+          "pinyin": "ni3"
+        },
+        {
+          "hanzi": "叫",
+          "pinyin": "jiao4"
+        },
+        {
+          "hanzi": "什么",
+          "pinyin": "shen2 me5"
+        }
+      ],
+      "g2p": {
+        "misaki": [
+          "qing3",
+          "wen4",
+          "ni3",
+          "jiao4",
+          "shen2",
+          "me5"
+        ],
+        "pypinyin": [
+          "qing3",
+          "wen4",
+          "ni3",
+          "jiao4",
+          "shen2",
+          "me5"
+        ],
+        "misakiPhonemeEvidence": "ʨʰi↓ŋwə↘n ni↓ ʨjau↘ ʂə↗nmɤ",
+        "mode": "live"
+      }
+    },
+    {
+      "id": "welcome-beijing",
+      "hanzi": "欢迎你来北京",
+      "translation": "Welcome to Beijing.",
+      "topic": "greetings",
+      "words": [
+        {
+          "hanzi": "欢迎",
+          "pinyin": "huan1 ying2"
+        },
+        {
+          "hanzi": "你",
+          "pinyin": "ni3"
+        },
+        {
+          "hanzi": "来",
+          "pinyin": "lai2"
+        },
+        {
+          "hanzi": "北京",
+          "pinyin": "bei3 jing1"
+        }
+      ],
+      "g2p": {
+        "misaki": [
+          "huan1",
+          "ying2",
+          "ni3",
+          "lai2",
+          "bei3",
+          "jing1"
+        ],
+        "pypinyin": [
+          "huan1",
+          "ying2",
+          "ni3",
+          "lai2",
+          "bei3",
+          "jing1"
+        ],
+        "misakiPhonemeEvidence": "xwa→ni↗ŋ ni↓ lai↗ pei↓ʨi→ŋ",
+        "mode": "live"
+      }
+    },
+    {
+      "id": "hello-everyone",
+      "hanzi": "大家好",
+      "translation": "Hello, everyone.",
+      "topic": "greetings",
+      "words": [
+        {
+          "hanzi": "大家",
+          "pinyin": "da4 jia1"
+        },
+        {
+          "hanzi": "好",
+          "pinyin": "hao3"
+        }
+      ],
+      "g2p": {
+        "misaki": [
+          "da4",
+          "jia1",
+          "hao3"
+        ],
+        "pypinyin": [
+          "da4",
+          "jia1",
+          "hao3"
+        ],
+        "misakiPhonemeEvidence": "ta↘ʨja→ xau↓",
+        "mode": "live"
+      }
+    },
+    {
+      "id": "tomorrow-goodbye",
+      "hanzi": "明天再见",
+      "translation": "See you tomorrow.",
+      "topic": "greetings",
+      "words": [
+        {
+          "hanzi": "明天",
+          "pinyin": "ming2 tian1"
+        },
+        {
+          "hanzi": "再见",
+          "pinyin": "zai4 jian4"
+        }
+      ],
+      "g2p": {
+        "misaki": [
+          "ming2",
+          "tian1",
+          "zai4",
+          "jian4"
+        ],
+        "pypinyin": [
+          "ming2",
+          "tian1",
+          "zai4",
+          "jian4"
+        ],
+        "misakiPhonemeEvidence": "mi↗ŋtʰjɛ→n ʦai↘ʨjɛ↘n",
+        "mode": "live"
+      }
+    },
+    {
+      "id": "busy-today",
+      "hanzi": "我今天很忙",
+      "translation": "I am very busy today.",
+      "topic": "daily",
+      "words": [
+        {
+          "hanzi": "我",
+          "pinyin": "wo3"
+        },
+        {
+          "hanzi": "今天",
+          "pinyin": "jin1 tian1"
+        },
+        {
+          "hanzi": "很忙",
+          "pinyin": "hen3 mang2"
+        }
+      ],
+      "g2p": {
+        "misaki": [
+          "wo3",
+          "jin1",
+          "tian1",
+          "hen3",
+          "mang2"
+        ],
+        "pypinyin": [
+          "wo3",
+          "jin1",
+          "tian1",
+          "hen3",
+          "mang2"
+        ],
+        "misakiPhonemeEvidence": "wo↓ ʨi→ntʰjɛ→n xə↓n ma↗ŋ",
+        "mode": "live"
+      }
+    },
+    {
+      "id": "reading-book",
+      "hanzi": "他正在看书",
+      "translation": "He is reading a book.",
+      "topic": "daily",
+      "words": [
+        {
+          "hanzi": "他",
+          "pinyin": "ta1"
+        },
+        {
+          "hanzi": "正在",
+          "pinyin": "zheng4 zai4"
+        },
+        {
+          "hanzi": "看书",
+          "pinyin": "kan4 shu1"
+        }
+      ],
+      "g2p": {
+        "misaki": [
+          "ta1",
+          "zheng4",
+          "zai4",
+          "kan4",
+          "shu1"
+        ],
+        "pypinyin": [
+          "ta1",
+          "zheng4",
+          "zai4",
+          "kan4",
+          "shu1"
+        ],
+        "misakiPhonemeEvidence": "tʰa→ ꭧə↘ŋʦai↘ kʰa↘nʂu→",
+        "mode": "live"
+      }
+    },
+    {
+      "id": "walk-together",
+      "hanzi": "咱们共同出发",
+      "translation": "Let us set out together.",
+      "topic": "daily",
+      "words": [
+        {
+          "hanzi": "咱们",
+          "pinyin": "zan2 men5"
+        },
+        {
+          "hanzi": "共同",
+          "pinyin": "gong4 tong2"
+        },
+        {
+          "hanzi": "出发",
+          "pinyin": "chu1 fa1"
+        }
+      ],
+      "g2p": {
+        "misaki": [
+          "zan2",
+          "men5",
+          "gong4",
+          "tong2",
+          "chu1",
+          "fa1"
+        ],
+        "pypinyin": [
+          "zan2",
+          "men5",
+          "gong4",
+          "tong2",
+          "chu1",
+          "fa1"
+        ],
+        "misakiPhonemeEvidence": "ʦa↗nmən kʊ↘ŋtʰʊ↗ŋ ꭧʰu→fa→",
+        "mode": "live"
+      }
+    },
+    {
+      "id": "child-asleep",
+      "hanzi": "孩子睡着了",
+      "translation": "The child has fallen asleep.",
+      "topic": "daily",
+      "words": [
+        {
+          "hanzi": "孩子",
+          "pinyin": "hai2 zi5"
+        },
+        {
+          "hanzi": "睡着",
+          "pinyin": "shui4 zhao2"
+        },
+        {
+          "hanzi": "了",
+          "pinyin": "le5"
+        }
+      ],
+      "g2p": {
+        "misaki": [
+          "hai2",
+          "zi5",
+          "shui4",
+          "zhao2",
+          "le5"
+        ],
+        "pypinyin": [
+          "hai2",
+          "zi5",
+          "shui4",
+          "zhao2",
+          "le5"
+        ],
+        "misakiPhonemeEvidence": "xai↗ʦɨ ʂwei↘ꭧau↗ lɤ",
+        "mode": "live"
+      }
+    },
+    {
+      "id": "raining-outside",
+      "hanzi": "外边开始下雨",
+      "translation": "It has started raining outside.",
+      "topic": "daily",
+      "words": [
+        {
+          "hanzi": "外边",
+          "pinyin": "wai4 bian1"
+        },
+        {
+          "hanzi": "开始",
+          "pinyin": "kai1 shi3"
+        },
+        {
+          "hanzi": "下雨",
+          "pinyin": "xia4 yu3"
+        }
+      ],
+      "g2p": {
+        "misaki": [
+          "wai4",
+          "bian1",
+          "kai1",
+          "shi3",
+          "xia4",
+          "yu3"
+        ],
+        "pypinyin": [
+          "wai4",
+          "bian1",
+          "kai1",
+          "shi3",
+          "xia4",
+          "yu3"
+        ],
+        "misakiPhonemeEvidence": "wai↘pjɛ→n kʰai→ʂɨ↓ ɕja↘y↓",
+        "mode": "live"
+      }
+    },
+    {
+      "id": "not-late",
+      "hanzi": "迟到真的不好",
+      "translation": "Being late is really not good.",
+      "topic": "daily",
+      "words": [
+        {
+          "hanzi": "迟到",
+          "pinyin": "chi2 dao4"
+        },
+        {
+          "hanzi": "真的",
+          "pinyin": "zhen1 de5"
+        },
+        {
+          "hanzi": "不好",
+          "pinyin": "bu4 hao3"
+        }
+      ],
+      "g2p": {
+        "misaki": [
+          "chi2",
+          "dao4",
+          "zhen1",
+          "de5",
+          "bu4",
+          "hao3"
+        ],
+        "pypinyin": [
+          "chi2",
+          "dao4",
+          "zhen1",
+          "de5",
+          "bu4",
+          "hao3"
+        ],
+        "misakiPhonemeEvidence": "ꭧʰɨ↗tau↘ ꭧə→ntɤ pu↘xau↓",
+        "mode": "live"
+      }
+    },
+    {
+      "id": "bought-book",
+      "hanzi": "她买了一本书",
+      "translation": "She bought a book.",
+      "topic": "daily",
+      "words": [
+        {
+          "hanzi": "她",
+          "pinyin": "ta1"
+        },
+        {
+          "hanzi": "买了",
+          "pinyin": "mai3 le5"
+        },
+        {
+          "hanzi": "一",
+          "pinyin": "yi1"
+        },
+        {
+          "hanzi": "本书",
+          "pinyin": "ben3 shu1"
+        }
+      ],
+      "g2p": {
+        "misaki": [
+          "ta1",
+          "mai3",
+          "le5",
+          "yi1",
+          "ben3",
+          "shu1"
+        ],
+        "pypinyin": [
+          "ta1",
+          "mai3",
+          "le5",
+          "yi1",
+          "ben3",
+          "shu1"
+        ],
+        "misakiPhonemeEvidence": "tʰa→ mai↓ lɤ i→ pə↓nʂu→",
+        "mode": "live"
+      }
+    },
+    {
+      "id": "open-door",
+      "hanzi": "麻烦开一下门",
+      "translation": "Please open the door.",
+      "topic": "daily",
+      "words": [
+        {
+          "hanzi": "麻烦",
+          "pinyin": "ma2 fan5"
+        },
+        {
+          "hanzi": "开",
+          "pinyin": "kai1"
+        },
+        {
+          "hanzi": "一下",
+          "pinyin": "yi1 xia4"
+        },
+        {
+          "hanzi": "门",
+          "pinyin": "men2"
+        }
+      ],
+      "g2p": {
+        "misaki": [
+          "ma2",
+          "fan2",
+          "kai1",
+          "yi1",
+          "xia4",
+          "men2"
+        ],
+        "pypinyin": [
+          "ma2",
+          "fan2",
+          "kai1",
+          "yi1",
+          "xia4",
+          "men2"
+        ],
+        "misakiPhonemeEvidence": "ma↗fa↗n kʰai→ i→ɕja↘ mə↗n",
+        "mode": "live"
+      }
+    },
+    {
+      "id": "mother-returned",
+      "hanzi": "妈妈回来了",
+      "translation": "Mum has come back.",
+      "topic": "daily",
+      "words": [
+        {
+          "hanzi": "妈妈",
+          "pinyin": "ma1 ma5"
+        },
+        {
+          "hanzi": "回来",
+          "pinyin": "hui2 lai2"
+        },
+        {
+          "hanzi": "了",
+          "pinyin": "le5"
+        }
+      ],
+      "g2p": {
+        "misaki": [
+          "ma1",
+          "ma1",
+          "hui2",
+          "lai2",
+          "le5"
+        ],
+        "pypinyin": [
+          "ma1",
+          "ma1",
+          "hui2",
+          "lai2",
+          "le5"
+        ],
+        "misakiPhonemeEvidence": "ma→ma→ xwei↗lai↗ lɤ",
+        "mode": "live"
+      }
+    },
+    {
+      "id": "what-time",
+      "hanzi": "现在几点",
+      "translation": "What time is it now?",
+      "topic": "daily",
+      "words": [
+        {
+          "hanzi": "现在",
+          "pinyin": "xian4 zai4"
+        },
+        {
+          "hanzi": "几点",
+          "pinyin": "ji3 dian3"
+        }
+      ],
+      "g2p": {
+        "misaki": [
+          "xian4",
+          "zai4",
+          "ji3",
+          "dian3"
+        ],
+        "pypinyin": [
+          "xian4",
+          "zai4",
+          "ji3",
+          "dian3"
+        ],
+        "misakiPhonemeEvidence": "ɕjɛ↘nʦai↘ ʨi↓tjɛ↓n",
+        "mode": "live"
+      }
+    },
+    {
+      "id": "want-tea",
+      "hanzi": "麻烦来杯红茶",
+      "translation": "Please bring a cup of black tea.",
+      "topic": "food",
+      "words": [
+        {
+          "hanzi": "麻烦",
+          "pinyin": "ma2 fan5"
+        },
+        {
+          "hanzi": "来",
+          "pinyin": "lai2"
+        },
+        {
+          "hanzi": "杯",
+          "pinyin": "bei1"
+        },
+        {
+          "hanzi": "红茶",
+          "pinyin": "hong2 cha2"
+        }
+      ],
+      "g2p": {
+        "misaki": [
+          "ma2",
+          "fan2",
+          "lai2",
+          "bei1",
+          "hong2",
+          "cha2"
+        ],
+        "pypinyin": [
+          "ma2",
+          "fan2",
+          "lai2",
+          "bei1",
+          "hong2",
+          "cha2"
+        ],
+        "misakiPhonemeEvidence": "ma↗fa↗n lai↗pei→ xʊ↗ŋꭧʰa↗",
+        "mode": "live"
+      }
+    },
+    {
+      "id": "dish-good",
+      "hanzi": "这个菜很香",
+      "translation": "This dish smells very good.",
+      "topic": "food",
+      "words": [
+        {
+          "hanzi": "这个",
+          "pinyin": "zhe4 ge5"
+        },
+        {
+          "hanzi": "菜",
+          "pinyin": "cai4"
+        },
+        {
+          "hanzi": "很香",
+          "pinyin": "hen3 xiang1"
+        }
+      ],
+      "g2p": {
+        "misaki": [
+          "zhe4",
+          "ge4",
+          "cai4",
+          "hen3",
+          "xiang1"
+        ],
+        "pypinyin": [
+          "zhe4",
+          "ge4",
+          "cai4",
+          "hen3",
+          "xiang1"
+        ],
+        "misakiPhonemeEvidence": "ꭧɤ↘kɤ↘ ʦʰai↘ xə↓n ɕja→ŋ",
+        "mode": "live"
+      }
+    },
+    {
+      "id": "beef-noodles",
+      "hanzi": "一碗牛肉面",
+      "translation": "A bowl of beef noodles.",
+      "topic": "food",
+      "words": [
+        {
+          "hanzi": "一",
+          "pinyin": "yi1"
+        },
+        {
+          "hanzi": "碗",
+          "pinyin": "wan3"
+        },
+        {
+          "hanzi": "牛肉面",
+          "pinyin": "niu2 rou4 mian4"
+        }
+      ],
+      "g2p": {
+        "misaki": [
+          "yi1",
+          "wan3",
+          "niu2",
+          "rou4",
+          "mian4"
+        ],
+        "pypinyin": [
+          "yi1",
+          "wan3",
+          "niu2",
+          "rou4",
+          "mian4"
+        ],
+        "misakiPhonemeEvidence": "i→wa↓n njou↗ɻou↘mjɛ↘n",
+        "mode": "live"
+      }
+    },
+    {
+      "id": "no-chilli",
+      "hanzi": "别加红辣椒",
+      "translation": "Do not add red chilli.",
+      "topic": "food",
+      "words": [
+        {
+          "hanzi": "别加",
+          "pinyin": "bie2 jia1"
+        },
+        {
+          "hanzi": "红",
+          "pinyin": "hong2"
+        },
+        {
+          "hanzi": "辣椒",
+          "pinyin": "la4 jiao1"
+        }
+      ],
+      "g2p": {
+        "misaki": [
+          "bie2",
+          "jia1",
+          "hong2",
+          "la4",
+          "jiao1"
+        ],
+        "pypinyin": [
+          "bie2",
+          "jia1",
+          "hong2",
+          "la4",
+          "jiao1"
+        ],
+        "misakiPhonemeEvidence": "pje↗ʨja→ xʊ↗ŋla↘ʨjau→",
+        "mode": "live"
+      }
+    },
+    {
+      "id": "eat-rice",
+      "hanzi": "人人都在吃饭",
+      "translation": "Everyone is eating.",
+      "topic": "food",
+      "words": [
+        {
+          "hanzi": "人人",
+          "pinyin": "ren2 ren2"
+        },
+        {
+          "hanzi": "都在",
+          "pinyin": "dou1 zai4"
+        },
+        {
+          "hanzi": "吃饭",
+          "pinyin": "chi1 fan4"
+        }
+      ],
+      "g2p": {
+        "misaki": [
+          "ren2",
+          "ren2",
+          "dou1",
+          "zai4",
+          "chi1",
+          "fan4"
+        ],
+        "pypinyin": [
+          "ren2",
+          "ren2",
+          "dou1",
+          "zai4",
+          "chi1",
+          "fan4"
+        ],
+        "misakiPhonemeEvidence": "ɻə↗nɻə↗n tou→ ʦai↘ ꭧʰɨ→fa↘n",
+        "mode": "live"
+      }
+    },
+    {
+      "id": "apple-sweet",
+      "hanzi": "苹果味道香甜",
+      "translation": "The apple tastes fragrant and sweet.",
+      "topic": "food",
+      "words": [
+        {
+          "hanzi": "苹果",
+          "pinyin": "ping2 guo3"
+        },
+        {
+          "hanzi": "味道",
+          "pinyin": "wei4 dao4"
+        },
+        {
+          "hanzi": "香甜",
+          "pinyin": "xiang1 tian2"
+        }
+      ],
+      "g2p": {
+        "misaki": [
+          "ping2",
+          "guo3",
+          "wei4",
+          "dao4",
+          "xiang1",
+          "tian2"
+        ],
+        "pypinyin": [
+          "ping2",
+          "guo3",
+          "wei4",
+          "dao4",
+          "xiang1",
+          "tian2"
+        ],
+        "misakiPhonemeEvidence": "pʰi↗ŋkwo↓ wei↘tau↘ ɕja→ŋtʰjɛ↗n",
+        "mode": "live"
+      }
+    },
+    {
+      "id": "coffee-bitter",
+      "hanzi": "咖啡有点苦",
+      "translation": "The coffee is a little bitter.",
+      "topic": "food",
+      "words": [
+        {
+          "hanzi": "咖啡",
+          "pinyin": "ka1 fei1"
+        },
+        {
+          "hanzi": "有点",
+          "pinyin": "you3 dian3"
+        },
+        {
+          "hanzi": "苦",
+          "pinyin": "ku3"
+        }
+      ],
+      "g2p": {
+        "misaki": [
+          "ka1",
+          "fei1",
+          "you3",
+          "dian3",
+          "ku3"
+        ],
+        "pypinyin": [
+          "ka1",
+          "fei1",
+          "you3",
+          "dian3",
+          "ku3"
+        ],
+        "misakiPhonemeEvidence": "kʰa→fei→ jou↓tjɛ↓n kʰu↓",
+        "mode": "live"
+      }
+    },
+    {
+      "id": "give-menu",
+      "hanzi": "麻烦拿份菜单",
+      "translation": "Please bring a menu.",
+      "topic": "food",
+      "words": [
+        {
+          "hanzi": "麻烦",
+          "pinyin": "ma2 fan5"
+        },
+        {
+          "hanzi": "拿",
+          "pinyin": "na2"
+        },
+        {
+          "hanzi": "份",
+          "pinyin": "fen4"
+        },
+        {
+          "hanzi": "菜单",
+          "pinyin": "cai4 dan1"
+        }
+      ],
+      "g2p": {
+        "misaki": [
+          "ma2",
+          "fan2",
+          "na2",
+          "fen4",
+          "cai4",
+          "dan1"
+        ],
+        "pypinyin": [
+          "ma2",
+          "fan2",
+          "na2",
+          "fen4",
+          "cai4",
+          "dan1"
+        ],
+        "misakiPhonemeEvidence": "ma↗fa↗n na↗fə↘n ʦʰai↘ta→n",
+        "mode": "live"
+      }
+    },
+    {
+      "id": "no-eggs",
+      "hanzi": "他不吃鸡蛋",
+      "translation": "He does not eat eggs.",
+      "topic": "food",
+      "words": [
+        {
+          "hanzi": "他",
+          "pinyin": "ta1"
+        },
+        {
+          "hanzi": "不吃",
+          "pinyin": "bu4 chi1"
+        },
+        {
+          "hanzi": "鸡蛋",
+          "pinyin": "ji1 dan4"
+        }
+      ],
+      "g2p": {
+        "misaki": [
+          "ta1",
+          "bu4",
+          "chi1",
+          "ji1",
+          "dan4"
+        ],
+        "pypinyin": [
+          "ta1",
+          "bu4",
+          "chi1",
+          "ji1",
+          "dan4"
+        ],
+        "misakiPhonemeEvidence": "tʰa→ pu↘ꭧʰɨ→ ʨi→ta↘n",
+        "mode": "live"
+      }
+    },
+    {
+      "id": "more-water",
+      "hanzi": "再来一杯水",
+      "translation": "Another glass of water.",
+      "topic": "food",
+      "words": [
+        {
+          "hanzi": "再来",
+          "pinyin": "zai4 lai2"
+        },
+        {
+          "hanzi": "一",
+          "pinyin": "yi1"
+        },
+        {
+          "hanzi": "杯水",
+          "pinyin": "bei1 shui3"
+        }
+      ],
+      "g2p": {
+        "misaki": [
+          "zai4",
+          "lai2",
+          "yi1",
+          "bei1",
+          "shui3"
+        ],
+        "pypinyin": [
+          "zai4",
+          "lai2",
+          "yi1",
+          "bei1",
+          "shui3"
+        ],
+        "misakiPhonemeEvidence": "ʦai↘ lai↗ i→pei→ ʂwei↓",
+        "mode": "live"
+      }
+    },
+    {
+      "id": "metro-where",
+      "hanzi": "地铁站在哪里",
+      "translation": "Where is the metro station?",
+      "topic": "travel",
+      "words": [
+        {
+          "hanzi": "地铁站",
+          "pinyin": "di4 tie3 zhan4"
+        },
+        {
+          "hanzi": "在",
+          "pinyin": "zai4"
+        },
+        {
+          "hanzi": "哪里",
+          "pinyin": "na3 li3"
+        }
+      ],
+      "g2p": {
+        "misaki": [
+          "di4",
+          "tie3",
+          "zhan4",
+          "zai4",
+          "na3",
+          "li3"
+        ],
+        "pypinyin": [
+          "di4",
+          "tie3",
+          "zhan4",
+          "zai4",
+          "na3",
+          "li3"
+        ],
+        "misakiPhonemeEvidence": "ti↘tʰje↓ꭧa↘n ʦai↘ na↓li↓",
+        "mode": "live"
+      }
+    },
+    {
+      "id": "go-airport",
+      "hanzi": "我想去机场",
+      "translation": "I want to go to the airport.",
+      "topic": "travel",
+      "words": [
+        {
+          "hanzi": "我",
+          "pinyin": "wo3"
+        },
+        {
+          "hanzi": "想去",
+          "pinyin": "xiang3 qu4"
+        },
+        {
+          "hanzi": "机场",
+          "pinyin": "ji1 chang3"
+        }
+      ],
+      "g2p": {
+        "misaki": [
+          "wo3",
+          "xiang3",
+          "qu4",
+          "ji1",
+          "chang3"
+        ],
+        "pypinyin": [
+          "wo3",
+          "xiang3",
+          "qu4",
+          "ji1",
+          "chang3"
+        ],
+        "misakiPhonemeEvidence": "wo↓ ɕja↓ŋ ʨʰy↘ ʨi→ꭧʰa↓ŋ",
+        "mode": "live"
+      }
+    },
+    {
+      "id": "call-car",
+      "hanzi": "麻烦帮忙叫车",
+      "translation": "Please help call a car.",
+      "topic": "travel",
+      "words": [
+        {
+          "hanzi": "麻烦",
+          "pinyin": "ma2 fan5"
+        },
+        {
+          "hanzi": "帮忙",
+          "pinyin": "bang1 mang2"
+        },
+        {
+          "hanzi": "叫车",
+          "pinyin": "jiao4 che1"
+        }
+      ],
+      "g2p": {
+        "misaki": [
+          "ma2",
+          "fan2",
+          "bang1",
+          "mang2",
+          "jiao4",
+          "che1"
+        ],
+        "pypinyin": [
+          "ma2",
+          "fan2",
+          "bang1",
+          "mang2",
+          "jiao4",
+          "che1"
+        ],
+        "misakiPhonemeEvidence": "ma↗fa↗n pa→ŋma↗ŋ ʨjau↘ꭧʰɤ→",
+        "mode": "live"
+      }
+    },
+    {
+      "id": "turn-left",
+      "hanzi": "前面左转",
+      "translation": "Turn left ahead.",
+      "topic": "travel",
+      "words": [
+        {
+          "hanzi": "前面",
+          "pinyin": "qian2 mian4"
+        },
+        {
+          "hanzi": "左转",
+          "pinyin": "zuo3 zhuan3"
+        }
+      ],
+      "g2p": {
+        "misaki": [
+          "qian2",
+          "mian4",
+          "zuo3",
+          "zhuan3"
+        ],
+        "pypinyin": [
+          "qian2",
+          "mian4",
+          "zuo3",
+          "zhuan3"
+        ],
+        "misakiPhonemeEvidence": "ʨʰjɛ↗nmjɛ↘n ʦwo↓ꭧwa↓n",
+        "mode": "live"
+      }
+    },
+    {
+      "id": "next-stop",
+      "hanzi": "前方车站停车",
+      "translation": "The train stops at the station ahead.",
+      "topic": "travel",
+      "words": [
+        {
+          "hanzi": "前方",
+          "pinyin": "qian2 fang1"
+        },
+        {
+          "hanzi": "车站",
+          "pinyin": "che1 zhan4"
+        },
+        {
+          "hanzi": "停车",
+          "pinyin": "ting2 che1"
+        }
+      ],
+      "g2p": {
+        "misaki": [
+          "qian2",
+          "fang1",
+          "che1",
+          "zhan4",
+          "ting2",
+          "che1"
+        ],
+        "pypinyin": [
+          "qian2",
+          "fang1",
+          "che1",
+          "zhan4",
+          "ting2",
+          "che1"
+        ],
+        "misakiPhonemeEvidence": "ʨʰjɛ↗nfa→ŋ ꭧʰɤ→ꭧa↘n tʰi↗ŋꭧʰɤ→",
+        "mode": "live"
+      }
+    },
+    {
+      "id": "long-road",
+      "hanzi": "这条路很长",
+      "translation": "This road is very long.",
+      "topic": "travel",
+      "words": [
+        {
+          "hanzi": "这条",
+          "pinyin": "zhe4 tiao2"
+        },
+        {
+          "hanzi": "路",
+          "pinyin": "lu4"
+        },
+        {
+          "hanzi": "很长",
+          "pinyin": "hen3 chang2"
+        }
+      ],
+      "g2p": {
+        "misaki": [
+          "zhe4",
+          "tiao2",
+          "lu4",
+          "hen3",
+          "zhang3"
+        ],
+        "pypinyin": [
+          "zhe4",
+          "tiao2",
+          "lu4",
+          "hen3",
+          "zhang3"
+        ],
+        "misakiPhonemeEvidence": "ꭧɤ↘tʰjau↗ lu↘ xə↓nꭧa↓ŋ",
+        "mode": "live"
+      }
+    },
+    {
+      "id": "leave-soon",
+      "hanzi": "大家即刻出发",
+      "translation": "Everyone is setting out immediately.",
+      "topic": "travel",
+      "words": [
+        {
+          "hanzi": "大家",
+          "pinyin": "da4 jia1"
+        },
+        {
+          "hanzi": "即刻",
+          "pinyin": "ji2 ke4"
+        },
+        {
+          "hanzi": "出发",
+          "pinyin": "chu1 fa1"
+        }
+      ],
+      "g2p": {
+        "misaki": [
+          "da4",
+          "jia1",
+          "ji2",
+          "ke4",
+          "chu1",
+          "fa1"
+        ],
+        "pypinyin": [
+          "da4",
+          "jia1",
+          "ji2",
+          "ke4",
+          "chu1",
+          "fa1"
+        ],
+        "misakiPhonemeEvidence": "ta↘ʨja→ ʨi↗kʰɤ↘ ꭧʰu→fa→",
+        "mode": "live"
+      }
+    },
+    {
+      "id": "train-arrival",
+      "hanzi": "火车几点到",
+      "translation": "What time does the train arrive?",
+      "topic": "travel",
+      "words": [
+        {
+          "hanzi": "火车",
+          "pinyin": "huo3 che1"
+        },
+        {
+          "hanzi": "几点",
+          "pinyin": "ji3 dian3"
+        },
+        {
+          "hanzi": "到",
+          "pinyin": "dao4"
+        }
+      ],
+      "g2p": {
+        "misaki": [
+          "huo3",
+          "che1",
+          "ji3",
+          "dian3",
+          "dao4"
+        ],
+        "pypinyin": [
+          "huo3",
+          "che1",
+          "ji3",
+          "dian3",
+          "dao4"
+        ],
+        "misakiPhonemeEvidence": "xwo↓ꭧʰɤ→ ʨi↓tjɛ↓n tau↘",
+        "mode": "live"
+      }
+    },
+    {
+      "id": "straight-ahead",
+      "hanzi": "一直往前走",
+      "translation": "Keep walking straight ahead.",
+      "topic": "travel",
+      "words": [
+        {
+          "hanzi": "一直",
+          "pinyin": "yi1 zhi2"
+        },
+        {
+          "hanzi": "往前",
+          "pinyin": "wang3 qian2"
+        },
+        {
+          "hanzi": "走",
+          "pinyin": "zou3"
+        }
+      ],
+      "g2p": {
+        "misaki": [
+          "yi4",
+          "zhi2",
+          "wang3",
+          "qian2",
+          "zou3"
+        ],
+        "pypinyin": [
+          "yi4",
+          "zhi2",
+          "wang3",
+          "qian2",
+          "zou3"
+        ],
+        "misakiPhonemeEvidence": "i↘ꭧɨ↗ wa↓ŋʨʰjɛ↗nʦou↓",
+        "mode": "live"
+      }
+    },
+    {
+      "id": "not-too-fast",
+      "hanzi": "别走得太快",
+      "translation": "Do not walk too quickly.",
+      "topic": "travel",
+      "words": [
+        {
+          "hanzi": "别",
+          "pinyin": "bie2"
+        },
+        {
+          "hanzi": "走得",
+          "pinyin": "zou3 de5"
+        },
+        {
+          "hanzi": "太快",
+          "pinyin": "tai4 kuai4"
+        }
+      ],
+      "g2p": {
+        "misaki": [
+          "bie2",
+          "zou3",
+          "de2",
+          "tai4",
+          "kuai4"
+        ],
+        "pypinyin": [
+          "bie2",
+          "zou3",
+          "de2",
+          "tai4",
+          "kuai4"
+        ],
+        "misakiPhonemeEvidence": "pje↗ ʦou↓ tɤ↗ tʰai↘kʰwai↘",
+        "mode": "live"
+      }
+    },
+    {
+      "id": "learn-chinese",
+      "hanzi": "我学习中文",
+      "translation": "I study Chinese.",
+      "topic": "learning",
+      "words": [
+        {
+          "hanzi": "我",
+          "pinyin": "wo3"
+        },
+        {
+          "hanzi": "学习",
+          "pinyin": "xue2 xi2"
+        },
+        {
+          "hanzi": "中文",
+          "pinyin": "zhong1 wen2"
+        }
+      ],
+      "g2p": {
+        "misaki": [
+          "wo3",
+          "xue2",
+          "xi2",
+          "zhong1",
+          "wen2"
+        ],
+        "pypinyin": [
+          "wo3",
+          "xue2",
+          "xi2",
+          "zhong1",
+          "wen2"
+        ],
+        "misakiPhonemeEvidence": "wo↓ ɕɥe↗ɕi↗ ꭧʊ→ŋwə↗n",
+        "mode": "live"
+      }
+    },
+    {
+      "id": "read-character",
+      "hanzi": "这个字怎么读",
+      "translation": "How is this character read?",
+      "topic": "learning",
+      "words": [
+        {
+          "hanzi": "这个",
+          "pinyin": "zhe4 ge5"
+        },
+        {
+          "hanzi": "字",
+          "pinyin": "zi4"
+        },
+        {
+          "hanzi": "怎么",
+          "pinyin": "zen3 me5"
+        },
+        {
+          "hanzi": "读",
+          "pinyin": "du2"
+        }
+      ],
+      "g2p": {
+        "misaki": [
+          "zhe4",
+          "ge4",
+          "zi4",
+          "zen3",
+          "me5",
+          "du2"
+        ],
+        "pypinyin": [
+          "zhe4",
+          "ge4",
+          "zi4",
+          "zen3",
+          "me5",
+          "du2"
+        ],
+        "misakiPhonemeEvidence": "ꭧɤ↘kɤ↘ ʦɨ↘ ʦə↓nmɤ tu↗",
+        "mode": "live"
+      }
+    },
+    {
+      "id": "say-again",
+      "hanzi": "请再说一遍",
+      "translation": "Please say it once more.",
+      "topic": "learning",
+      "words": [
+        {
+          "hanzi": "请",
+          "pinyin": "qing3"
+        },
+        {
+          "hanzi": "再说",
+          "pinyin": "zai4 shuo1"
+        },
+        {
+          "hanzi": "一遍",
+          "pinyin": "yi1 bian4"
+        }
+      ],
+      "g2p": {
+        "misaki": [
+          "qing3",
+          "zai4",
+          "shuo1",
+          "yi1",
+          "bian4"
+        ],
+        "pypinyin": [
+          "qing3",
+          "zai4",
+          "shuo1",
+          "yi1",
+          "bian4"
+        ],
+        "misakiPhonemeEvidence": "ʨʰi↓ŋ ʦai↘ʂwo→ i→pjɛ↘n",
+        "mode": "live"
+      }
+    },
+    {
+      "id": "not-understand",
+      "hanzi": "我听不明白",
+      "translation": "I cannot understand what I hear.",
+      "topic": "learning",
+      "words": [
+        {
+          "hanzi": "我",
+          "pinyin": "wo3"
+        },
+        {
+          "hanzi": "听不",
+          "pinyin": "ting1 bu4"
+        },
+        {
+          "hanzi": "明白",
+          "pinyin": "ming2 bai2"
+        }
+      ],
+      "g2p": {
+        "misaki": [
+          "wo3",
+          "ting1",
+          "bu4",
+          "ming2",
+          "bai2"
+        ],
+        "pypinyin": [
+          "wo3",
+          "ting1",
+          "bu4",
+          "ming2",
+          "bai2"
+        ],
+        "misakiPhonemeEvidence": "wo↓ tʰi→ŋ pu↘ mi↗ŋpai↗",
+        "mode": "live"
+      }
+    },
+    {
+      "id": "good-pronunciation",
+      "hanzi": "你的发音很好",
+      "translation": "Your pronunciation is very good.",
+      "topic": "learning",
+      "words": [
+        {
+          "hanzi": "你的",
+          "pinyin": "ni3 de5"
+        },
+        {
+          "hanzi": "发音",
+          "pinyin": "fa1 yin1"
+        },
+        {
+          "hanzi": "很好",
+          "pinyin": "hen3 hao3"
+        }
+      ],
+      "g2p": {
+        "misaki": [
+          "ni3",
+          "de5",
+          "fa1",
+          "yin1",
+          "hen3",
+          "hao3"
+        ],
+        "pypinyin": [
+          "ni3",
+          "de5",
+          "fa1",
+          "yin1",
+          "hen3",
+          "hao3"
+        ],
+        "misakiPhonemeEvidence": "ni↓ tɤ fa→i→n xə↓n xau↓",
+        "mode": "live"
+      }
+    },
+    {
+      "id": "teacher-fast",
+      "hanzi": "老师说话太快",
+      "translation": "The teacher speaks too quickly.",
+      "topic": "learning",
+      "words": [
+        {
+          "hanzi": "老师",
+          "pinyin": "lao3 shi1"
+        },
+        {
+          "hanzi": "说话",
+          "pinyin": "shuo1 hua4"
+        },
+        {
+          "hanzi": "太快",
+          "pinyin": "tai4 kuai4"
+        }
+      ],
+      "g2p": {
+        "misaki": [
+          "lao3",
+          "shi1",
+          "shuo1",
+          "hua4",
+          "tai4",
+          "kuai4"
+        ],
+        "pypinyin": [
+          "lao3",
+          "shi1",
+          "shuo1",
+          "hua4",
+          "tai4",
+          "kuai4"
+        ],
+        "misakiPhonemeEvidence": "lau↓ʂɨ→ ʂwo→xwa↘ tʰai↘kʰwai↘",
+        "mode": "live"
+      }
+    },
+    {
+      "id": "practise-daily",
+      "hanzi": "我每天练习",
+      "translation": "I practise every day.",
+      "topic": "learning",
+      "words": [
+        {
+          "hanzi": "我",
+          "pinyin": "wo3"
+        },
+        {
+          "hanzi": "每天",
+          "pinyin": "mei3 tian1"
+        },
+        {
+          "hanzi": "练习",
+          "pinyin": "lian4 xi2"
+        }
+      ],
+      "g2p": {
+        "misaki": [
+          "wo3",
+          "mei3",
+          "tian1",
+          "lian4",
+          "xi2"
+        ],
+        "pypinyin": [
+          "wo3",
+          "mei3",
+          "tian1",
+          "lian4",
+          "xi2"
+        ],
+        "misakiPhonemeEvidence": "wo↓ mei↓tʰjɛ→n ljɛ↘nɕi↗",
+        "mode": "live"
+      }
+    },
+    {
+      "id": "tones-not-easy",
+      "hanzi": "声调不太容易",
+      "translation": "Tones are not very easy.",
+      "topic": "learning",
+      "words": [
+        {
+          "hanzi": "声调",
+          "pinyin": "sheng1 diao4"
+        },
+        {
+          "hanzi": "不太",
+          "pinyin": "bu4 tai4"
+        },
+        {
+          "hanzi": "容易",
+          "pinyin": "rong2 yi4"
+        }
+      ],
+      "g2p": {
+        "misaki": [
+          "sheng1",
+          "diao4",
+          "bu4",
+          "tai4",
+          "rong2",
+          "yi4"
+        ],
+        "pypinyin": [
+          "sheng1",
+          "diao4",
+          "bu4",
+          "tai4",
+          "rong2",
+          "yi4"
+        ],
+        "misakiPhonemeEvidence": "ʂə→ŋtjau↘ pu↘tʰai↘ ɻʊ↗ŋi↘",
+        "mode": "live"
+      }
+    },
+    {
+      "id": "write-here",
+      "hanzi": "请写在这里",
+      "translation": "Please write it here.",
+      "topic": "learning",
+      "words": [
+        {
+          "hanzi": "请",
+          "pinyin": "qing3"
+        },
+        {
+          "hanzi": "写",
+          "pinyin": "xie3"
+        },
+        {
+          "hanzi": "在这里",
+          "pinyin": "zai4 zhe4 li3"
+        }
+      ],
+      "g2p": {
+        "misaki": [
+          "qing3",
+          "xie3",
+          "zai4",
+          "zhe4",
+          "li3"
+        ],
+        "pypinyin": [
+          "qing3",
+          "xie3",
+          "zai4",
+          "zhe4",
+          "li3"
+        ],
+        "misakiPhonemeEvidence": "ʨʰi↓ŋ ɕje↓ ʦai↘ ꭧɤ↘li↓",
+        "mode": "live"
+      }
+    },
+    {
+      "id": "hard-question",
+      "hanzi": "这个问题很难",
+      "translation": "This question is very difficult.",
+      "topic": "learning",
+      "words": [
+        {
+          "hanzi": "这个",
+          "pinyin": "zhe4 ge5"
+        },
+        {
+          "hanzi": "问题",
+          "pinyin": "wen4 ti2"
+        },
+        {
+          "hanzi": "很难",
+          "pinyin": "hen3 nan2"
+        }
+      ],
+      "g2p": {
+        "misaki": [
+          "zhe4",
+          "ge4",
+          "wen4",
+          "ti2",
+          "hen3",
+          "nan2"
+        ],
+        "pypinyin": [
+          "zhe4",
+          "ge4",
+          "wen4",
+          "ti2",
+          "hen3",
+          "nan2"
+        ],
+        "misakiPhonemeEvidence": "ꭧɤ↘kɤ↘ wə↘ntʰi↗ xə↓nna↗n",
+        "mode": "live"
+      }
+    },
+    {
+      "id": "have-time",
+      "hanzi": "现在有时间吗",
+      "translation": "Do you have time now?",
+      "topic": "conversation",
+      "words": [
+        {
+          "hanzi": "现在",
+          "pinyin": "xian4 zai4"
+        },
+        {
+          "hanzi": "有",
+          "pinyin": "you3"
+        },
+        {
+          "hanzi": "时间",
+          "pinyin": "shi2 jian1"
+        },
+        {
+          "hanzi": "吗",
+          "pinyin": "ma5"
+        }
+      ],
+      "g2p": {
+        "misaki": [
+          "xian4",
+          "zai4",
+          "you3",
+          "shi2",
+          "jian1",
+          "ma5"
+        ],
+        "pypinyin": [
+          "xian4",
+          "zai4",
+          "you3",
+          "shi2",
+          "jian1",
+          "ma5"
+        ],
+        "misakiPhonemeEvidence": "ɕjɛ↘nʦai↘ jou↓ ʂɨ↗ʨjɛ→n ma",
+        "mode": "live"
+      }
+    },
+    {
+      "id": "not-tired",
+      "hanzi": "我完全不累",
+      "translation": "I am not tired at all.",
+      "topic": "conversation",
+      "words": [
+        {
+          "hanzi": "我",
+          "pinyin": "wo3"
+        },
+        {
+          "hanzi": "完全",
+          "pinyin": "wan2 quan2"
+        },
+        {
+          "hanzi": "不累",
+          "pinyin": "bu4 lei4"
+        }
+      ],
+      "g2p": {
+        "misaki": [
+          "wo3",
+          "wan2",
+          "quan2",
+          "bu4",
+          "lei4"
+        ],
+        "pypinyin": [
+          "wo3",
+          "wan2",
+          "quan2",
+          "bu4",
+          "lei4"
+        ],
+        "misakiPhonemeEvidence": "wo↓ wa↗nʨʰɥɛ↗n pu↘ lei↘",
+        "mode": "live"
+      }
+    },
+    {
+      "id": "why-absent",
+      "hanzi": "他为什么没来",
+      "translation": "Why did he not come?",
+      "topic": "conversation",
+      "words": [
+        {
+          "hanzi": "他",
+          "pinyin": "ta1"
+        },
+        {
+          "hanzi": "为什么",
+          "pinyin": "wei4 shen2 me5"
+        },
+        {
+          "hanzi": "没来",
+          "pinyin": "mei2 lai2"
+        }
+      ],
+      "g2p": {
+        "misaki": [
+          "ta1",
+          "wei4",
+          "shen2",
+          "me5",
+          "mei2",
+          "lai2"
+        ],
+        "pypinyin": [
+          "ta1",
+          "wei4",
+          "shen2",
+          "me5",
+          "mei2",
+          "lai2"
+        ],
+        "misakiPhonemeEvidence": "tʰa→ wei↘ʂə↗nmɤ mei↗ lai↗",
+        "mode": "live"
+      }
+    },
+    {
+      "id": "wait-moment",
+      "hanzi": "我们等一会儿",
+      "translation": "Let us wait a moment.",
+      "topic": "conversation",
+      "words": [
+        {
+          "hanzi": "我们",
+          "pinyin": "wo3 men5"
+        },
+        {
+          "hanzi": "等",
+          "pinyin": "deng3"
+        },
+        {
+          "hanzi": "一会儿",
+          "pinyin": "yi1 hui4 er2"
+        }
+      ],
+      "g2p": {
+        "misaki": [
+          "wo3",
+          "men5",
+          "deng3",
+          "yi1",
+          "hui4",
+          "er5"
+        ],
+        "pypinyin": [
+          "wo3",
+          "men5",
+          "deng3",
+          "yi1",
+          "hui4",
+          "er5"
+        ],
+        "misakiPhonemeEvidence": "wo↓mən tə↓ŋ i→xwei↘ɚ",
+        "mode": "live"
+      }
+    },
+    {
+      "id": "what-think",
+      "hanzi": "你觉得怎么样",
+      "translation": "What do you think?",
+      "topic": "conversation",
+      "words": [
+        {
+          "hanzi": "你",
+          "pinyin": "ni3"
+        },
+        {
+          "hanzi": "觉得",
+          "pinyin": "jue2 de5"
+        },
+        {
+          "hanzi": "怎么样",
+          "pinyin": "zen3 me5 yang4"
+        }
+      ],
+      "g2p": {
+        "misaki": [
+          "ni3",
+          "jue2",
+          "de5",
+          "zen3",
+          "me5",
+          "yang4"
+        ],
+        "pypinyin": [
+          "ni3",
+          "jue2",
+          "de5",
+          "zen3",
+          "me5",
+          "yang4"
+        ],
+        "misakiPhonemeEvidence": "ni↓ ʨɥe↗tɤ ʦə↓nmɤja↘ŋ",
+        "mode": "live"
+      }
+    },
+    {
+      "id": "no-problem",
+      "hanzi": "当然没问题",
+      "translation": "Of course, no problem.",
+      "topic": "conversation",
+      "words": [
+        {
+          "hanzi": "当然",
+          "pinyin": "dang1 ran2"
+        },
+        {
+          "hanzi": "没问题",
+          "pinyin": "mei2 wen4 ti2"
+        }
+      ],
+      "g2p": {
+        "misaki": [
+          "dang1",
+          "ran2",
+          "mei2",
+          "wen4",
+          "ti2"
+        ],
+        "pypinyin": [
+          "dang1",
+          "ran2",
+          "mei2",
+          "wen4",
+          "ti2"
+        ],
+        "misakiPhonemeEvidence": "ta→ŋɻa↗n mei↗ wə↘ntʰi↗",
+        "mode": "live"
+      }
+    },
+    {
+      "id": "really-dont-know",
+      "hanzi": "我真的不知道",
+      "translation": "I really do not know.",
+      "topic": "conversation",
+      "words": [
+        {
+          "hanzi": "我",
+          "pinyin": "wo3"
+        },
+        {
+          "hanzi": "真的",
+          "pinyin": "zhen1 de5"
+        },
+        {
+          "hanzi": "不知道",
+          "pinyin": "bu4 zhi1 dao4"
+        }
+      ],
+      "g2p": {
+        "misaki": [
+          "wo3",
+          "zhen1",
+          "de5",
+          "bu4",
+          "zhi1",
+          "dao4"
+        ],
+        "pypinyin": [
+          "wo3",
+          "zhen1",
+          "de5",
+          "bu4",
+          "zhi1",
+          "dao4"
+        ],
+        "misakiPhonemeEvidence": "wo↓ ꭧə→ntɤ pu↘ ꭧɨ→tau↘",
+        "mode": "live"
+      }
+    },
+    {
+      "id": "speak-slower",
+      "hanzi": "慢一点说",
+      "translation": "Speak a little more slowly.",
+      "topic": "conversation",
+      "words": [
+        {
+          "hanzi": "慢",
+          "pinyin": "man4"
+        },
+        {
+          "hanzi": "一点",
+          "pinyin": "yi1 dian3"
+        },
+        {
+          "hanzi": "说",
+          "pinyin": "shuo1"
+        }
+      ],
+      "g2p": {
+        "misaki": [
+          "man4",
+          "yi4",
+          "dian3",
+          "shuo1"
+        ],
+        "pypinyin": [
+          "man4",
+          "yi4",
+          "dian3",
+          "shuo1"
+        ],
+        "misakiPhonemeEvidence": "ma↘n i↘tjɛ↓n ʂwo→",
+        "mode": "live"
+      }
+    },
+    {
+      "id": "think-again",
+      "hanzi": "请重新考虑",
+      "translation": "Please reconsider.",
+      "topic": "conversation",
+      "words": [
+        {
+          "hanzi": "请",
+          "pinyin": "qing3"
+        },
+        {
+          "hanzi": "重新",
+          "pinyin": "chong2 xin1"
+        },
+        {
+          "hanzi": "考虑",
+          "pinyin": "kao3 lv4"
+        }
+      ],
+      "g2p": {
+        "misaki": [
+          "qing3",
+          "chong2",
+          "xin1",
+          "kao3",
+          "lv4"
+        ],
+        "pypinyin": [
+          "qing3",
+          "chong2",
+          "xin1",
+          "kao3",
+          "lv4"
+        ],
+        "misakiPhonemeEvidence": "ʨʰi↓ŋ ꭧʰʊ↗ŋɕi→nkʰau↓ly↘",
+        "mode": "live"
+      }
+    },
+    {
+      "id": "colder-today",
+      "hanzi": "今天比昨天冷",
+      "translation": "Today is colder than yesterday.",
+      "topic": "conversation",
+      "words": [
+        {
+          "hanzi": "今天",
+          "pinyin": "jin1 tian1"
+        },
+        {
+          "hanzi": "比",
+          "pinyin": "bi3"
+        },
+        {
+          "hanzi": "昨天",
+          "pinyin": "zuo2 tian1"
+        },
+        {
+          "hanzi": "冷",
+          "pinyin": "leng3"
+        }
+      ],
+      "g2p": {
+        "misaki": [
+          "jin1",
+          "tian1",
+          "bi3",
+          "zuo2",
+          "tian1",
+          "leng3"
+        ],
+        "pypinyin": [
+          "jin1",
+          "tian1",
+          "bi3",
+          "zuo2",
+          "tian1",
+          "leng3"
+        ],
+        "misakiPhonemeEvidence": "ʨi→ntʰjɛ→n pi↓ ʦwo↗tʰjɛ→n lə↓ŋ",
+        "mode": "live"
+      }
+    }
+  ]
+}

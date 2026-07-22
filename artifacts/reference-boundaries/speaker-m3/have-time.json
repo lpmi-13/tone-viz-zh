@@ -1,0 +1,136 @@
+{
+  "humanReviewed": false,
+  "natural": {
+    "syllables": [
+      {
+        "endSec": 0.4,
+        "segmentId": "w1s1",
+        "startSec": 0.03,
+        "timingConfidence": 1
+      },
+      {
+        "endSec": 0.76,
+        "segmentId": "w1s2",
+        "startSec": 0.4,
+        "timingConfidence": 1
+      },
+      {
+        "endSec": 1.05,
+        "segmentId": "w2s1",
+        "startSec": 0.79,
+        "timingConfidence": 1
+      },
+      {
+        "endSec": 1.38,
+        "segmentId": "w3s1",
+        "startSec": 1.05,
+        "timingConfidence": 1
+      },
+      {
+        "endSec": 1.61,
+        "segmentId": "w3s2",
+        "startSec": 1.38,
+        "timingConfidence": 1
+      },
+      {
+        "endSec": 1.89,
+        "segmentId": "w4s1",
+        "startSec": 1.61,
+        "timingConfidence": 1
+      }
+    ],
+    "words": [
+      {
+        "endSec": 0.76,
+        "segmentId": "w1",
+        "startSec": 0.03,
+        "timingConfidence": 1
+      },
+      {
+        "endSec": 1.05,
+        "segmentId": "w2",
+        "startSec": 0.79,
+        "timingConfidence": 1
+      },
+      {
+        "endSec": 1.61,
+        "segmentId": "w3",
+        "startSec": 1.05,
+        "timingConfidence": 1
+      },
+      {
+        "endSec": 1.89,
+        "segmentId": "w4",
+        "startSec": 1.61,
+        "timingConfidence": 1
+      }
+    ]
+  },
+  "slowed": {
+    "syllables": [
+      {
+        "endSec": 0.5100720013091148,
+        "segmentId": "w1s1",
+        "startSec": 0.03825540009818361,
+        "timingConfidence": 1
+      },
+      {
+        "endSec": 0.969136802487318,
+        "segmentId": "w1s2",
+        "startSec": 0.5100720013091148,
+        "timingConfidence": 1
+      },
+      {
+        "endSec": 1.3389390034364264,
+        "segmentId": "w2s1",
+        "startSec": 1.0073922025855018,
+        "timingConfidence": 1
+      },
+      {
+        "endSec": 1.7597484045164458,
+        "segmentId": "w3s1",
+        "startSec": 1.3389390034364264,
+        "timingConfidence": 1
+      },
+      {
+        "endSec": 2.053039805269187,
+        "segmentId": "w3s2",
+        "startSec": 1.7597484045164458,
+        "timingConfidence": 1
+      },
+      {
+        "endSec": 2.410090206185567,
+        "segmentId": "w4s1",
+        "startSec": 2.053039805269187,
+        "timingConfidence": 1
+      }
+    ],
+    "words": [
+      {
+        "endSec": 0.969136802487318,
+        "segmentId": "w1",
+        "startSec": 0.03825540009818361,
+        "timingConfidence": 1
+      },
+      {
+        "endSec": 1.3389390034364264,
+        "segmentId": "w2",
+        "startSec": 1.0073922025855018,
+        "timingConfidence": 1
+      },
+      {
+        "endSec": 2.053039805269187,
+        "segmentId": "w3",
+        "startSec": 1.3389390034364264,
+        "timingConfidence": 1
+      },
+      {
+        "endSec": 2.410090206185567,
+        "segmentId": "w4",
+        "startSec": 2.053039805269187,
+        "timingConfidence": 1
+      }
+    ]
+  },
+  "slowedDurationRatio": 1.275180003272787
+}

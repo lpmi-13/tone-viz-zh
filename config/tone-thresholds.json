@@ -1,0 +1,57 @@
+{
+  "version": "tone-gates-v3",
+  "classifier": {
+    "algorithm": "rbf-svc-v1",
+    "featureVersion": "aligned-pitch-v2",
+    "gamma": 0.03,
+    "classWeight": "balanced",
+    "female": {
+      "c": 10.0
+    },
+    "male": {
+      "c": 3.0
+    }
+  },
+  "technical": {
+    "maxClippedFraction": 0.0001,
+    "minimumRms": 0.008,
+    "maximumSilenceRatio": 0.35,
+    "maximumEdgeSilenceSec": 0.65,
+    "minimumVoicedRatio": 0.2,
+    "durationCohortZScore": 3.5,
+    "deterministicRerunMinimumCosine": 0.995
+  },
+  "intelligibility": {
+    "maximumCharacterErrorRate": 0.12,
+    "requireDiagnosticTargets": true,
+    "minimumAlignmentConfidence": 0.55
+  },
+  "tone": {
+    "minimumBalancedAccuracy": 0.7,
+    "minimumTone2Tone3Accuracy": 0.75,
+    "tone1MaximumAbsoluteMovementSemitone": 1.8,
+    "tone2MinimumRiseSemitone": 0.8,
+    "tone3MinimumLowTargetSemitone": -0.5,
+    "tone4MinimumFallSemitone": 1.2,
+    "neutralMaximumDurationRatio": 0.8,
+    "minimumEvidencePerClass": 3
+  },
+  "identity": {
+    "minimumWithinSpeakerCosine": 0.72,
+    "minimumBetweenSpeakerDistance": 0.08
+  },
+  "selection": {
+    "minimumPairwiseEmbeddingDistance": 0.08,
+    "embeddingWeight": 0.55,
+    "pitchCoverageWeight": 0.2,
+    "voiceQualityWeight": 0.15,
+    "speakingRateWeight": 0.1,
+    "alternatesPerGender": 2
+  },
+  "analysis": {
+    "minimumPitchConfidence": 0.68,
+    "minimumSyllableVoicedRatio": 0.25,
+    "slowedContourToleranceSemitone": 2.25,
+    "questionMarginSemitone": 0.85
+  }
+}

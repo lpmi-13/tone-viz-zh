@@ -1,0 +1,126 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="theme-color" content="#f3efe5">
+    <meta name="asset-base" content="__ASSET_BASE__">
+    <meta name="description" content="Listen to and compare measured Standard Mandarin pitch in complete phrases.">
+    <meta property="og:title" content="Mandarin Phrase Tones">
+    <meta property="og:description" content="Connected-speech Mandarin tone practice with measured model references.">
+    <meta property="og:image" content="/social-card.svg">
+    <link rel="icon" href="/social-card.svg" type="image/svg+xml">
+    <!-- build:canonical -->
+    <title>Mandarin Phrase Tones</title>
+    <link rel="stylesheet" href="./assets/styles.css">
+    <script type="module" src="./assets/app.js"></script>
+  </head>
+  <body>
+    <header class="site-header">
+      <a class="brand" href="#practice" aria-label="Mandarin Phrase Tones home">
+        <span class="brand-mark" aria-hidden="true">声</span>
+        <span><strong>Mandarin Phrase Tones</strong><small>Listen to relationships, not textbook lines</small></span>
+      </a>
+      <nav class="mode-tabs" aria-label="Learning mode">
+        <button class="is-active" data-mode="practice" aria-pressed="true">Listen & imitate</button>
+        <button data-mode="quiz" aria-pressed="false">Hear the contrast</button>
+        <button data-mode="explore" aria-pressed="false">Explore</button>
+      </nav>
+      <button id="aboutButton" class="quiet-button" type="button">About</button>
+    </header>
+
+    <p id="annotationNotice" class="disclosure" role="note"></p>
+
+    <main>
+      <section id="practiceMode" class="mode-panel practice-layout">
+        <aside class="browser-panel" aria-label="Phrase browser">
+          <label class="search-label" for="phraseSearch">Find a complete phrase</label>
+          <input id="phraseSearch" type="search" placeholder="Hanzi, pinyin, or English" autocomplete="off">
+          <div id="topicFilters" class="chips" aria-label="Topics"></div>
+          <div id="toneFilters" class="chips tone-chips" aria-label="Citation tones">
+            <button data-tone="tone-1">1 · level</button><button data-tone="tone-2">2 · rising</button>
+            <button data-tone="tone-3">3 · low</button><button data-tone="tone-4">4 · falling</button>
+            <button data-tone="neutral">· neutral</button>
+          </div>
+          <p class="result-summary"><span id="resultCount">0</span> phrases</p>
+          <div id="phraseResults" class="phrase-results" role="listbox"></div>
+        </aside>
+
+        <article class="lesson-panel">
+          <div class="lesson-heading">
+            <div><p id="topicLabel" class="eyebrow"></p><h1 id="phraseTitle" lang="zh-Hans">载入中…</h1><p id="phraseTranslation"></p></div>
+            <span id="sourceLabel" class="source-label"></span>
+          </div>
+          <div class="controls-row">
+            <label for="speakerSelect">Model speaker</label>
+            <select id="speakerSelect"></select>
+            <button id="randomSpeaker" type="button" class="quiet-button">Random speaker</button>
+            <div class="segmented" aria-label="Playback speed">
+              <button class="is-active" data-speed="natural" aria-pressed="true">Natural</button>
+              <button data-speed="slowed" aria-pressed="false">Slowed 0.78×</button>
+            </div>
+          </div>
+          <div class="play-row">
+            <button id="playPhrase" class="primary-button" type="button">▶ Play phrase</button>
+            <button id="compareSpeakers" class="quiet-button" type="button">Play across speakers</button>
+            <button id="toggleLabels" class="quiet-button" type="button">Reveal labels & contour</button>
+          </div>
+          <p id="practiceStatus" class="status" role="status">Loading automatic reference analysis…</p>
+
+          <div id="transcript" class="transcript is-concealed" aria-label="Aligned phrase annotation"></div>
+          <section class="chart-card">
+            <div class="chart-key"><span class="key-reference">Selected measured model</span><span class="key-others">Other selected models</span><span class="key-attempt">Your phrase</span></div>
+            <div id="chartConcealment" class="chart-concealment">Listen first. Reveal when you are ready to inspect what this recording produced.</div>
+            <div id="phraseChart" class="phrase-chart is-hidden"></div>
+            <button id="clearZoom" class="text-button is-hidden" type="button">Show whole phrase</button>
+          </section>
+
+          <section id="detailPanel" class="detail-panel">
+            <div><p class="eyebrow">Context</p><h2 id="detailTitle">Select a character</h2><p id="detailHint">Its lexical label and automatic contextual realization will appear here.</p></div>
+            <button id="playContext" class="quiet-button" type="button" disabled>Loop in context</button>
+          </section>
+
+          <section class="record-panel">
+            <div><p class="eyebrow">Complete phrase</p><h2>Record your attempt</h2><p>Analysis and alignment stay in this browser. Comparison uses relationships and a six-model envelope.</p></div>
+            <div class="record-actions">
+              <button id="recordPhrase" class="record-button" type="button">● Record</button>
+              <label class="upload-button">Upload audio<input id="practiceUpload" type="file" accept="audio/*"></label>
+              <button id="playAttempt" type="button" disabled>Play attempt</button>
+            </div>
+            <output id="phraseFeedback" class="feedback">No numerical pronunciation score will be shown.</output>
+            <div id="hotspots" class="hotspots"></div>
+          </section>
+        </article>
+      </section>
+
+      <section id="quizMode" class="mode-panel centred-panel is-hidden">
+        <p class="eyebrow">Audio first</p><h1>Hear the contrast</h1>
+        <p id="quizProgress"></p><h2 id="quizPrompt">Choose a phrase to begin.</h2>
+        <p id="quizHiddenText" class="quiz-hidden">Hanzi and chart stay hidden until you answer.</p>
+        <button id="playQuiz" class="primary-button" type="button">▶ Play with a random speaker</button>
+        <div id="quizOptions" class="quiz-options"></div><output id="quizFeedback" class="feedback"></output>
+        <button id="nextQuestion" class="quiet-button" type="button">Next question</button>
+      </section>
+
+      <section id="exploreMode" class="mode-panel centred-panel is-hidden">
+        <p class="eyebrow">No correctness claims</p><h1>Explore any short phrase</h1>
+        <p>Record or upload up to 12 seconds. The chart shows phrase-relative pitch and keeps uncertain or unvoiced regions open.</p>
+        <div class="record-actions">
+          <button id="recordExplore" class="record-button" type="button">● Record</button>
+          <label class="upload-button">Upload audio<input id="exploreUpload" type="file" accept="audio/*"></label>
+          <button id="playExplore" type="button" disabled>Play</button>
+        </div>
+        <p id="exploreStatus" class="status" role="status"></p><div id="exploreChart" class="phrase-chart"></div>
+      </section>
+    </main>
+
+    <dialog id="aboutDialog">
+      <form method="dialog"><button class="dialog-close" aria-label="Close">×</button></form>
+      <p class="eyebrow">About this PoC</p><h2>Automatic, connected-speech references</h2>
+      <p>Voices, pronunciations, tone annotations, alignments, and selections were generated or inferred automatically and have not been reviewed by a Mandarin speaker.</p>
+      <p>Solid contours are extracted from a selected recording. Small tone glyphs are only citation-form reminders. The six-model envelope is not a native-speaker population norm.</p>
+      <p>No TTS, ASR, alignment, or learner audio is sent to a service by the deployed application.</p>
+      <div id="creditDetails"></div>
+    </dialog>
+  </body>
+</html>

@@ -1,0 +1,18 @@
+{
+  "availability": {
+    "female": {
+      "available": 0,
+      "requested": 2,
+      "shortfall": 2
+    },
+    "male": {
+      "available": 0,
+      "requested": 2,
+      "shortfall": 2
+    }
+  },
+  "female": [],
+  "humanReviewed": false,
+  "male": [],
+  "version": "selection-v2"
+}

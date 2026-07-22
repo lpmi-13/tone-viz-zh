@@ -1,0 +1,33 @@
+{
+  "name": "mandarin-tone-visualizer",
+  "version": "0.1.0",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "dev": "node scripts/dev.mjs",
+    "build:ts": "node scripts/clean-build.mjs && tsc -p tsconfig.json",
+    "build": "npm run build:ts && node scripts/build.mjs",
+    "test": "npm run test:unit && npm run test:content && npm run test:browser",
+    "test:unit": "npm run build:ts && node --test tests/unit/*.test.mjs",
+    "test:content": "node --test tests/content/*.test.mjs",
+    "test:browser": "node tests/browser/browser-flow.mjs",
+    "corpus:import": ".venv-pipeline/bin/python scripts/import_corpus.py",
+    "models:download": ".venv-pipeline/bin/python scripts/download_models.py",
+    "diagnostics:build": ".venv-pipeline/bin/python scripts/build_diagnostic_corpus.py",
+    "tts:benchmark": ".venv-pipeline/bin/python scripts/benchmark_tts.py",
+    "speakers:screen": ".venv-pipeline/bin/python scripts/generate_speaker_screen.py",
+    "speakers:measure": ".venv-pipeline/bin/python scripts/measure_speaker_screen.py",
+    "speakers:score": ".venv-pipeline/bin/python scripts/score_speakers.py",
+    "speakers:select": ".venv-pipeline/bin/python scripts/select_speakers.py",
+    "audio:generate": ".venv-pipeline/bin/python scripts/generate_phrase_audio.py",
+    "references:align": ".venv-pipeline/bin/python scripts/align_references.py",
+    "references:analyze": "npm run build:ts && node scripts/analyze_references.mjs",
+    "content:validate": "node scripts/validate_content.mjs",
+    "content:validate:release": "node scripts/validate_content.mjs --release"
+  },
+  "devDependencies": {
+    "@audio/decode": "^3.11.2",
+    "puppeteer-core": "^25.3.0",
+    "typescript": "^5.5.4"
+  }
+}

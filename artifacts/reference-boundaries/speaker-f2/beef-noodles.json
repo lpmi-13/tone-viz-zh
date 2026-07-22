@@ -1,0 +1,112 @@
+{
+  "humanReviewed": false,
+  "natural": {
+    "syllables": [
+      {
+        "endSec": 0.27,
+        "segmentId": "w1s1",
+        "startSec": 0.08,
+        "timingConfidence": 1
+      },
+      {
+        "endSec": 0.61,
+        "segmentId": "w2s1",
+        "startSec": 0.27,
+        "timingConfidence": 1
+      },
+      {
+        "endSec": 0.86,
+        "segmentId": "w3s1",
+        "startSec": 0.61,
+        "timingConfidence": 1
+      },
+      {
+        "endSec": 1.11,
+        "segmentId": "w3s2",
+        "startSec": 0.86,
+        "timingConfidence": 1
+      },
+      {
+        "endSec": 1.41,
+        "segmentId": "w3s3",
+        "startSec": 1.11,
+        "timingConfidence": 1
+      }
+    ],
+    "words": [
+      {
+        "endSec": 0.27,
+        "segmentId": "w1",
+        "startSec": 0.08,
+        "timingConfidence": 1
+      },
+      {
+        "endSec": 0.61,
+        "segmentId": "w2",
+        "startSec": 0.27,
+        "timingConfidence": 1
+      },
+      {
+        "endSec": 1.41,
+        "segmentId": "w3",
+        "startSec": 0.61,
+        "timingConfidence": 1
+      }
+    ]
+  },
+  "slowed": {
+    "syllables": [
+      {
+        "endSec": 0.3420878791184814,
+        "segmentId": "w1s1",
+        "startSec": 0.10135937159066113,
+        "timingConfidence": 1
+      },
+      {
+        "endSec": 0.7728652083787911,
+        "segmentId": "w2s1",
+        "startSec": 0.3420878791184814,
+        "timingConfidence": 1
+      },
+      {
+        "endSec": 1.0896132445996072,
+        "segmentId": "w3s1",
+        "startSec": 0.7728652083787911,
+        "timingConfidence": 1
+      },
+      {
+        "endSec": 1.4063612808204233,
+        "segmentId": "w3s2",
+        "startSec": 1.0896132445996072,
+        "timingConfidence": 1
+      },
+      {
+        "endSec": 1.7864589242854023,
+        "segmentId": "w3s3",
+        "startSec": 1.4063612808204233,
+        "timingConfidence": 1
+      }
+    ],
+    "words": [
+      {
+        "endSec": 0.3420878791184814,
+        "segmentId": "w1",
+        "startSec": 0.10135937159066113,
+        "timingConfidence": 1
+      },
+      {
+        "endSec": 0.7728652083787911,
+        "segmentId": "w2",
+        "startSec": 0.3420878791184814,
+        "timingConfidence": 1
+      },
+      {
+        "endSec": 1.7864589242854023,
+        "segmentId": "w3",
+        "startSec": 0.7728652083787911,
+        "timingConfidence": 1
+      }
+    ]
+  },
+  "slowedDurationRatio": 1.2669921448832642
+}

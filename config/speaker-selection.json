@@ -1,0 +1,16 @@
+{
+  "version": "selection-v1-fixture",
+  "fixture": true,
+  "selectionMode": "configuration-fixture-pending-full-screen",
+  "humanReviewed": false,
+  "notice": "These six entries exercise the application contract only. Run the complete screening and selection pipeline before a release build.",
+  "selected": [
+    {"id":"speaker-f1","displayName":"Speaker F1","kokoroName":"zf_001","kokoroSid":3,"genderGroup":"female","acousticDescription":"selection fixture; measured acoustic description pending"},
+    {"id":"speaker-f2","displayName":"Speaker F2","kokoroName":"zf_048","kokoroSid":31,"genderGroup":"female","acousticDescription":"selection fixture; measured acoustic description pending"},
+    {"id":"speaker-f3","displayName":"Speaker F3","kokoroName":"zf_099","kokoroSid":57,"genderGroup":"female","acousticDescription":"selection fixture; measured acoustic description pending"},
+    {"id":"speaker-m1","displayName":"Speaker M1","kokoroName":"zm_009","kokoroSid":58,"genderGroup":"male","acousticDescription":"selection fixture; measured acoustic description pending"},
+    {"id":"speaker-m2","displayName":"Speaker M2","kokoroName":"zm_053","kokoroSid":79,"genderGroup":"male","acousticDescription":"selection fixture; measured acoustic description pending"},
+    {"id":"speaker-m3","displayName":"Speaker M3","kokoroName":"zm_100","kokoroSid":102,"genderGroup":"male","acousticDescription":"selection fixture; measured acoustic description pending"}
+  ],
+  "alternates": {"female": [], "male": []}
+}

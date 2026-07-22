@@ -1,0 +1,88 @@
+{
+  "humanReviewed": false,
+  "natural": {
+    "syllables": [
+      {
+        "endSec": 0.39,
+        "segmentId": "w1s1",
+        "startSec": 0.09,
+        "timingConfidence": 1
+      },
+      {
+        "endSec": 0.64,
+        "segmentId": "w1s2",
+        "startSec": 0.39,
+        "timingConfidence": 1
+      },
+      {
+        "endSec": 0.92,
+        "segmentId": "w2s1",
+        "startSec": 0.64,
+        "timingConfidence": 1
+      },
+      {
+        "endSec": 1.25,
+        "segmentId": "w2s2",
+        "startSec": 0.92,
+        "timingConfidence": 1
+      }
+    ],
+    "words": [
+      {
+        "endSec": 0.64,
+        "segmentId": "w1",
+        "startSec": 0.09,
+        "timingConfidence": 1
+      },
+      {
+        "endSec": 1.25,
+        "segmentId": "w2",
+        "startSec": 0.64,
+        "timingConfidence": 1
+      }
+    ]
+  },
+  "slowed": {
+    "syllables": [
+      {
+        "endSec": 0.49485656044845466,
+        "segmentId": "w1s1",
+        "startSec": 0.11419766779579722,
+        "timingConfidence": 1
+      },
+      {
+        "endSec": 0.8120723043256692,
+        "segmentId": "w1s2",
+        "startSec": 0.49485656044845466,
+        "timingConfidence": 1
+      },
+      {
+        "endSec": 1.1673539374681494,
+        "segmentId": "w2s1",
+        "startSec": 0.8120723043256692,
+        "timingConfidence": 1
+      },
+      {
+        "endSec": 1.5860787193860726,
+        "segmentId": "w2s2",
+        "startSec": 1.1673539374681494,
+        "timingConfidence": 1
+      }
+    ],
+    "words": [
+      {
+        "endSec": 0.8120723043256692,
+        "segmentId": "w1",
+        "startSec": 0.11419766779579722,
+        "timingConfidence": 1
+      },
+      {
+        "endSec": 1.5860787193860726,
+        "segmentId": "w2",
+        "startSec": 0.8120723043256692,
+        "timingConfidence": 1
+      }
+    ]
+  },
+  "slowedDurationRatio": 1.268862975508858
+}

@@ -1,0 +1,92 @@
+{
+  "version": 1,
+  "disclosure": "Voices, pronunciations, tone annotations, alignments, and selections were generated or inferred automatically and have not been reviewed by a Mandarin speaker.",
+  "humanReviewed": false,
+  "fixture": false,
+  "speakers": [
+    {
+      "acousticDescription": "middle measured register, measured measured pace; automatic acoustic profile",
+      "displayName": "Speaker F1",
+      "genderGroup": "female",
+      "id": "speaker-f1",
+      "kokoroName": "zf_002",
+      "kokoroSid": 4,
+      "model": "hexgrad/Kokoro-82M-v1.1-zh",
+      "modelRevision": "8c61023a009f8775e2e23c274ff110dff8335480",
+      "selectionMode": "fully-automated-poc-v1",
+      "humanReviewed": false,
+      "age": null,
+      "region": null
+    },
+    {
+      "acousticDescription": "higher measured register, slower measured pace; automatic acoustic profile",
+      "displayName": "Speaker F2",
+      "genderGroup": "female",
+      "id": "speaker-f2",
+      "kokoroName": "zf_003",
+      "kokoroSid": 5,
+      "model": "hexgrad/Kokoro-82M-v1.1-zh",
+      "modelRevision": "8c61023a009f8775e2e23c274ff110dff8335480",
+      "selectionMode": "fully-automated-poc-v1",
+      "humanReviewed": false,
+      "age": null,
+      "region": null
+    },
+    {
+      "acousticDescription": "lower measured register, quicker measured pace; automatic acoustic profile",
+      "displayName": "Speaker F3",
+      "genderGroup": "female",
+      "id": "speaker-f3",
+      "kokoroName": "zf_008",
+      "kokoroSid": 10,
+      "model": "hexgrad/Kokoro-82M-v1.1-zh",
+      "modelRevision": "8c61023a009f8775e2e23c274ff110dff8335480",
+      "selectionMode": "fully-automated-poc-v1",
+      "humanReviewed": false,
+      "age": null,
+      "region": null
+    },
+    {
+      "acousticDescription": "lower measured register, quicker measured pace; automatic acoustic profile",
+      "displayName": "Speaker M1",
+      "genderGroup": "male",
+      "id": "speaker-m1",
+      "kokoroName": "zm_030",
+      "kokoroSid": 69,
+      "model": "hexgrad/Kokoro-82M-v1.1-zh",
+      "modelRevision": "8c61023a009f8775e2e23c274ff110dff8335480",
+      "selectionMode": "fully-automated-poc-v1",
+      "humanReviewed": false,
+      "age": null,
+      "region": null
+    },
+    {
+      "acousticDescription": "higher measured register, measured measured pace; automatic acoustic profile",
+      "displayName": "Speaker M2",
+      "genderGroup": "male",
+      "id": "speaker-m2",
+      "kokoroName": "zm_089",
+      "kokoroSid": 96,
+      "model": "hexgrad/Kokoro-82M-v1.1-zh",
+      "modelRevision": "8c61023a009f8775e2e23c274ff110dff8335480",
+      "selectionMode": "fully-automated-poc-v1",
+      "humanReviewed": false,
+      "age": null,
+      "region": null
+    },
+    {
+      "acousticDescription": "middle measured register, slower measured pace; automatic acoustic profile",
+      "displayName": "Speaker M3",
+      "genderGroup": "male",
+      "id": "speaker-m3",
+      "kokoroName": "zm_100",
+      "kokoroSid": 102,
+      "model": "hexgrad/Kokoro-82M-v1.1-zh",
+      "modelRevision": "8c61023a009f8775e2e23c274ff110dff8335480",
+      "selectionMode": "fully-automated-poc-v1",
+      "humanReviewed": false,
+      "age": null,
+      "region": null
+    }
+  ]
+}

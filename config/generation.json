@@ -1,0 +1,46 @@
+{
+  "version": "generation-v1",
+  "fixture": true,
+  "model": {
+    "id": "hexgrad/Kokoro-82M-v1.1-zh",
+    "revision": "8c61023a009f8775e2e23c274ff110dff8335480",
+    "license": "Apache-2.0",
+    "sherpaOnnxArchive": "https://github.com/k2-fsa/sherpa-onnx/releases/download/tts-models/kokoro-multi-lang-v1_1.tar.bz2",
+    "archiveSha256": "a3f4c73d043860e3fd2e5b06f36795eb81de0fc8e8de6df703245edddd87dbad",
+    "modelDirectory": "models/kokoro-multi-lang-v1_1",
+    "int8Archive": "https://github.com/k2-fsa/sherpa-onnx/releases/download/tts-models/kokoro-int8-multi-lang-v1_1.tar.bz2",
+    "int8ArchiveSha256": "a1e94694776049035c4f2c6529f003aaece993c76aae9a78995831c3c4dcafc6",
+    "int8ModelDirectory": "models/kokoro-int8-multi-lang-v1_1",
+    "preferredPrecision": "full",
+    "sampleRate": 24000,
+    "numThreads": 4,
+    "speed": 1.0
+  },
+  "asr": {
+    "id": "sherpa-onnx-paraformer-zh-small-2024-03-09",
+    "revision": "release-2024-03-09",
+    "archive": "https://github.com/k2-fsa/sherpa-onnx/releases/download/asr-models/sherpa-onnx-paraformer-zh-small-2024-03-09.tar.bz2",
+    "archiveSha256": "da92b3db5218c5be53aad53e57d1b6e63e7fc98a0e054fbdd6dbe18e9c6b1450",
+    "modelDirectory": "models/sherpa-onnx-paraformer-zh-small-2024-03-09"
+  },
+  "speakerEmbedding": {
+    "id": "3dspeaker_speech_campplus_sv_zh-cn_16k-common",
+    "revision": "github-asset-198893103",
+    "url": "https://github.com/k2-fsa/sherpa-onnx/releases/download/speaker-recongition-models/3dspeaker_speech_campplus_sv_zh-cn_16k-common.onnx",
+    "sha256": "f682b514c05d947ee3fa91cd6ec6c5c7543479a128373fa29b1faedccd21fd11",
+    "path": "models/3dspeaker_speech_campplus_sv_zh-cn_16k-common.onnx"
+  },
+  "alignment": {
+    "tool": "Montreal Forced Aligner",
+    "version": "3.3.8",
+    "acousticModel": "mandarin_mfa",
+    "dictionary": "mandarin_china_mfa"
+  },
+  "audio": {
+    "naturalCodec": "mp3",
+    "naturalBitrate": "96k",
+    "slowedFactor": 0.78,
+    "ffmpegFilter": "atempo=0.78",
+    "maxTemporaryBytes": 5368709120
+  }
+}

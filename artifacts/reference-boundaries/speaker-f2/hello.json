@@ -1,0 +1,52 @@
+{
+  "humanReviewed": false,
+  "natural": {
+    "syllables": [
+      {
+        "endSec": 0.25,
+        "segmentId": "w1s1",
+        "startSec": 0.08,
+        "timingConfidence": 1
+      },
+      {
+        "endSec": 0.62,
+        "segmentId": "w1s2",
+        "startSec": 0.25,
+        "timingConfidence": 1
+      }
+    ],
+    "words": [
+      {
+        "endSec": 0.62,
+        "segmentId": "w1",
+        "startSec": 0.08,
+        "timingConfidence": 1
+      }
+    ]
+  },
+  "slowed": {
+    "syllables": [
+      {
+        "endSec": 0.3136073932441045,
+        "segmentId": "w1s1",
+        "startSec": 0.10035436583811345,
+        "timingConfidence": 1
+      },
+      {
+        "endSec": 0.7777463352453792,
+        "segmentId": "w1s2",
+        "startSec": 0.3136073932441045,
+        "timingConfidence": 1
+      }
+    ],
+    "words": [
+      {
+        "endSec": 0.7777463352453792,
+        "segmentId": "w1",
+        "startSec": 0.10035436583811345,
+        "timingConfidence": 1
+      }
+    ]
+  },
+  "slowedDurationRatio": 1.254429572976418
+}

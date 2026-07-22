@@ -1,0 +1,278 @@
+{
+  "humanReviewed": false,
+  "notice": "Automatically assembled diagnostic fixture; every candidate receives identical inputs.",
+  "phrases": [
+    {
+      "category": "statement",
+      "citationTones": [
+        1,
+        1,
+        1,
+        4,
+        1,
+        3
+      ],
+      "diagnosticTarget": "真好",
+      "hanzi": "今天天气真好",
+      "id": "d01"
+    },
+    {
+      "category": "question",
+      "citationTones": [
+        2,
+        1,
+        3,
+        3,
+        2,
+        1,
+        5
+      ],
+      "diagnosticTarget": "间吗",
+      "hanzi": "明天你有时间吗",
+      "id": "d02"
+    },
+    {
+      "category": "yi-sandhi",
+      "citationTones": [
+        3,
+        3,
+        3,
+        1,
+        3,
+        1
+      ],
+      "diagnosticTarget": "本书",
+      "hanzi": "我想买一本书",
+      "id": "d03"
+    },
+    {
+      "category": "bu-sandhi",
+      "citationTones": [
+        4,
+        4,
+        4,
+        4,
+        4,
+        3,
+        3
+      ],
+      "diagnosticTarget": "雨伞",
+      "hanzi": "不要忘记带雨伞",
+      "id": "d04"
+    },
+    {
+      "category": "third-sandhi",
+      "citationTones": [
+        3,
+        3,
+        2,
+        3,
+        1
+      ],
+      "diagnosticTarget": "打开",
+      "hanzi": "请把门打开",
+      "id": "d05"
+    },
+    {
+      "category": "tone-2-tone-3",
+      "citationTones": [
+        3,
+        3,
+        3,
+        2
+      ],
+      "diagnosticTarget": "很甜",
+      "hanzi": "水果很甜",
+      "id": "d06"
+    },
+    {
+      "category": "statement",
+      "citationTones": [
+        3,
+        1,
+        3,
+        4,
+        4,
+        4
+      ],
+      "diagnosticTarget": "就到",
+      "hanzi": "火车马上就到",
+      "id": "d07"
+    },
+    {
+      "category": "neutral",
+      "citationTones": [
+        4,
+        5,
+        4,
+        2,
+        3,
+        2
+      ],
+      "diagnosticTarget": "很难",
+      "hanzi": "这个问题很难",
+      "id": "d08"
+    },
+    {
+      "category": "neutral-after-1",
+      "citationTones": [
+        1,
+        5,
+        2,
+        2,
+        5
+      ],
+      "diagnosticTarget": "来了",
+      "hanzi": "妈妈回来了",
+      "id": "d09"
+    },
+    {
+      "category": "neutral-after-2",
+      "citationTones": [
+        2,
+        5,
+        4,
+        2,
+        5
+      ],
+      "diagnosticTarget": "着了",
+      "hanzi": "孩子睡着了",
+      "id": "d10"
+    },
+    {
+      "category": "neutral-after-3",
+      "citationTones": [
+        3,
+        3,
+        5
+      ],
+      "diagnosticTarget": "好吗",
+      "hanzi": "你好吗",
+      "id": "d11"
+    },
+    {
+      "category": "neutral-after-4",
+      "citationTones": [
+        4,
+        5,
+        4,
+        2,
+        4
+      ],
+      "diagnosticTarget": "不错",
+      "hanzi": "这个菜不错",
+      "id": "d12"
+    },
+    {
+      "category": "tone-register",
+      "citationTones": [
+        1,
+        1,
+        2,
+        2
+      ],
+      "diagnosticTarget": "白云",
+      "hanzi": "高山白云",
+      "id": "d13"
+    },
+    {
+      "category": "mixed",
+      "citationTones": [
+        3,
+        1,
+        3,
+        5,
+        3,
+        4
+      ],
+      "diagnosticTarget": "很快",
+      "hanzi": "老师讲得很快",
+      "id": "d14"
+    },
+    {
+      "category": "question",
+      "citationTones": [
+        4,
+        3,
+        4,
+        4,
+        3,
+        3
+      ],
+      "diagnosticTarget": "哪里",
+      "hanzi": "地铁站在哪里",
+      "id": "d15"
+    },
+    {
+      "category": "long",
+      "citationTones": [
+        3,
+        3,
+        1,
+        4,
+        2,
+        1,
+        2
+      ],
+      "diagnosticTarget": "中文",
+      "hanzi": "我每天练习中文",
+      "id": "d16"
+    },
+    {
+      "category": "yi-sandhi",
+      "citationTones": [
+        3,
+        4,
+        1,
+        1,
+        4
+      ],
+      "diagnosticTarget": "一遍",
+      "hanzi": "请再说一遍",
+      "id": "d17"
+    },
+    {
+      "category": "bu-sandhi",
+      "citationTones": [
+        1,
+        4,
+        4,
+        4,
+        2,
+        4
+      ],
+      "diagnosticTarget": "容易",
+      "hanzi": "声调不太容易",
+      "id": "d18"
+    },
+    {
+      "category": "yi-sandhi",
+      "citationTones": [
+        4,
+        1,
+        3,
+        1
+      ],
+      "diagnosticTarget": "点说",
+      "hanzi": "慢一点说",
+      "id": "d19"
+    },
+    {
+      "category": "long",
+      "citationTones": [
+        2,
+        4,
+        3,
+        3,
+        2,
+        4,
+        2,
+        3
+      ],
+      "diagnosticTarget": "直走",
+      "hanzi": "前面左转然后直走",
+      "id": "d20"
+    }
+  ],
+  "version": "diagnostic-v1"
+}

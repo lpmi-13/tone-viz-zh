@@ -1,0 +1,47 @@
+{
+  "automatedAcousticEquivalence": false,
+  "comparisons": [
+    {
+      "durationRatio": 0.9972508947559522,
+      "medianRelativePitchDifferenceSemitone": 0.29611375005682206,
+      "phraseId": "d01",
+      "rmsDifference": 0.00031072005560094096
+    },
+    {
+      "durationRatio": 1.0122102497993335,
+      "medianRelativePitchDifferenceSemitone": 0.6080274971094006,
+      "phraseId": "d02",
+      "rmsDifference": 0.000517458173751012
+    },
+    {
+      "durationRatio": 1.0012201073694484,
+      "medianRelativePitchDifferenceSemitone": 0.9804701669018314,
+      "phraseId": "d03",
+      "rmsDifference": 0.0011610959562003281
+    },
+    {
+      "durationRatio": 0.9999750822286456,
+      "medianRelativePitchDifferenceSemitone": 1.3869523897502667,
+      "phraseId": "d04",
+      "rmsDifference": 0.0018043658896650105
+    },
+    {
+      "durationRatio": 1.0035941550789536,
+      "medianRelativePitchDifferenceSemitone": 1.1676222279056496,
+      "phraseId": "d05",
+      "rmsDifference": 0.002141928110432248
+    },
+    {
+      "durationRatio": 0.9759678294449942,
+      "medianRelativePitchDifferenceSemitone": 0.37449960626798884,
+      "phraseId": "d06",
+      "rmsDifference": 0.0032859284041613507
+    }
+  ],
+  "decision": "full-precision",
+  "fullMeanRealTimeFactor": 0.6405764010307072,
+  "humanReviewed": false,
+  "int8MeanRealTimeFactor": 1.6712027571523913,
+  "speakerSid": 3,
+  "version": "tts-benchmark-v1"
+}

@@ -1,0 +1,34 @@
+{
+  "humanReviewed": false,
+  "rankings": {
+    "female": [
+      {
+        "minimumEmbeddingDistance": 0.32806093594269625,
+        "pitchCoverage": 1.0,
+        "score": 0.6406402467544919,
+        "speakers": [
+          "zf_002",
+          "zf_003",
+          "zf_008"
+        ],
+        "speakingRateDiversity": 1.0,
+        "spectralDiversity": 1.0680448799067268
+      }
+    ],
+    "male": [
+      {
+        "minimumEmbeddingDistance": 0.4888876231173285,
+        "pitchCoverage": 1.0,
+        "score": 0.7725735119895031,
+        "speakers": [
+          "zm_030",
+          "zm_089",
+          "zm_100"
+        ],
+        "speakingRateDiversity": 1.0,
+        "spectralDiversity": 1.3579021284998163
+      }
+    ]
+  },
+  "version": "selection-v2"
+}

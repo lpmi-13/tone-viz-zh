@@ -1,0 +1,6 @@
+misaki[zh]==0.8.2
+pypinyin==0.53.0
+sherpa-onnx==1.13.4
+soundfile==0.13.1
+numpy==2.2.6
+scikit-learn==1.7.2

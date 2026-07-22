@@ -1,0 +1,20 @@
+{
+  "version": "kokoro-v1.1-zh-sherpa-map-v1",
+  "source": "https://k2-fsa.github.io/sherpa/onnx/tts/all/Chinese-English/kokoro-multi-lang-v1_1.html",
+  "modelRevision": "8c61023a009f8775e2e23c274ff110dff8335480",
+  "candidates": [
+    [3,"zf_001","female"],[4,"zf_002","female"],[5,"zf_003","female"],[6,"zf_004","female"],[7,"zf_005","female"],[8,"zf_006","female"],[9,"zf_007","female"],[10,"zf_008","female"],
+    [11,"zf_017","female"],[12,"zf_018","female"],[13,"zf_019","female"],[14,"zf_021","female"],[15,"zf_022","female"],[16,"zf_023","female"],[17,"zf_024","female"],[18,"zf_026","female"],
+    [19,"zf_027","female"],[20,"zf_028","female"],[21,"zf_032","female"],[22,"zf_036","female"],[23,"zf_038","female"],[24,"zf_039","female"],[25,"zf_040","female"],[26,"zf_042","female"],
+    [27,"zf_043","female"],[28,"zf_044","female"],[29,"zf_046","female"],[30,"zf_047","female"],[31,"zf_048","female"],[32,"zf_049","female"],[33,"zf_051","female"],[34,"zf_059","female"],
+    [35,"zf_060","female"],[36,"zf_067","female"],[37,"zf_070","female"],[38,"zf_071","female"],[39,"zf_072","female"],[40,"zf_073","female"],[41,"zf_074","female"],[42,"zf_075","female"],
+    [43,"zf_076","female"],[44,"zf_077","female"],[45,"zf_078","female"],[46,"zf_079","female"],[47,"zf_083","female"],[48,"zf_084","female"],[49,"zf_085","female"],[50,"zf_086","female"],
+    [51,"zf_087","female"],[52,"zf_088","female"],[53,"zf_090","female"],[54,"zf_092","female"],[55,"zf_093","female"],[56,"zf_094","female"],[57,"zf_099","female"],
+    [58,"zm_009","male"],[59,"zm_010","male"],[60,"zm_011","male"],[61,"zm_012","male"],[62,"zm_013","male"],[63,"zm_014","male"],[64,"zm_015","male"],[65,"zm_016","male"],
+    [66,"zm_020","male"],[67,"zm_025","male"],[68,"zm_029","male"],[69,"zm_030","male"],[70,"zm_031","male"],[71,"zm_033","male"],[72,"zm_034","male"],[73,"zm_035","male"],
+    [74,"zm_037","male"],[75,"zm_041","male"],[76,"zm_045","male"],[77,"zm_050","male"],[78,"zm_052","male"],[79,"zm_053","male"],[80,"zm_054","male"],[81,"zm_055","male"],
+    [82,"zm_056","male"],[83,"zm_057","male"],[84,"zm_058","male"],[85,"zm_061","male"],[86,"zm_062","male"],[87,"zm_063","male"],[88,"zm_064","male"],[89,"zm_065","male"],
+    [90,"zm_066","male"],[91,"zm_068","male"],[92,"zm_069","male"],[93,"zm_080","male"],[94,"zm_081","male"],[95,"zm_082","male"],[96,"zm_089","male"],[97,"zm_091","male"],
+    [98,"zm_095","male"],[99,"zm_096","male"],[100,"zm_097","male"],[101,"zm_098","male"],[102,"zm_100","male"]
+  ]
+}
